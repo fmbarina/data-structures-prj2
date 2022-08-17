@@ -1,0 +1,4 @@
+<map id="rbin_short_str_block" name="rbin_short_str_block">
+<area shape="rect" id="node1" title="Read a short (&lt;=255 characters) string from binary file." alt="" coords="185,5,324,32"/>
+<area shape="rect" id="node2" href="$compfile_8h.html#a8283258a0ab2a36089d1d8fa65a7f3db" title="Read the file header to a tCompfile, including metadata such as the file name, extension and the bina..." alt="" coords="5,5,137,32"/>
+</map>

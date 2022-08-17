@@ -120,7 +120,7 @@ Este grafo mostra quais arquivos estão direta ou indiretamente relacionados com
 <area shape="rect" title="Manage the data and operations relating to a regular file." alt="" coords="147,5,269,32"/>
 <area shape="rect" href="compacta_8c.html" title="Program to compress files to be decompressed with &#39;descompacta&#39;." alt="" coords="5,80,117,107"/>
 <area shape="rect" href="descompacta_8c.html" title="Program to decompress files compressed with &#39;compacta&#39;." alt="" coords="141,80,275,107"/>
-<area shape="rect" href="reglfile_8c.html" title=" " alt="" coords="299,80,392,107"/>
+<area shape="rect" href="reglfile_8c_source.html" title=" " alt="" coords="299,80,392,107"/>
 </map>
 </div>
 </div>
@@ -128,48 +128,49 @@ Este grafo mostra quais arquivos estão direta ou indiretamente relacionados com
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Definições de Tipos</h2></td></tr>
-<tr class="memitem:a84e646477ab2e5a89c76986820805cc7"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structreglfile__st.html">reglfile_st</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a></td></tr>
+<tr class="memitem:a84e646477ab2e5a89c76986820805cc7"><td class="memItemLeft" align="right" valign="top"><a id="a84e646477ab2e5a89c76986820805cc7"></a>
+typedef struct <a class="el" href="structreglfile__st.html">reglfile_st</a>&#160;</td><td class="memItemRight" valign="bottom"><b>tReglfile</b></td></tr>
 <tr class="separator:a84e646477ab2e5a89c76986820805cc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Funções</h2></td></tr>
-<tr class="memitem:aebd3164be87ec2ed73b6a8cedabbed3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#aebd3164be87ec2ed73b6a8cedabbed3d">regl_init</a> ()</td></tr>
+<tr class="memitem:aebd3164be87ec2ed73b6a8cedabbed3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structreglfile__st.html">tReglfile</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#aebd3164be87ec2ed73b6a8cedabbed3d">regl_init</a> ()</td></tr>
 <tr class="memdesc:aebd3164be87ec2ed73b6a8cedabbed3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a tReglfile.  <a href="reglfile_8h.html#aebd3164be87ec2ed73b6a8cedabbed3d">Mais...</a><br /></td></tr>
 <tr class="separator:aebd3164be87ec2ed73b6a8cedabbed3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1769d24f263353611e7b8a6dfe64c71f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#a1769d24f263353611e7b8a6dfe64c71f">regl_free</a> (<a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *rf)</td></tr>
+<tr class="memitem:a1769d24f263353611e7b8a6dfe64c71f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#a1769d24f263353611e7b8a6dfe64c71f">regl_free</a> (<a class="el" href="structreglfile__st.html">tReglfile</a> *rf)</td></tr>
 <tr class="memdesc:a1769d24f263353611e7b8a6dfe64c71f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free a tReglfile and all the memory it has allocated.  <a href="reglfile_8h.html#a1769d24f263353611e7b8a6dfe64c71f">Mais...</a><br /></td></tr>
 <tr class="separator:a1769d24f263353611e7b8a6dfe64c71f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab96df5988987fd750aa3fae706c04f3e"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#ab96df5988987fd750aa3fae706c04f3e">regl_read_bytes</a> (<a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *rf, <a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt)</td></tr>
+<tr class="memitem:ab96df5988987fd750aa3fae706c04f3e"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#ab96df5988987fd750aa3fae706c04f3e">regl_read_bytes</a> (<a class="el" href="structreglfile__st.html">tReglfile</a> *rf, <a class="el" href="structbytes__st.html">tBytes</a> *bt)</td></tr>
 <tr class="memdesc:ab96df5988987fd750aa3fae706c04f3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read bytes from a tReglfile to given tBytes.  <a href="reglfile_8h.html#ab96df5988987fd750aa3fae706c04f3e">Mais...</a><br /></td></tr>
 <tr class="separator:ab96df5988987fd750aa3fae706c04f3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d7b2248ad98ec2e71abf4de8279866c"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#a5d7b2248ad98ec2e71abf4de8279866c">regl_write_bytes</a> (<a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *rf, <a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt)</td></tr>
+<tr class="memitem:a5d7b2248ad98ec2e71abf4de8279866c"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#a5d7b2248ad98ec2e71abf4de8279866c">regl_write_bytes</a> (<a class="el" href="structreglfile__st.html">tReglfile</a> *rf, <a class="el" href="structbytes__st.html">tBytes</a> *bt)</td></tr>
 <tr class="memdesc:a5d7b2248ad98ec2e71abf4de8279866c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write bytes to a tReglfile from given tBytes.  <a href="reglfile_8h.html#a5d7b2248ad98ec2e71abf4de8279866c">Mais...</a><br /></td></tr>
 <tr class="separator:a5d7b2248ad98ec2e71abf4de8279866c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a144f57102acf6dcdf1cf9b969070a096"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#a144f57102acf6dcdf1cf9b969070a096">regl_read_single_byte</a> (<a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *rf, unsigned char *byte)</td></tr>
+<tr class="memitem:a144f57102acf6dcdf1cf9b969070a096"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#a144f57102acf6dcdf1cf9b969070a096">regl_read_single_byte</a> (<a class="el" href="structreglfile__st.html">tReglfile</a> *rf, unsigned char *byte)</td></tr>
 <tr class="memdesc:a144f57102acf6dcdf1cf9b969070a096"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a single byte from a tReglfile to a single byte pointer.  <a href="reglfile_8h.html#a144f57102acf6dcdf1cf9b969070a096">Mais...</a><br /></td></tr>
 <tr class="separator:a144f57102acf6dcdf1cf9b969070a096"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a9a08e71fccef772091e50b26ff5269"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#a3a9a08e71fccef772091e50b26ff5269">regl_reset_cursor</a> (<a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *rf)</td></tr>
+<tr class="memitem:a3a9a08e71fccef772091e50b26ff5269"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#a3a9a08e71fccef772091e50b26ff5269">regl_reset_cursor</a> (<a class="el" href="structreglfile__st.html">tReglfile</a> *rf)</td></tr>
 <tr class="memdesc:a3a9a08e71fccef772091e50b26ff5269"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the tReglfile cursor to the beggining of the file.  <a href="reglfile_8h.html#a3a9a08e71fccef772091e50b26ff5269">Mais...</a><br /></td></tr>
 <tr class="separator:a3a9a08e71fccef772091e50b26ff5269"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac41df592bea0c2dcc8cf7516a8bc7b9f"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#ac41df592bea0c2dcc8cf7516a8bc7b9f">regl_get_path</a> (<a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *rf)</td></tr>
+<tr class="memitem:ac41df592bea0c2dcc8cf7516a8bc7b9f"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#ac41df592bea0c2dcc8cf7516a8bc7b9f">regl_get_path</a> (<a class="el" href="structreglfile__st.html">tReglfile</a> *rf)</td></tr>
 <tr class="memdesc:ac41df592bea0c2dcc8cf7516a8bc7b9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get path of a tReglfile.  <a href="reglfile_8h.html#ac41df592bea0c2dcc8cf7516a8bc7b9f">Mais...</a><br /></td></tr>
 <tr class="separator:ac41df592bea0c2dcc8cf7516a8bc7b9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a196ce7fce9fea52550b6bc5f03a3a2d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#a196ce7fce9fea52550b6bc5f03a3a2d6">regl_set_path</a> (<a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *rf, char *path)</td></tr>
+<tr class="memitem:a196ce7fce9fea52550b6bc5f03a3a2d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#a196ce7fce9fea52550b6bc5f03a3a2d6">regl_set_path</a> (<a class="el" href="structreglfile__st.html">tReglfile</a> *rf, char *path)</td></tr>
 <tr class="memdesc:a196ce7fce9fea52550b6bc5f03a3a2d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set path of a tReglfile.  <a href="reglfile_8h.html#a196ce7fce9fea52550b6bc5f03a3a2d6">Mais...</a><br /></td></tr>
 <tr class="separator:a196ce7fce9fea52550b6bc5f03a3a2d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9590a9952eb79ead187f7e54bd11263d"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#a9590a9952eb79ead187f7e54bd11263d">regl_get_name</a> (<a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *rf)</td></tr>
+<tr class="memitem:a9590a9952eb79ead187f7e54bd11263d"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#a9590a9952eb79ead187f7e54bd11263d">regl_get_name</a> (<a class="el" href="structreglfile__st.html">tReglfile</a> *rf)</td></tr>
 <tr class="memdesc:a9590a9952eb79ead187f7e54bd11263d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get name of a tReglfile.  <a href="reglfile_8h.html#a9590a9952eb79ead187f7e54bd11263d">Mais...</a><br /></td></tr>
 <tr class="separator:a9590a9952eb79ead187f7e54bd11263d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2efb82041a7267fad970206b7ef17b71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#a2efb82041a7267fad970206b7ef17b71">regl_set_name</a> (<a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *rf, char *name)</td></tr>
+<tr class="memitem:a2efb82041a7267fad970206b7ef17b71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#a2efb82041a7267fad970206b7ef17b71">regl_set_name</a> (<a class="el" href="structreglfile__st.html">tReglfile</a> *rf, char *name)</td></tr>
 <tr class="memdesc:a2efb82041a7267fad970206b7ef17b71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set name of a tReglfile.  <a href="reglfile_8h.html#a2efb82041a7267fad970206b7ef17b71">Mais...</a><br /></td></tr>
 <tr class="separator:a2efb82041a7267fad970206b7ef17b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd5bc2aaeb482e2f83059e72dc76943d"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#acd5bc2aaeb482e2f83059e72dc76943d">regl_get_ext</a> (<a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *rf)</td></tr>
+<tr class="memitem:acd5bc2aaeb482e2f83059e72dc76943d"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#acd5bc2aaeb482e2f83059e72dc76943d">regl_get_ext</a> (<a class="el" href="structreglfile__st.html">tReglfile</a> *rf)</td></tr>
 <tr class="memdesc:acd5bc2aaeb482e2f83059e72dc76943d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get extension of a tReglfile.  <a href="reglfile_8h.html#acd5bc2aaeb482e2f83059e72dc76943d">Mais...</a><br /></td></tr>
 <tr class="separator:acd5bc2aaeb482e2f83059e72dc76943d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69ddb9e19fa8db478de5055264c86ff5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#a69ddb9e19fa8db478de5055264c86ff5">regl_set_ext</a> (<a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *rf, char *ext)</td></tr>
+<tr class="memitem:a69ddb9e19fa8db478de5055264c86ff5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#a69ddb9e19fa8db478de5055264c86ff5">regl_set_ext</a> (<a class="el" href="structreglfile__st.html">tReglfile</a> *rf, char *ext)</td></tr>
 <tr class="memdesc:a69ddb9e19fa8db478de5055264c86ff5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set extension of a tReglfile.  <a href="reglfile_8h.html#a69ddb9e19fa8db478de5055264c86ff5">Mais...</a><br /></td></tr>
 <tr class="separator:a69ddb9e19fa8db478de5055264c86ff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6ec0a84edf80bd31ecd3e3f4348489a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#aa6ec0a84edf80bd31ecd3e3f4348489a">regl_guess_name_ext</a> (<a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *rf)</td></tr>
+<tr class="memitem:aa6ec0a84edf80bd31ecd3e3f4348489a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reglfile_8h.html#aa6ec0a84edf80bd31ecd3e3f4348489a">regl_guess_name_ext</a> (<a class="el" href="structreglfile__st.html">tReglfile</a> *rf)</td></tr>
 <tr class="memdesc:aa6ec0a84edf80bd31ecd3e3f4348489a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempt to extract and set the tReglfile name and extension from its path. tReglfile name needs to be set first, else it will result in an error.  <a href="reglfile_8h.html#aa6ec0a84edf80bd31ecd3e3f4348489a">Mais...</a><br /></td></tr>
 <tr class="separator:aa6ec0a84edf80bd31ecd3e3f4348489a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -181,24 +182,7 @@ Vitor F. Calmon </dd></dl>
 <dl class="section date"><dt>Data</dt><dd>2022-08-16 </dd></dl>
 
 <p class="definition">Definição no arquivo <a class="el" href="reglfile_8h_source.html">reglfile.h</a>.</p>
-</div><h2 class="groupheader">Definições dos tipos</h2>
-<a id="a84e646477ab2e5a89c76986820805cc7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84e646477ab2e5a89c76986820805cc7">&#9670;&nbsp;</a></span>tReglfile</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="structreglfile__st.html">reglfile_st</a> <a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definição na linha <a class="el" href="reglfile_8h_source.html#l00001">1</a> do arquivo <a class="el" href="reglfile_8h_source.html">reglfile.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Funções</h2>
+</div><h2 class="groupheader">Funções</h2>
 <a id="a1769d24f263353611e7b8a6dfe64c71f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1769d24f263353611e7b8a6dfe64c71f">&#9670;&nbsp;</a></span>regl_free()</h2>
 
@@ -208,7 +192,7 @@ Vitor F. Calmon </dd></dl>
         <tr>
           <td class="memname">void regl_free </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structreglfile__st.html">tReglfile</a> *&#160;</td>
           <td class="paramname"><em>rf</em></td><td>)</td>
           <td></td>
         </tr>
@@ -233,15 +217,6 @@ Este é o diagrama das funções utilizadas por essa função:</div>
 <area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="125,5,188,32"/>
 </map>
 </div>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="reglfile_8h_a1769d24f263353611e7b8a6dfe64c71f_icgraph.png" border="0" usemap="#areglfile_8h_a1769d24f263353611e7b8a6dfe64c71f_icgraph" alt=""/></div>
-<map name="areglfile_8h_a1769d24f263353611e7b8a6dfe64c71f_icgraph" id="areglfile_8h_a1769d24f263353611e7b8a6dfe64c71f_icgraph">
-<area shape="rect" title="Free a tReglfile and all the memory it has allocated." alt="" coords="104,5,176,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -254,7 +229,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">char* regl_get_ext </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structreglfile__st.html">tReglfile</a> *&#160;</td>
           <td class="paramname"><em>rf</em></td><td>)</td>
           <td></td>
         </tr>
@@ -271,15 +246,6 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <dl class="section return"><dt>Retorna</dt><dd>char* File extension. </dd></dl>
 
 <p class="definition">Definição na linha <a class="el" href="reglfile_8c_source.html#l00100">100</a> do arquivo <a class="el" href="reglfile_8c_source.html">reglfile.c</a>.</p>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="reglfile_8h_acd5bc2aaeb482e2f83059e72dc76943d_icgraph.png" border="0" usemap="#areglfile_8h_acd5bc2aaeb482e2f83059e72dc76943d_icgraph" alt=""/></div>
-<map name="areglfile_8h_acd5bc2aaeb482e2f83059e72dc76943d_icgraph" id="areglfile_8h_acd5bc2aaeb482e2f83059e72dc76943d_icgraph">
-<area shape="rect" title="Get extension of a tReglfile." alt="" coords="104,5,197,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -292,7 +258,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">char* regl_get_name </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structreglfile__st.html">tReglfile</a> *&#160;</td>
           <td class="paramname"><em>rf</em></td><td>)</td>
           <td></td>
         </tr>
@@ -309,15 +275,6 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <dl class="section return"><dt>Retorna</dt><dd>char* File name. </dd></dl>
 
 <p class="definition">Definição na linha <a class="el" href="reglfile_8c_source.html#l00090">90</a> do arquivo <a class="el" href="reglfile_8c_source.html">reglfile.c</a>.</p>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="reglfile_8h_a9590a9952eb79ead187f7e54bd11263d_icgraph.png" border="0" usemap="#areglfile_8h_a9590a9952eb79ead187f7e54bd11263d_icgraph" alt=""/></div>
-<map name="areglfile_8h_a9590a9952eb79ead187f7e54bd11263d_icgraph" id="areglfile_8h_a9590a9952eb79ead187f7e54bd11263d_icgraph">
-<area shape="rect" title="Get name of a tReglfile." alt="" coords="104,5,211,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -330,7 +287,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">char* regl_get_path </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structreglfile__st.html">tReglfile</a> *&#160;</td>
           <td class="paramname"><em>rf</em></td><td>)</td>
           <td></td>
         </tr>
@@ -347,15 +304,6 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <dl class="section return"><dt>Retorna</dt><dd>char* File path. </dd></dl>
 
 <p class="definition">Definição na linha <a class="el" href="reglfile_8c_source.html#l00080">80</a> do arquivo <a class="el" href="reglfile_8c_source.html">reglfile.c</a>.</p>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="reglfile_8h_ac41df592bea0c2dcc8cf7516a8bc7b9f_icgraph.png" border="0" usemap="#areglfile_8h_ac41df592bea0c2dcc8cf7516a8bc7b9f_icgraph" alt=""/></div>
-<map name="areglfile_8h_ac41df592bea0c2dcc8cf7516a8bc7b9f_icgraph" id="areglfile_8h_ac41df592bea0c2dcc8cf7516a8bc7b9f_icgraph">
-<area shape="rect" title="Get path of a tReglfile." alt="" coords="104,5,204,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -368,7 +316,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">void regl_guess_name_ext </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structreglfile__st.html">tReglfile</a> *&#160;</td>
           <td class="paramname"><em>rf</em></td><td>)</td>
           <td></td>
         </tr>
@@ -393,16 +341,7 @@ Este é o diagrama das funções utilizadas por essa função:</div>
 <area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="217,5,279,32"/>
 <area shape="rect" href="pathman_8h.html#a37c63c71830350b7c38d82e6cb717f8b" title="Get extension from the file at the end of path. An extension is defined as the characters after the l..." alt="" coords="210,56,286,83"/>
 <area shape="rect" href="pathman_8h.html#a89457d4fafe6d90c14d17e62ff63e80a" title="Get file basename from the file at the end of path. A file name is defined as the characters before t..." alt="" coords="203,107,293,133"/>
-<area shape="rect" href="pathman_8c.html#aab33aaa11b68ad439ef66cd1f30f59ee" title="Trim path by removing the file extension at the end. An extension is defined as the characters after ..." alt="" coords="341,107,408,133"/>
-</map>
-</div>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="reglfile_8h_aa6ec0a84edf80bd31ecd3e3f4348489a_icgraph.png" border="0" usemap="#areglfile_8h_aa6ec0a84edf80bd31ecd3e3f4348489a_icgraph" alt=""/></div>
-<map name="areglfile_8h_aa6ec0a84edf80bd31ecd3e3f4348489a_icgraph" id="areglfile_8h_aa6ec0a84edf80bd31ecd3e3f4348489a_icgraph">
-<area shape="rect" title="Attempt to extract and set the tReglfile name and extension from its path. tReglfile name needs to be..." alt="" coords="104,5,253,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" href="pathman_8h.html#aab33aaa11b68ad439ef66cd1f30f59ee" title="Trim path by removing the file extension at the end. An extension is defined as the characters after ..." alt="" coords="341,107,408,133"/>
 </map>
 </div>
 
@@ -415,7 +354,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a>* regl_init </td>
+          <td class="memname"><a class="el" href="structreglfile__st.html">tReglfile</a>* regl_init </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -427,15 +366,6 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <dl class="section return"><dt>Retorna</dt><dd>tReglfile* tReglfile. </dd></dl>
 
 <p class="definition">Definição na linha <a class="el" href="reglfile_8c_source.html#l00017">17</a> do arquivo <a class="el" href="reglfile_8c_source.html">reglfile.c</a>.</p>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="reglfile_8h_aebd3164be87ec2ed73b6a8cedabbed3d_icgraph.png" border="0" usemap="#areglfile_8h_aebd3164be87ec2ed73b6a8cedabbed3d_icgraph" alt=""/></div>
-<map name="areglfile_8h_aebd3164be87ec2ed73b6a8cedabbed3d_icgraph" id="areglfile_8h_aebd3164be87ec2ed73b6a8cedabbed3d_icgraph">
-<area shape="rect" title="Create a tReglfile." alt="" coords="104,5,171,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -448,13 +378,13 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">unsigned int regl_read_bytes </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structreglfile__st.html">tReglfile</a> *&#160;</td>
           <td class="paramname"><em>rf</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structbytes__st.html">tBytes</a> *&#160;</td>
           <td class="paramname"><em>bt</em>&#160;</td>
         </tr>
         <tr>
@@ -488,15 +418,6 @@ Este é o diagrama das funções utilizadas por essa função:</div>
 <area shape="rect" href="bytes_8h.html#aa460ceb68b4f8bd91467a947ee7174f9" title="Set length of a tBytes manually." alt="" coords="172,157,275,184"/>
 </map>
 </div>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="reglfile_8h_ab96df5988987fd750aa3fae706c04f3e_icgraph.png" border="0" usemap="#areglfile_8h_ab96df5988987fd750aa3fae706c04f3e_icgraph" alt=""/></div>
-<map name="areglfile_8h_ab96df5988987fd750aa3fae706c04f3e_icgraph" id="areglfile_8h_ab96df5988987fd750aa3fae706c04f3e_icgraph">
-<area shape="rect" title="Read bytes from a tReglfile to given tBytes." alt="" coords="104,5,219,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -509,7 +430,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">int regl_read_single_byte </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structreglfile__st.html">tReglfile</a> *&#160;</td>
           <td class="paramname"><em>rf</em>, </td>
         </tr>
         <tr>
@@ -546,15 +467,6 @@ Este é o diagrama das funções utilizadas por essa função:</div>
 <area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="201,5,264,32"/>
 </map>
 </div>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="reglfile_8h_a144f57102acf6dcdf1cf9b969070a096_icgraph.png" border="0" usemap="#areglfile_8h_a144f57102acf6dcdf1cf9b969070a096_icgraph" alt=""/></div>
-<map name="areglfile_8h_a144f57102acf6dcdf1cf9b969070a096_icgraph" id="areglfile_8h_a144f57102acf6dcdf1cf9b969070a096_icgraph">
-<area shape="rect" title="Read a single byte from a tReglfile to a single byte pointer." alt="" coords="104,5,252,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -567,7 +479,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">void regl_reset_cursor </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structreglfile__st.html">tReglfile</a> *&#160;</td>
           <td class="paramname"><em>rf</em></td><td>)</td>
           <td></td>
         </tr>
@@ -583,15 +495,6 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 </dl>
 
 <p class="definition">Definição na linha <a class="el" href="reglfile_8c_source.html#l00075">75</a> do arquivo <a class="el" href="reglfile_8c_source.html">reglfile.c</a>.</p>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="reglfile_8h_a3a9a08e71fccef772091e50b26ff5269_icgraph.png" border="0" usemap="#areglfile_8h_a3a9a08e71fccef772091e50b26ff5269_icgraph" alt=""/></div>
-<map name="areglfile_8h_a3a9a08e71fccef772091e50b26ff5269_icgraph" id="areglfile_8h_a3a9a08e71fccef772091e50b26ff5269_icgraph">
-<area shape="rect" title="Reset the tReglfile cursor to the beggining of the file." alt="" coords="104,5,227,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -604,7 +507,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">void regl_set_ext </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structreglfile__st.html">tReglfile</a> *&#160;</td>
           <td class="paramname"><em>rf</em>, </td>
         </tr>
         <tr>
@@ -631,15 +534,6 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 </dl>
 
 <p class="definition">Definição na linha <a class="el" href="reglfile_8c_source.html#l00105">105</a> do arquivo <a class="el" href="reglfile_8c_source.html">reglfile.c</a>.</p>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="reglfile_8h_a69ddb9e19fa8db478de5055264c86ff5_icgraph.png" border="0" usemap="#areglfile_8h_a69ddb9e19fa8db478de5055264c86ff5_icgraph" alt=""/></div>
-<map name="areglfile_8h_a69ddb9e19fa8db478de5055264c86ff5_icgraph" id="areglfile_8h_a69ddb9e19fa8db478de5055264c86ff5_icgraph">
-<area shape="rect" title="Set extension of a tReglfile." alt="" coords="104,5,197,32"/>
-<area shape="rect" href="descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -652,7 +546,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">void regl_set_name </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structreglfile__st.html">tReglfile</a> *&#160;</td>
           <td class="paramname"><em>rf</em>, </td>
         </tr>
         <tr>
@@ -679,15 +573,6 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 </dl>
 
 <p class="definition">Definição na linha <a class="el" href="reglfile_8c_source.html#l00095">95</a> do arquivo <a class="el" href="reglfile_8c_source.html">reglfile.c</a>.</p>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="reglfile_8h_a2efb82041a7267fad970206b7ef17b71_icgraph.png" border="0" usemap="#areglfile_8h_a2efb82041a7267fad970206b7ef17b71_icgraph" alt=""/></div>
-<map name="areglfile_8h_a2efb82041a7267fad970206b7ef17b71_icgraph" id="areglfile_8h_a2efb82041a7267fad970206b7ef17b71_icgraph">
-<area shape="rect" title="Set name of a tReglfile." alt="" coords="104,5,211,32"/>
-<area shape="rect" href="descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -700,7 +585,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">void regl_set_path </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structreglfile__st.html">tReglfile</a> *&#160;</td>
           <td class="paramname"><em>rf</em>, </td>
         </tr>
         <tr>
@@ -727,15 +612,6 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 </dl>
 
 <p class="definition">Definição na linha <a class="el" href="reglfile_8c_source.html#l00085">85</a> do arquivo <a class="el" href="reglfile_8c_source.html">reglfile.c</a>.</p>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="reglfile_8h_a196ce7fce9fea52550b6bc5f03a3a2d6_icgraph.png" border="0" usemap="#areglfile_8h_a196ce7fce9fea52550b6bc5f03a3a2d6_icgraph" alt=""/></div>
-<map name="areglfile_8h_a196ce7fce9fea52550b6bc5f03a3a2d6_icgraph" id="areglfile_8h_a196ce7fce9fea52550b6bc5f03a3a2d6_icgraph">
-<area shape="rect" title="Set path of a tReglfile." alt="" coords="104,5,204,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -748,13 +624,13 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">unsigned int regl_write_bytes </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="reglfile_8h.html#a84e646477ab2e5a89c76986820805cc7">tReglfile</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structreglfile__st.html">tReglfile</a> *&#160;</td>
           <td class="paramname"><em>rf</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structbytes__st.html">tBytes</a> *&#160;</td>
           <td class="paramname"><em>bt</em>&#160;</td>
         </tr>
         <tr>
@@ -785,15 +661,6 @@ Este é o diagrama das funções utilizadas por essa função:</div>
 <area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="195,5,257,32"/>
 <area shape="rect" href="bytes_8h.html#a91fa70f22cbe219ff47a6d41846dddba" title="Get a tBytes bytes vector." alt="" coords="171,56,281,83"/>
 <area shape="rect" href="bytes_8h.html#ac5802dee5b68024eb5b63764efcdade9" title="Get current length of a tBytes." alt="" coords="175,107,277,133"/>
-</map>
-</div>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="reglfile_8h_a5d7b2248ad98ec2e71abf4de8279866c_icgraph.png" border="0" usemap="#areglfile_8h_a5d7b2248ad98ec2e71abf4de8279866c_icgraph" alt=""/></div>
-<map name="areglfile_8h_a5d7b2248ad98ec2e71abf4de8279866c_icgraph" id="areglfile_8h_a5d7b2248ad98ec2e71abf4de8279866c_icgraph">
-<area shape="rect" title="Write bytes to a tReglfile from given tBytes." alt="" coords="104,5,221,32"/>
-<area shape="rect" href="descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
 </map>
 </div>
 

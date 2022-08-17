@@ -1,5 +1,4 @@
 <map id="wbin_magic_block" name="wbin_magic_block">
-<area shape="rect" id="node1" title="Write binary file signature block (magic bits)." alt="" coords="287,5,416,32"/>
-<area shape="rect" id="node2" href="$compfile_8h.html#a98bf9340a3e53ac8e7d0ac6575a24259" title="Write the file header from a tCompfile, including metadata such as the file name, extension and the b..." alt="" coords="104,5,239,32"/>
-<area shape="rect" id="node3" href="$compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" id="node1" title="Write binary file signature block (magic bits)." alt="" coords="188,5,317,32"/>
+<area shape="rect" id="node2" href="$compfile_8h.html#a98bf9340a3e53ac8e7d0ac6575a24259" title="Write the file header from a tCompfile, including metadata such as the file name, extension and the b..." alt="" coords="5,5,140,32"/>
 </map>

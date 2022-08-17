@@ -1,5 +1,0 @@
-<map id="bits_append" name="bits_append">
-<area shape="rect" id="node1" title="Append a bit to a tBits." alt="" coords="5,5,97,32"/>
-<area shape="rect" id="node2" href="$assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="283,5,345,32"/>
-<area shape="rect" id="node3" href="$bits_8c.html#acca1cc4d4062a04574036fb84470b3d0" title="Set a bit in a tBits." alt="" coords="145,31,235,57"/>
-</map>

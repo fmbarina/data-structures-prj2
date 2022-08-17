@@ -1,5 +1,16 @@
 <map id="comp_read_header" name="comp_read_header">
-<area shape="rect" id="node1" title="Read the file header to a tCompfile, including metadata such as the file name, extension and the bina..." alt="" coords="5,31,137,57"/>
-<area shape="rect" id="node2" href="$assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="215,5,278,32"/>
-<area shape="rect" id="node3" href="$rwbin_8h.html#ae9afa1107b6e3016a0e04d73cfd95055" title="Read and check binary file signature block (magic bits)." alt="" coords="185,56,308,83"/>
+<area shape="rect" id="node1" title="Read the file header to a tCompfile, including metadata such as the file name, extension and the bina..." alt="" coords="5,164,137,191"/>
+<area shape="rect" id="node2" href="$assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="649,114,712,140"/>
+<area shape="rect" id="node3" href="$bits_8h.html#ad44d3c4c8431ea66729df3da207b8827" title="Free a tBits and all the memory it has allocated." alt="" coords="521,38,593,64"/>
+<area shape="rect" id="node4" href="$bits_8h.html#a58ad5405b4cd39db1fb7d793a91092a5" title="Create tBits." alt="" coords="523,88,590,115"/>
+<area shape="rect" id="node5" href="$rwbin_8h.html#aaae132cb54c219fc1ce965cbb1e25c59" title="Read a block of bits from binary file." alt="" coords="200,139,309,166"/>
+<area shape="rect" id="node8" href="$rwbin_8h.html#ab239c2e56bb97a0c4bfe9e2b964500f8" title="Read a long (&lt;=65535 characters) string from binary file." alt="" coords="187,190,322,216"/>
+<area shape="rect" id="node9" href="$rwbin_8h.html#ae9afa1107b6e3016a0e04d73cfd95055" title="Read and check binary file signature block (magic bits)." alt="" coords="193,240,316,267"/>
+<area shape="rect" id="node10" href="$rwbin_8h.html#a8b9855cee4f77e7bcb32d3c581737292" title="Read a short (&lt;=255 characters) string from binary file." alt="" coords="185,291,324,318"/>
+<area shape="rect" id="node11" href="$tree_8h.html#afa038656292eb34cba748b9fe7f7919d" title="Deserialize the given sequence of bits into a tree." alt="" coords="198,342,311,368"/>
+<area shape="rect" id="node6" href="$bits_8h.html#af4071ab75ae34cc27de99b16a825748f" title="Append a bit to a tBits." alt="" coords="372,139,464,166"/>
+<area shape="rect" id="node7" href="$bits_8h.html#acca1cc4d4062a04574036fb84470b3d0" title="Set a bit in a tBits." alt="" coords="512,190,601,216"/>
+<area shape="rect" id="node12" href="$bits_8h.html#a4cfa06f3fe9324b810a8a19806b825bb" title="Get a bit in a tBits." alt="" coords="512,247,601,274"/>
+<area shape="rect" id="node13" href="$bits_8h.html#a59ab9afa29849c2b4e83346e3c082a61" title="Get current length of a tBits." alt="" coords="372,335,464,362"/>
+<area shape="rect" id="node14" href="$tree_8h.html#a2fa6564d96a2d1910af7b64aa6f42eac" title="Create tree with passed parameters." alt="" coords="384,386,452,412"/>
 </map>

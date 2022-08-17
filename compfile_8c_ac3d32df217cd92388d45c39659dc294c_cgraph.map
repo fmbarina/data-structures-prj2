@@ -1,7 +1,0 @@
-<map id="comp_read_data" name="comp_read_data">
-<area shape="rect" id="node1" title="Write file data of a tCompfile in the form of a block of bits to a given tBits." alt="" coords="5,5,124,32"/>
-<area shape="rect" id="node2" href="$assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="607,31,669,57"/>
-<area shape="rect" id="node3" href="$rwbin_8h.html#aaae132cb54c219fc1ce965cbb1e25c59" title="Read a block of bits from binary file." alt="" coords="172,31,281,57"/>
-<area shape="rect" id="node4" href="$bits_8h.html#af4071ab75ae34cc27de99b16a825748f" title="Append a bit to a tBits." alt="" coords="329,31,421,57"/>
-<area shape="rect" id="node5" href="$bits_8c.html#acca1cc4d4062a04574036fb84470b3d0" title="Set a bit in a tBits." alt="" coords="469,81,559,108"/>
-</map>

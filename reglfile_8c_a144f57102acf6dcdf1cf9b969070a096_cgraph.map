@@ -1,4 +1,0 @@
-<map id="regl_read_single_byte" name="regl_read_single_byte">
-<area shape="rect" id="node1" title="Read a single byte from a tReglfile to a single byte pointer." alt="" coords="5,5,153,32"/>
-<area shape="rect" id="node2" href="$assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="201,5,264,32"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="comp_read_header" name="comp_read_header">
-<area shape="rect" id="node1" title="Read the file header to a tCompfile, including metadata such as the file name, extension and the bina..." alt="" coords="5,31,137,57"/>
-<area shape="rect" id="node2" href="$assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="215,5,278,32"/>
-<area shape="rect" id="node3" href="$rwbin_8h.html#ae9afa1107b6e3016a0e04d73cfd95055" title="Read and check binary file signature block (magic bits)." alt="" coords="185,56,308,83"/>
-</map>

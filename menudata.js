@@ -26,26 +26,22 @@ var menudata={children:[
 {text:"Página Principal",url:"index.html"},
 {text:"Estruturas de Dados",url:"annotated.html",children:[
 {text:"Estruturas de Dados",url:"annotated.html"},
-{text:"Índice das Estruturas de Dados",url:"classes.html"},
-{text:"Campos de Dados",url:"functions.html",children:[
-{text:"Todos",url:"functions.html"},
-{text:"Variáveis",url:"functions_vars.html"}]}]},
+{text:"Índice das Estruturas de Dados",url:"classes.html"}]},
 {text:"Arquivos",url:"files.html",children:[
 {text:"Lista de Arquivos",url:"files.html"},
 {text:"Ítens globais",url:"globals.html",children:[
 {text:"Todos",url:"globals.html",children:[
 {text:"a",url:"globals.html#index_a"},
-{text:"b",url:"globals_b.html#index_b"},
-{text:"c",url:"globals_c.html#index_c"},
-{text:"d",url:"globals_d.html#index_d"},
-{text:"e",url:"globals_e.html#index_e"},
-{text:"g",url:"globals_g.html#index_g"},
-{text:"h",url:"globals_h.html#index_h"},
-{text:"i",url:"globals_i.html#index_i"},
-{text:"m",url:"globals_m.html#index_m"},
-{text:"r",url:"globals_r.html#index_r"},
-{text:"t",url:"globals_t.html#index_t"},
-{text:"w",url:"globals_w.html#index_w"}]},
+{text:"b",url:"globals.html#index_b"},
+{text:"c",url:"globals.html#index_c"},
+{text:"d",url:"globals.html#index_d"},
+{text:"e",url:"globals.html#index_e"},
+{text:"g",url:"globals.html#index_g"},
+{text:"h",url:"globals.html#index_h"},
+{text:"i",url:"globals.html#index_i"},
+{text:"r",url:"globals.html#index_r"},
+{text:"t",url:"globals.html#index_t"},
+{text:"w",url:"globals.html#index_w"}]},
 {text:"Funções",url:"globals_func.html",children:[
 {text:"a",url:"globals_func.html#index_a"},
 {text:"b",url:"globals_func.html#index_b"},
@@ -55,9 +51,6 @@ var menudata={children:[
 {text:"g",url:"globals_func.html#index_g"},
 {text:"h",url:"globals_func.html#index_h"},
 {text:"i",url:"globals_func.html#index_i"},
-{text:"m",url:"globals_func.html#index_m"},
 {text:"r",url:"globals_func.html#index_r"},
 {text:"t",url:"globals_func.html#index_t"},
-{text:"w",url:"globals_func.html#index_w"}]},
-{text:"Definições de Tipos",url:"globals_type.html"},
-{text:"Definições e Macros",url:"globals_defs.html"}]}]}]}
+{text:"w",url:"globals_func.html#index_w"}]}]}]}]}

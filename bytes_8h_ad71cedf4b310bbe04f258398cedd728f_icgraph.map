@@ -1,0 +1,4 @@
+<map id="bytes_get_byte" name="bytes_get_byte">
+<area shape="rect" id="node1" title="Get a byte in a tBytes." alt="" coords="117,5,228,32"/>
+<area shape="rect" id="node2" href="$encoding_8h.html#ad8a2ff0233638f245e618c05db1e2a31" title="Encode bytes to compressed bits, using an encoding tree." alt="" coords="5,5,69,32"/>
+</map>

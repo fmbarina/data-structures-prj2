@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('bits_8h_source.html',''); initResizabl
 <div class="title">bits.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="bits_8h.html">Vá para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno"><a class="line" href="bits_8h.html#a5ec04ea2c7dc06cfdd3521427411f5d9">    1</a></span>&#160; </div>
+<a href="bits_8h.html">Vá para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#ifndef BITS_H_</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#define BITS_H_</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
@@ -114,11 +114,11 @@ $(document).ready(function(){initNavTree('bits_8h_source.html',''); initResizabl
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="bits_8h.html#a4cfa06f3fe9324b810a8a19806b825bb">bits_get_bit</a>(<a class="code" href="structbits__st.html">tBits</a> *bs, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> idx);</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="keywordtype">void</span> <a class="code" href="bits_8h.html#a501e4a1258832f3ccf2bf42f0ee5db7d">bits_set_len</a>(<a class="code" href="structbits__st.html">tBits</a>* bs, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="structbits__st.html#a77124bd5f7e31e6fffc19f335da0c23f">len</a>);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="keywordtype">void</span> <a class="code" href="bits_8h.html#a501e4a1258832f3ccf2bf42f0ee5db7d">bits_set_len</a>(<a class="code" href="structbits__st.html">tBits</a>* bs, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> len);</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="bits_8h.html#a59ab9afa29849c2b4e83346e3c082a61">bits_get_len</a>(<a class="code" href="structbits__st.html">tBits</a> *bs);</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="keywordtype">void</span> <a class="code" href="bits_8h.html#a562f16dceaf4a0cf92fcfe7ee06db98b">bits_set_cur</a>(<a class="code" href="structbits__st.html">tBits</a> *bs, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="structbits__st.html#a3cd961ccdff0b884c9046b48fe2d8f5e">cur</a>);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="keywordtype">void</span> <a class="code" href="bits_8h.html#a562f16dceaf4a0cf92fcfe7ee06db98b">bits_set_cur</a>(<a class="code" href="structbits__st.html">tBits</a> *bs, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> cur);</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="keywordtype">void</span> <a class="code" href="bits_8h.html#a4e6877a7e62ef499d048df863990443a">bits_offset_cur</a>(<a class="code" href="structbits__st.html">tBits</a> *bs, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> offset);</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
@@ -146,8 +146,6 @@ $(document).ready(function(){initNavTree('bits_8h_source.html',''); initResizabl
 <div class="ttc" id="abits_8h_html_ad44d3c4c8431ea66729df3da207b8827"><div class="ttname"><a href="bits_8h.html#ad44d3c4c8431ea66729df3da207b8827">bits_free</a></div><div class="ttdeci">void bits_free(tBits *bs)</div><div class="ttdoc">Free a tBits and all the memory it has allocated.</div><div class="ttdef"><b>Definition:</b> <a href="bits_8c_source.html#l00041">bits.c:41</a></div></div>
 <div class="ttc" id="abits_8h_html_af4071ab75ae34cc27de99b16a825748f"><div class="ttname"><a href="bits_8h.html#af4071ab75ae34cc27de99b16a825748f">bits_append</a></div><div class="ttdeci">void bits_append(tBits *bs, unsigned char bit)</div><div class="ttdoc">Append a bit to a tBits.</div><div class="ttdef"><b>Definition:</b> <a href="bits_8c_source.html#l00049">bits.c:49</a></div></div>
 <div class="ttc" id="astructbits__st_html"><div class="ttname"><a href="structbits__st.html">bits_st</a></div><div class="ttdef"><b>Definition:</b> <a href="bits_8c_source.html#l00015">bits.c:16</a></div></div>
-<div class="ttc" id="astructbits__st_html_a3cd961ccdff0b884c9046b48fe2d8f5e"><div class="ttname"><a href="structbits__st.html#a3cd961ccdff0b884c9046b48fe2d8f5e">bits_st::cur</a></div><div class="ttdeci">unsigned int cur</div><div class="ttdef"><b>Definition:</b> <a href="bits_8c_source.html#l00019">bits.c:19</a></div></div>
-<div class="ttc" id="astructbits__st_html_a77124bd5f7e31e6fffc19f335da0c23f"><div class="ttname"><a href="structbits__st.html#a77124bd5f7e31e6fffc19f335da0c23f">bits_st::len</a></div><div class="ttdeci">unsigned int len</div><div class="ttdef"><b>Definition:</b> <a href="bits_8c_source.html#l00018">bits.c:18</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

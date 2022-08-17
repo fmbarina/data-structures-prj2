@@ -1,5 +1,4 @@
 <map id="tree_free" name="tree_free">
-<area shape="rect" id="node1" title="Free the memory allocated in by the tree." alt="" coords="5,6,79,33"/>
-<area shape="rect" id="node2" href="$tree_8c.html#a4a64d419c9e41286c7e0fc4e7ca91dc4" title="Check if tree is empty." alt="" coords="248,6,335,33"/>
-<area shape="rect" id="node3" href="$tree_8c.html#a23769feed83ed62a9e1d5a7a090f870e" title="Free the memory allocated in by the tree." alt="" coords="127,44,200,70"/>
+<area shape="rect" id="node1" title="Free the memory allocated in by the tree." alt="" coords="5,5,79,32"/>
+<area shape="rect" id="node2" href="$tree_8h.html#a4a64d419c9e41286c7e0fc4e7ca91dc4" title="Check if tree is empty." alt="" coords="127,5,213,32"/>
 </map>

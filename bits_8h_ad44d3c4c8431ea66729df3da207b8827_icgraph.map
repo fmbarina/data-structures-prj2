@@ -1,4 +1,6 @@
 <map id="bits_free" name="bits_free">
-<area shape="rect" id="node1" title="Free a tBits and all the memory it has allocated." alt="" coords="104,5,176,32"/>
-<area shape="rect" id="node2" href="$compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" id="node1" title="Free a tBits and all the memory it has allocated." alt="" coords="188,56,260,83"/>
+<area shape="rect" id="node2" href="$compfile_8h.html#a8283258a0ab2a36089d1d8fa65a7f3db" title="Read the file header to a tCompfile, including metadata such as the file name, extension and the bina..." alt="" coords="7,5,139,32"/>
+<area shape="rect" id="node3" href="$compfile_8h.html#a98bf9340a3e53ac8e7d0ac6575a24259" title="Write the file header from a tCompfile, including metadata such as the file name, extension and the b..." alt="" coords="5,56,140,83"/>
+<area shape="rect" id="node4" href="$encoding_8h.html#ad8a2ff0233638f245e618c05db1e2a31" title="Encode bytes to compressed bits, using an encoding tree." alt="" coords="41,107,105,133"/>
 </map>

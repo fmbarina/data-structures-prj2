@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('treelist_8c_source.html',''); initResi
 <div class="title">treelist.c</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="treelist_8c.html">Vá para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno"><a class="line" href="treelist_8c.html#af47d6c20f3b97f97f113f6495456f0df">    1</a></span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="tree_8h.html">tree.h</a>&quot;</span></div>
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="tree_8h.html">tree.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="treelist_8h.html">treelist.h</a>&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
@@ -106,108 +106,108 @@ $(document).ready(function(){initNavTree('treelist_8c_source.html',''); initResi
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
 <div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="structcel__st.html">    9</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structcel__st.html">cel_st</a></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="structcel__st.html#a1157394da0a41673fd8c768776a2ed97">   11</a></span>&#160;    <a class="code" href="structcel__st.html">tCel</a> *<a class="code" href="structcel__st.html#a1157394da0a41673fd8c768776a2ed97">prox</a>;</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="structcel__st.html#af7833c222dc91b1a9f095c4fc6a0d09d">   12</a></span>&#160;    <a class="code" href="structtree__st.html">tTree</a> *<a class="code" href="structcel__st.html#af7833c222dc91b1a9f095c4fc6a0d09d">tree</a>;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="structcel__st.html">tCel</a> *prox;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="structtree__st.html">tTree</a> *tree;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;};</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structst__tree__list.html">   15</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structst__tree__list.html">st_tree_list</a></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="structst__tree__list.html#a938454d019b7ebf7bd8533fd7787bf2c">   17</a></span>&#160;    <a class="code" href="structcel__st.html">tCel</a> *<a class="code" href="structst__tree__list.html#a938454d019b7ebf7bd8533fd7787bf2c">prim</a>;</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="structst__tree__list.html#a9e12244577acfcbc6c96c8335edcd742">   18</a></span>&#160;    <a class="code" href="structcel__st.html">tCel</a> *<a class="code" href="structst__tree__list.html#a9e12244577acfcbc6c96c8335edcd742">ult</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="structcel__st.html">tCel</a> *prim;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="structcel__st.html">tCel</a> *ult;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;};</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="treelist_8h.html#a9bd43c2dfed059bf03077b75c706c8f1">   21</a></span>&#160;<a class="code" href="structst__tree__list.html">tTreeList</a> *<a class="code" href="treelist_8c.html#a9bd43c2dfed059bf03077b75c706c8f1">tree_list_inic</a>()</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="treelist_8h.html#a9bd43c2dfed059bf03077b75c706c8f1">   21</a></span>&#160;<a class="code" href="structst__tree__list.html">tTreeList</a> *<a class="code" href="treelist_8h.html#a9bd43c2dfed059bf03077b75c706c8f1">tree_list_inic</a>()</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="structst__tree__list.html">tTreeList</a> *lista = (<a class="code" href="structst__tree__list.html">tTreeList</a> *)malloc(<span class="keyword">sizeof</span>(<a class="code" href="structst__tree__list.html">tTreeList</a>));</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    lista-&gt;<a class="code" href="structst__tree__list.html#a938454d019b7ebf7bd8533fd7787bf2c">prim</a> = NULL;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    lista-&gt;<a class="code" href="structst__tree__list.html#a9e12244577acfcbc6c96c8335edcd742">ult</a> = NULL;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    lista-&gt;prim = NULL;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    lista-&gt;ult = NULL;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">return</span> lista;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="treelist_8h.html#a17e8fc22a031479081c9f00f8555a6e0">   29</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="treelist_8c.html#a17e8fc22a031479081c9f00f8555a6e0">tree_list_free</a>(<a class="code" href="structst__tree__list.html">tTreeList</a>* list)</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordtype">void</span> tree_list_free(<a class="code" href="structst__tree__list.html">tTreeList</a>* list)</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b">assertr</a>(list != NULL, <span class="stringliteral">&quot;free mas tTreeList nunca foi alocado&quot;</span>);</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="structcel__st.html">tCel</a> * cel = list-&gt;<a class="code" href="structst__tree__list.html#a938454d019b7ebf7bd8533fd7787bf2c">prim</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="structcel__st.html">tCel</a> * cel = list-&gt;prim;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">while</span> (cel != NULL)</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    {</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="structcel__st.html">tCel</a> * prox = cel-&gt;<a class="code" href="structcel__st.html#a1157394da0a41673fd8c768776a2ed97">prox</a>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="structcel__st.html">tCel</a> * prox = cel-&gt;prox;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        free(cel);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        cel = prox;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    free(list);</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="treelist_8h.html#a7daceef9d966c3bdbc2f14e5aa3c93a2">   43</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="treelist_8c.html#aa29aa91930c630dfc33262ec070091aa">tree_list_insert</a>(<a class="code" href="structst__tree__list.html">tTreeList</a> *lista, <a class="code" href="structtree__st.html">tTree</a> *tree)</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="treelist_8h.html#a7daceef9d966c3bdbc2f14e5aa3c93a2">   43</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="treelist_8h.html#a7daceef9d966c3bdbc2f14e5aa3c93a2">tree_list_insert</a>(<a class="code" href="structst__tree__list.html">tTreeList</a> *lista, <a class="code" href="structtree__st.html">tTree</a> *tree)</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;{</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="structcel__st.html">tCel</a> *cel = (<a class="code" href="structcel__st.html">tCel</a> *)malloc(<span class="keyword">sizeof</span>(<a class="code" href="structcel__st.html">tCel</a>));</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    cel-&gt;<a class="code" href="structcel__st.html#af7833c222dc91b1a9f095c4fc6a0d09d">tree</a> = tree;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    cel-&gt;tree = tree;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    </div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="comment">/* If the list is empty */</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">if</span> (lista-&gt;<a class="code" href="structst__tree__list.html#a938454d019b7ebf7bd8533fd7787bf2c">prim</a> == NULL)</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">if</span> (lista-&gt;prim == NULL)</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    {</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        lista-&gt;<a class="code" href="structst__tree__list.html#a938454d019b7ebf7bd8533fd7787bf2c">prim</a> = cel;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        lista-&gt;<a class="code" href="structst__tree__list.html#a9e12244577acfcbc6c96c8335edcd742">ult</a> = cel;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        lista-&gt;prim = cel;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        lista-&gt;ult = cel;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    {</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="comment">/* Search where to insert cell */</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <a class="code" href="structcel__st.html">tCel</a> *i;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <a class="code" href="structcel__st.html">tCel</a> *ant = NULL;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">for</span> (i = lista-&gt;<a class="code" href="structst__tree__list.html#a938454d019b7ebf7bd8533fd7787bf2c">prim</a>; i != NULL &amp;&amp; <a class="code" href="tree_8h.html#a7bb8f234bec53318df8d10a5d0ebea38">tree_weight</a>(tree) &gt; <a class="code" href="tree_8h.html#a7bb8f234bec53318df8d10a5d0ebea38">tree_weight</a>(i-&gt;<a class="code" href="structcel__st.html#af7833c222dc91b1a9f095c4fc6a0d09d">tree</a>); i = i-&gt;<a class="code" href="structcel__st.html#a1157394da0a41673fd8c768776a2ed97">prox</a>)</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">for</span> (i = lista-&gt;prim; i != NULL &amp;&amp; <a class="code" href="tree_8h.html#a7bb8f234bec53318df8d10a5d0ebea38">tree_weight</a>(tree) &gt; <a class="code" href="tree_8h.html#a7bb8f234bec53318df8d10a5d0ebea38">tree_weight</a>(i-&gt;tree); i = i-&gt;prox)</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            ant = i;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="comment">/* Insert */</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">if</span> (ant)</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            ant-&gt;<a class="code" href="structcel__st.html#a1157394da0a41673fd8c768776a2ed97">prox</a> = cel;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            ant-&gt;prox = cel;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        cel-&gt;<a class="code" href="structcel__st.html#a1157394da0a41673fd8c768776a2ed97">prox</a> = i;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        cel-&gt;prox = i;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="comment">/* When inserted at beggining */</span></div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">if</span> (ant == NULL)</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        {</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            lista-&gt;<a class="code" href="structst__tree__list.html#a938454d019b7ebf7bd8533fd7787bf2c">prim</a> = cel;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            lista-&gt;prim = cel;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        }</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="comment">/* When inserted at end */</span></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (i == NULL)</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        {</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            lista-&gt;<a class="code" href="structst__tree__list.html#a9e12244577acfcbc6c96c8335edcd742">ult</a> = cel;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            lista-&gt;ult = cel;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        }</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
-<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="treelist_8h.html#ad77cb41ebbda9a9a035d99d9765fb23b">   81</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="treelist_8c.html#ae26b713e78717b06163b344d590eff34">tree_list_remove</a>(<a class="code" href="structst__tree__list.html">tTreeList</a> *lista, <a class="code" href="structtree__st.html">tTree</a> *tree)</div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="treelist_8h.html#ad77cb41ebbda9a9a035d99d9765fb23b">   81</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="treelist_8h.html#ad77cb41ebbda9a9a035d99d9765fb23b">tree_list_remove</a>(<a class="code" href="structst__tree__list.html">tTreeList</a> *lista, <a class="code" href="structtree__st.html">tTree</a> *tree)</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;{</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <a class="code" href="structcel__st.html">tCel</a> *ant = NULL;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="structcel__st.html">tCel</a> *i = lista-&gt;<a class="code" href="structst__tree__list.html#a938454d019b7ebf7bd8533fd7787bf2c">prim</a>; i != NULL; i = i-&gt;<a class="code" href="structcel__st.html#a1157394da0a41673fd8c768776a2ed97">prox</a>)</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="structcel__st.html">tCel</a> *i = lista-&gt;prim; i != NULL; i = i-&gt;prox)</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    {</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">if</span> (i-&gt;tree == tree)</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        {</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <span class="comment">/* Single element in the list */</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <span class="keywordflow">if</span> (lista-&gt;<a class="code" href="structst__tree__list.html#a938454d019b7ebf7bd8533fd7787bf2c">prim</a> == lista-&gt;<a class="code" href="structst__tree__list.html#a9e12244577acfcbc6c96c8335edcd742">ult</a>)</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <span class="keywordflow">if</span> (lista-&gt;prim == lista-&gt;ult)</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            {</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                lista-&gt;<a class="code" href="structst__tree__list.html#a938454d019b7ebf7bd8533fd7787bf2c">prim</a> = NULL;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                lista-&gt;<a class="code" href="structst__tree__list.html#a9e12244577acfcbc6c96c8335edcd742">ult</a> = NULL;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                lista-&gt;prim = NULL;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                lista-&gt;ult = NULL;</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            }</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            <span class="comment">/* First element in the list */</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (lista-&gt;<a class="code" href="structst__tree__list.html#a938454d019b7ebf7bd8533fd7787bf2c">prim</a> == i)</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (lista-&gt;prim == i)</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            {</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                lista-&gt;<a class="code" href="structst__tree__list.html#a938454d019b7ebf7bd8533fd7787bf2c">prim</a> = i-&gt;<a class="code" href="structcel__st.html#a1157394da0a41673fd8c768776a2ed97">prox</a>;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                lista-&gt;prim = i-&gt;prox;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            }</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            <span class="comment">/* Last element in the list */</span></div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (lista-&gt;<a class="code" href="structst__tree__list.html#a9e12244577acfcbc6c96c8335edcd742">ult</a> == i)</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (lista-&gt;ult == i)</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            {</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                lista-&gt;<a class="code" href="structst__tree__list.html#a9e12244577acfcbc6c96c8335edcd742">ult</a> = ant;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                lista-&gt;<a class="code" href="structst__tree__list.html#a9e12244577acfcbc6c96c8335edcd742">ult</a>-&gt;<a class="code" href="structcel__st.html#a1157394da0a41673fd8c768776a2ed97">prox</a> = NULL;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                lista-&gt;ult = ant;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                lista-&gt;ult-&gt;prox = NULL;</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            }</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            <span class="comment">/* Default case/middle element in the list */</span></div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            {</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                ant-&gt;<a class="code" href="structcel__st.html#a1157394da0a41673fd8c768776a2ed97">prox</a> = i-&gt;<a class="code" href="structcel__st.html#a1157394da0a41673fd8c768776a2ed97">prox</a>;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                ant-&gt;prox = i-&gt;prox;</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            }</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            free(i);</div>
@@ -218,15 +218,15 @@ $(document).ready(function(){initNavTree('treelist_8c_source.html',''); initResi
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    printf(<span class="stringliteral">&quot;Árvore não encontrada ou lista vazia!\n&quot;</span>);</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;}</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160; </div>
-<div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="treelist_8h.html#ab8dfd8e252f0ec8c8f50623b0237302d">  123</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="treelist_8c.html#a3cda82de9a36952528af17a1bdec11f8">tree_list_print</a>(<a class="code" href="structst__tree__list.html">tTreeList</a> *lista)</div>
+<div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="treelist_8h.html#ab8dfd8e252f0ec8c8f50623b0237302d">  123</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="treelist_8h.html#ab8dfd8e252f0ec8c8f50623b0237302d">tree_list_print</a>(<a class="code" href="structst__tree__list.html">tTreeList</a> *lista)</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;{</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordflow">if</span> (lista-&gt;<a class="code" href="structst__tree__list.html#a938454d019b7ebf7bd8533fd7787bf2c">prim</a> == NULL &amp;&amp; lista-&gt;<a class="code" href="structst__tree__list.html#a9e12244577acfcbc6c96c8335edcd742">ult</a> == NULL)</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordflow">if</span> (lista-&gt;prim == NULL &amp;&amp; lista-&gt;ult == NULL)</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    {</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        printf(<span class="stringliteral">&quot;Lista vazia!\n&quot;</span>);</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    }</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    {</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="structcel__st.html">tCel</a> *i = lista-&gt;<a class="code" href="structst__tree__list.html#a938454d019b7ebf7bd8533fd7787bf2c">prim</a>; i != NULL; i = i-&gt;<a class="code" href="structcel__st.html#a1157394da0a41673fd8c768776a2ed97">prox</a>)</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="structcel__st.html">tCel</a> *i = lista-&gt;prim; i != NULL; i = i-&gt;prox)</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        {</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            printf(<span class="stringliteral">&quot;Peso: %d\n&quot;</span>, <a class="code" href="tree_8h.html#a7bb8f234bec53318df8d10a5d0ebea38">tree_weight</a>(i-&gt;tree));</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        }</div>
@@ -234,58 +234,53 @@ $(document).ready(function(){initNavTree('treelist_8c_source.html',''); initResi
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    printf(<span class="stringliteral">&quot;\n&quot;</span>);</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;}</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160; </div>
-<div class="line"><a name="l00139"></a><span class="lineno"><a class="line" href="treelist_8h.html#afa3ebd1dc54d14a78c3601f6314d4e14">  139</a></span>&#160;<a class="code" href="structtree__st.html">tTree</a> *<a class="code" href="treelist_8c.html#a40f9c0f12f9476b62a754e925fa60fd3">huffman_algorithm</a>(<a class="code" href="structst__tree__list.html">tTreeList</a> *l_arv)</div>
+<div class="line"><a name="l00139"></a><span class="lineno"><a class="line" href="treelist_8h.html#afa3ebd1dc54d14a78c3601f6314d4e14">  139</a></span>&#160;<a class="code" href="structtree__st.html">tTree</a> *<a class="code" href="treelist_8h.html#afa3ebd1dc54d14a78c3601f6314d4e14">huffman_algorithm</a>(<a class="code" href="structst__tree__list.html">tTreeList</a> *l_arv)</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;{</div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    <a class="code" href="structtree__st.html">tTree</a> *T1, *T2, *TR;</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="keywordflow">while</span> (!<a class="code" href="treelist_8c.html#af3b6dc5912c7180a5575af2274fb4cb1">is_unitary</a>(l_arv))</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="keywordflow">while</span> (!<a class="code" href="treelist_8h.html#a5212d2fd32ecd93570acb83c75a4f202">is_unitary</a>(l_arv))</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    {</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        T1 = l_arv-&gt;<a class="code" href="structst__tree__list.html#a938454d019b7ebf7bd8533fd7787bf2c">prim</a>-&gt;<a class="code" href="structcel__st.html#af7833c222dc91b1a9f095c4fc6a0d09d">tree</a>;</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        T2 = l_arv-&gt;<a class="code" href="structst__tree__list.html#a938454d019b7ebf7bd8533fd7787bf2c">prim</a>-&gt;<a class="code" href="structcel__st.html#a1157394da0a41673fd8c768776a2ed97">prox</a>-&gt;<a class="code" href="structcel__st.html#af7833c222dc91b1a9f095c4fc6a0d09d">tree</a>;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        T1 = l_arv-&gt;prim-&gt;tree;</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        T2 = l_arv-&gt;prim-&gt;prox-&gt;tree;</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        TR = <a class="code" href="tree_8h.html#a2fa6564d96a2d1910af7b64aa6f42eac">tree_init</a>(<span class="charliteral">&#39;\0&#39;</span>, <a class="code" href="tree_8h.html#a7bb8f234bec53318df8d10a5d0ebea38">tree_weight</a>(T1) + <a class="code" href="tree_8h.html#a7bb8f234bec53318df8d10a5d0ebea38">tree_weight</a>(T2), T1, T2);</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        <a class="code" href="treelist_8c.html#aa29aa91930c630dfc33262ec070091aa">tree_list_insert</a>(l_arv, TR);</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <a class="code" href="treelist_8c.html#ae26b713e78717b06163b344d590eff34">tree_list_remove</a>(l_arv, T1);</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <a class="code" href="treelist_8c.html#ae26b713e78717b06163b344d590eff34">tree_list_remove</a>(l_arv, T2);</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        <a class="code" href="treelist_8h.html#a7daceef9d966c3bdbc2f14e5aa3c93a2">tree_list_insert</a>(l_arv, TR);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <a class="code" href="treelist_8h.html#ad77cb41ebbda9a9a035d99d9765fb23b">tree_list_remove</a>(l_arv, T1);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <a class="code" href="treelist_8h.html#ad77cb41ebbda9a9a035d99d9765fb23b">tree_list_remove</a>(l_arv, T2);</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    }</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <span class="keywordflow">return</span> TR; </div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;}</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160; </div>
-<div class="line"><a name="l00154"></a><span class="lineno"><a class="line" href="treelist_8h.html#a5212d2fd32ecd93570acb83c75a4f202">  154</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="treelist_8c.html#af3b6dc5912c7180a5575af2274fb4cb1">is_unitary</a>(<a class="code" href="structst__tree__list.html">tTreeList</a> *lista_arv)</div>
+<div class="line"><a name="l00154"></a><span class="lineno"><a class="line" href="treelist_8h.html#a5212d2fd32ecd93570acb83c75a4f202">  154</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="treelist_8h.html#a5212d2fd32ecd93570acb83c75a4f202">is_unitary</a>(<a class="code" href="structst__tree__list.html">tTreeList</a> *lista_arv)</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;{</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <span class="comment">/* There are two cases in which prim == ult */</span></div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160; </div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="comment">/* When list is empty */</span></div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <span class="keywordflow">if</span> (lista_arv-&gt;<a class="code" href="structst__tree__list.html#a938454d019b7ebf7bd8533fd7787bf2c">prim</a> == NULL)</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <span class="keywordflow">if</span> (lista_arv-&gt;prim == NULL)</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keywordflow">return</span> 0;                               </div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    </div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <span class="comment">/* When list has only a single item */</span></div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <span class="keywordflow">return</span> (lista_arv-&gt;<a class="code" href="structst__tree__list.html#a938454d019b7ebf7bd8533fd7787bf2c">prim</a> == lista_arv-&gt;<a class="code" href="structst__tree__list.html#a9e12244577acfcbc6c96c8335edcd742">ult</a>); </div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <span class="keywordflow">return</span> (lista_arv-&gt;prim == lista_arv-&gt;ult); </div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;}</div>
 <div class="ttc" id="aassertr_8h_html"><div class="ttname"><a href="assertr_8h.html">assertr.h</a></div><div class="ttdoc">Custom assert function with error message.</div></div>
 <div class="ttc" id="aassertr_8h_html_a329be2d71db175fa0620ceb4e3c6356b"><div class="ttname"><a href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b">assertr</a></div><div class="ttdeci">void assertr(int cond, char *err)</div><div class="ttdoc">Assert that condition is true. If false, print error message and quit the program.</div><div class="ttdef"><b>Definition:</b> <a href="assertr_8c_source.html#l00006">assertr.c:6</a></div></div>
 <div class="ttc" id="astructcel__st_html"><div class="ttname"><a href="structcel__st.html">cel_st</a></div><div class="ttdef"><b>Definition:</b> <a href="treelist_8c_source.html#l00009">treelist.c:10</a></div></div>
-<div class="ttc" id="astructcel__st_html_a1157394da0a41673fd8c768776a2ed97"><div class="ttname"><a href="structcel__st.html#a1157394da0a41673fd8c768776a2ed97">cel_st::prox</a></div><div class="ttdeci">tCel * prox</div><div class="ttdef"><b>Definition:</b> <a href="treelist_8c_source.html#l00011">treelist.c:11</a></div></div>
-<div class="ttc" id="astructcel__st_html_af7833c222dc91b1a9f095c4fc6a0d09d"><div class="ttname"><a href="structcel__st.html#af7833c222dc91b1a9f095c4fc6a0d09d">cel_st::tree</a></div><div class="ttdeci">tTree * tree</div><div class="ttdef"><b>Definition:</b> <a href="treelist_8c_source.html#l00012">treelist.c:12</a></div></div>
 <div class="ttc" id="astructst__tree__list_html"><div class="ttname"><a href="structst__tree__list.html">st_tree_list</a></div><div class="ttdef"><b>Definition:</b> <a href="treelist_8c_source.html#l00015">treelist.c:16</a></div></div>
-<div class="ttc" id="astructst__tree__list_html_a938454d019b7ebf7bd8533fd7787bf2c"><div class="ttname"><a href="structst__tree__list.html#a938454d019b7ebf7bd8533fd7787bf2c">st_tree_list::prim</a></div><div class="ttdeci">tCel * prim</div><div class="ttdef"><b>Definition:</b> <a href="treelist_8c_source.html#l00017">treelist.c:17</a></div></div>
-<div class="ttc" id="astructst__tree__list_html_a9e12244577acfcbc6c96c8335edcd742"><div class="ttname"><a href="structst__tree__list.html#a9e12244577acfcbc6c96c8335edcd742">st_tree_list::ult</a></div><div class="ttdeci">tCel * ult</div><div class="ttdef"><b>Definition:</b> <a href="treelist_8c_source.html#l00018">treelist.c:18</a></div></div>
 <div class="ttc" id="astructtree__st_html"><div class="ttname"><a href="structtree__st.html">tree_st</a></div><div class="ttdef"><b>Definition:</b> <a href="tree_8c_source.html#l00008">tree.c:9</a></div></div>
 <div class="ttc" id="atree_8h_html"><div class="ttname"><a href="tree_8h.html">tree.h</a></div><div class="ttdoc">Manage trees.</div></div>
 <div class="ttc" id="atree_8h_html_a2fa6564d96a2d1910af7b64aa6f42eac"><div class="ttname"><a href="tree_8h.html#a2fa6564d96a2d1910af7b64aa6f42eac">tree_init</a></div><div class="ttdeci">tTree * tree_init(char c, unsigned long long int weight, tTree *e, tTree *d)</div><div class="ttdoc">Create tree with passed parameters.</div><div class="ttdef"><b>Definition:</b> <a href="tree_8c_source.html#l00021">tree.c:21</a></div></div>
 <div class="ttc" id="atree_8h_html_a7bb8f234bec53318df8d10a5d0ebea38"><div class="ttname"><a href="tree_8h.html#a7bb8f234bec53318df8d10a5d0ebea38">tree_weight</a></div><div class="ttdeci">int tree_weight(tTree *tree)</div><div class="ttdoc">Return tree's weight.</div><div class="ttdef"><b>Definition:</b> <a href="tree_8c_source.html#l00074">tree.c:74</a></div></div>
-<div class="ttc" id="atreelist_8c_html_a17e8fc22a031479081c9f00f8555a6e0"><div class="ttname"><a href="treelist_8c.html#a17e8fc22a031479081c9f00f8555a6e0">tree_list_free</a></div><div class="ttdeci">void tree_list_free(tTreeList *list)</div><div class="ttdef"><b>Definition:</b> <a href="treelist_8c_source.html#l00029">treelist.c:29</a></div></div>
-<div class="ttc" id="atreelist_8c_html_a3cda82de9a36952528af17a1bdec11f8"><div class="ttname"><a href="treelist_8c.html#a3cda82de9a36952528af17a1bdec11f8">tree_list_print</a></div><div class="ttdeci">void tree_list_print(tTreeList *lista)</div><div class="ttdoc">Print tree list.</div><div class="ttdef"><b>Definition:</b> <a href="treelist_8c_source.html#l00123">treelist.c:123</a></div></div>
-<div class="ttc" id="atreelist_8c_html_a40f9c0f12f9476b62a754e925fa60fd3"><div class="ttname"><a href="treelist_8c.html#a40f9c0f12f9476b62a754e925fa60fd3">huffman_algorithm</a></div><div class="ttdeci">tTree * huffman_algorithm(tTreeList *l_arv)</div><div class="ttdoc">Apply the Huffman algorithm to the tree list.</div><div class="ttdef"><b>Definition:</b> <a href="treelist_8c_source.html#l00139">treelist.c:139</a></div></div>
-<div class="ttc" id="atreelist_8c_html_a9bd43c2dfed059bf03077b75c706c8f1"><div class="ttname"><a href="treelist_8c.html#a9bd43c2dfed059bf03077b75c706c8f1">tree_list_inic</a></div><div class="ttdeci">tTreeList * tree_list_inic()</div><div class="ttdoc">Create empty tree list.</div><div class="ttdef"><b>Definition:</b> <a href="treelist_8c_source.html#l00021">treelist.c:21</a></div></div>
-<div class="ttc" id="atreelist_8c_html_aa29aa91930c630dfc33262ec070091aa"><div class="ttname"><a href="treelist_8c.html#aa29aa91930c630dfc33262ec070091aa">tree_list_insert</a></div><div class="ttdeci">void tree_list_insert(tTreeList *lista, tTree *tree)</div><div class="ttdoc">Insert tree in tree list with respect to ascending weight order.</div><div class="ttdef"><b>Definition:</b> <a href="treelist_8c_source.html#l00043">treelist.c:43</a></div></div>
-<div class="ttc" id="atreelist_8c_html_ae26b713e78717b06163b344d590eff34"><div class="ttname"><a href="treelist_8c.html#ae26b713e78717b06163b344d590eff34">tree_list_remove</a></div><div class="ttdeci">void tree_list_remove(tTreeList *lista, tTree *tree)</div><div class="ttdoc">Remove tree from tree list.</div><div class="ttdef"><b>Definition:</b> <a href="treelist_8c_source.html#l00081">treelist.c:81</a></div></div>
-<div class="ttc" id="atreelist_8c_html_af3b6dc5912c7180a5575af2274fb4cb1"><div class="ttname"><a href="treelist_8c.html#af3b6dc5912c7180a5575af2274fb4cb1">is_unitary</a></div><div class="ttdeci">int is_unitary(tTreeList *lista_arv)</div><div class="ttdoc">Check if tree list only contains one tree.</div><div class="ttdef"><b>Definition:</b> <a href="treelist_8c_source.html#l00154">treelist.c:154</a></div></div>
 <div class="ttc" id="atreelist_8h_html"><div class="ttname"><a href="treelist_8h.html">treelist.h</a></div><div class="ttdoc">Manage singly linked list of trees with sentinel.</div></div>
+<div class="ttc" id="atreelist_8h_html_a5212d2fd32ecd93570acb83c75a4f202"><div class="ttname"><a href="treelist_8h.html#a5212d2fd32ecd93570acb83c75a4f202">is_unitary</a></div><div class="ttdeci">int is_unitary(tTreeList *list)</div><div class="ttdoc">Check if tree list only contains one tree.</div><div class="ttdef"><b>Definition:</b> <a href="treelist_8c_source.html#l00154">treelist.c:154</a></div></div>
+<div class="ttc" id="atreelist_8h_html_a7daceef9d966c3bdbc2f14e5aa3c93a2"><div class="ttname"><a href="treelist_8h.html#a7daceef9d966c3bdbc2f14e5aa3c93a2">tree_list_insert</a></div><div class="ttdeci">void tree_list_insert(tTreeList *list, tTree *tree)</div><div class="ttdoc">Insert tree in tree list with respect to ascending weight order.</div><div class="ttdef"><b>Definition:</b> <a href="treelist_8c_source.html#l00043">treelist.c:43</a></div></div>
+<div class="ttc" id="atreelist_8h_html_a9bd43c2dfed059bf03077b75c706c8f1"><div class="ttname"><a href="treelist_8h.html#a9bd43c2dfed059bf03077b75c706c8f1">tree_list_inic</a></div><div class="ttdeci">tTreeList * tree_list_inic()</div><div class="ttdoc">Create empty tree list.</div><div class="ttdef"><b>Definition:</b> <a href="treelist_8c_source.html#l00021">treelist.c:21</a></div></div>
+<div class="ttc" id="atreelist_8h_html_ab8dfd8e252f0ec8c8f50623b0237302d"><div class="ttname"><a href="treelist_8h.html#ab8dfd8e252f0ec8c8f50623b0237302d">tree_list_print</a></div><div class="ttdeci">void tree_list_print(tTreeList *list)</div><div class="ttdoc">Print tree list.</div><div class="ttdef"><b>Definition:</b> <a href="treelist_8c_source.html#l00123">treelist.c:123</a></div></div>
+<div class="ttc" id="atreelist_8h_html_ad77cb41ebbda9a9a035d99d9765fb23b"><div class="ttname"><a href="treelist_8h.html#ad77cb41ebbda9a9a035d99d9765fb23b">tree_list_remove</a></div><div class="ttdeci">void tree_list_remove(tTreeList *list, tTree *tree)</div><div class="ttdoc">Remove tree from tree list.</div><div class="ttdef"><b>Definition:</b> <a href="treelist_8c_source.html#l00081">treelist.c:81</a></div></div>
+<div class="ttc" id="atreelist_8h_html_afa3ebd1dc54d14a78c3601f6314d4e14"><div class="ttname"><a href="treelist_8h.html#afa3ebd1dc54d14a78c3601f6314d4e14">huffman_algorithm</a></div><div class="ttdeci">tTree * huffman_algorithm(tTreeList *list)</div><div class="ttdoc">Apply the Huffman algorithm to the tree list.</div><div class="ttdef"><b>Definition:</b> <a href="treelist_8c_source.html#l00139">treelist.c:139</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="treelist_8c.html">treelist.c</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><b>treelist.c</b></li>
     <li class="footer">Gerado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

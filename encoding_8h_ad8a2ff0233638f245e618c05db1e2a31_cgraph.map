@@ -1,6 +1,12 @@
 <map id="encode" name="encode">
-<area shape="rect" id="node1" title="Encode bytes to compressed bits, using an encoding tree." alt="" coords="5,31,69,57"/>
-<area shape="rect" id="node2" href="$assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="268,5,331,32"/>
-<area shape="rect" id="node3" href="$bits_8h.html#a58ad5405b4cd39db1fb7d793a91092a5" title="Create tBits." alt="" coords="135,31,202,57"/>
-<area shape="rect" id="node4" href="$bytes_8h.html#ac5802dee5b68024eb5b63764efcdade9" title="Get current length of a tBytes." alt="" coords="117,81,220,108"/>
+<area shape="rect" id="node1" title="Encode bytes to compressed bits, using an encoding tree." alt="" coords="5,178,69,205"/>
+<area shape="rect" id="node2" href="$assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="413,153,476,179"/>
+<area shape="rect" id="node3" href="$bits_8h.html#af4071ab75ae34cc27de99b16a825748f" title="Append a bit to a tBits." alt="" coords="127,51,219,78"/>
+<area shape="rect" id="node5" href="$bits_8h.html#ad44d3c4c8431ea66729df3da207b8827" title="Free a tBits and all the memory it has allocated." alt="" coords="285,153,357,179"/>
+<area shape="rect" id="node6" href="$bits_8h.html#a4cfa06f3fe9324b810a8a19806b825bb" title="Get a bit in a tBits." alt="" coords="276,203,365,230"/>
+<area shape="rect" id="node7" href="$bits_8h.html#a59ab9afa29849c2b4e83346e3c082a61" title="Get current length of a tBits." alt="" coords="127,203,219,230"/>
+<area shape="rect" id="node8" href="$bits_8h.html#a58ad5405b4cd39db1fb7d793a91092a5" title="Create tBits." alt="" coords="287,254,354,281"/>
+<area shape="rect" id="node9" href="$bytes_8h.html#ad71cedf4b310bbe04f258398cedd728f" title="Get a byte in a tBytes." alt="" coords="117,305,228,331"/>
+<area shape="rect" id="node10" href="$bytes_8h.html#ac5802dee5b68024eb5b63764efcdade9" title="Get current length of a tBytes." alt="" coords="121,355,224,382"/>
+<area shape="rect" id="node4" href="$bits_8h.html#acca1cc4d4062a04574036fb84470b3d0" title="Set a bit in a tBits." alt="" coords="276,102,365,129"/>
 </map>

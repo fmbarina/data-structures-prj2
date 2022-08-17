@@ -3,9 +3,9 @@
 <area shape="rect" id="node2" href="$encoding_8h.html" title="Encode and decode binary data with an encoding tree." alt="" coords="306,80,441,107"/>
 <area shape="rect" id="node3" href="$compacta_8c.html" title="Program to compress files to be decompressed with &#39;descompacta&#39;." alt="" coords="163,155,275,181"/>
 <area shape="rect" id="node5" href="$descompacta_8c.html" title="Program to decompress files compressed with &#39;compacta&#39;." alt="" coords="5,155,139,181"/>
-<area shape="rect" id="node6" href="$encoding_8c.html" title=" " alt="" coords="544,155,651,181"/>
+<area shape="rect" id="node6" href="$encoding_8c_source.html" title=" " alt="" coords="544,155,651,181"/>
 <area shape="rect" id="node7" href="$reglfile_8h.html" title="Manage the data and operations relating to a regular file." alt="" coords="161,80,282,107"/>
-<area shape="rect" id="node8" href="$reglfile_8c.html" title=" " alt="" coords="299,155,392,181"/>
-<area shape="rect" id="node9" href="$bytes_8c.html" title=" " alt="" coords="567,80,654,107"/>
-<area shape="rect" id="node4" href="$compfile_8c.html" title=" " alt="" coords="416,155,520,181"/>
+<area shape="rect" id="node8" href="$reglfile_8c_source.html" title=" " alt="" coords="299,155,392,181"/>
+<area shape="rect" id="node9" href="$bytes_8c_source.html" title=" " alt="" coords="567,80,654,107"/>
+<area shape="rect" id="node4" href="$compfile_8c_source.html" title=" " alt="" coords="416,155,520,181"/>
 </map>

@@ -122,13 +122,13 @@ Este grafo mostra quais arquivos estão direta ou indiretamente relacionados com
 <area shape="rect" title="Manage trees." alt="" coords="439,5,545,32"/>
 <area shape="rect" href="compfile_8h.html" title="Manage the data and operations relating to a compressed file." alt="" coords="115,80,247,107"/>
 <area shape="rect" href="compacta_8c.html" title="Program to compress files to be decompressed with &#39;descompacta&#39;." alt="" coords="163,155,275,181"/>
-<area shape="rect" href="compfile_8c.html" title=" " alt="" coords="299,155,403,181"/>
+<area shape="rect" href="compfile_8c_source.html" title=" " alt="" coords="299,155,403,181"/>
 <area shape="rect" href="descompacta_8c.html" title="Program to decompress files compressed with &#39;compacta&#39;." alt="" coords="5,155,139,181"/>
 <area shape="rect" href="encoding_8h.html" title="Encode and decode binary data with an encoding tree." alt="" coords="271,80,406,107"/>
-<area shape="rect" href="encoding_8c.html" title=" " alt="" coords="476,155,583,181"/>
+<area shape="rect" href="encoding_8c_source.html" title=" " alt="" coords="476,155,583,181"/>
 <area shape="rect" href="treelist_8h.html" title="Manage singly linked list of trees with sentinel." alt="" coords="431,80,553,107"/>
-<area shape="rect" href="treelist_8c.html" title=" " alt="" coords="631,155,726,181"/>
-<area shape="rect" href="tree_8c.html" title=" " alt="" coords="729,80,807,107"/>
+<area shape="rect" href="treelist_8c_source.html" title=" " alt="" coords="631,155,726,181"/>
+<area shape="rect" href="tree_8c_source.html" title=" " alt="" coords="729,80,807,107"/>
 </map>
 </div>
 </div>
@@ -136,42 +136,43 @@ Este grafo mostra quais arquivos estão direta ou indiretamente relacionados com
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Definições de Tipos</h2></td></tr>
-<tr class="memitem:a5df55dad55229f100d95cc67b57ff395"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structtree__st.html">tree_st</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a></td></tr>
+<tr class="memitem:a5df55dad55229f100d95cc67b57ff395"><td class="memItemLeft" align="right" valign="top"><a id="a5df55dad55229f100d95cc67b57ff395"></a>
+typedef struct <a class="el" href="structtree__st.html">tree_st</a>&#160;</td><td class="memItemRight" valign="bottom"><b>tTree</b></td></tr>
 <tr class="separator:a5df55dad55229f100d95cc67b57ff395"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Funções</h2></td></tr>
-<tr class="memitem:a7ff5fb6f95207bd6ceac9c59a37f7832"><td class="memItemLeft" align="right" valign="top"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#a7ff5fb6f95207bd6ceac9c59a37f7832">tree_init_empty</a> ()</td></tr>
+<tr class="memitem:a7ff5fb6f95207bd6ceac9c59a37f7832"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structtree__st.html">tTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#a7ff5fb6f95207bd6ceac9c59a37f7832">tree_init_empty</a> ()</td></tr>
 <tr class="memdesc:a7ff5fb6f95207bd6ceac9c59a37f7832"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create empty tree.  <a href="tree_8h.html#a7ff5fb6f95207bd6ceac9c59a37f7832">Mais...</a><br /></td></tr>
 <tr class="separator:a7ff5fb6f95207bd6ceac9c59a37f7832"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fa6564d96a2d1910af7b64aa6f42eac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#a2fa6564d96a2d1910af7b64aa6f42eac">tree_init</a> (char c, unsigned long long int weight, <a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *e, <a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *d)</td></tr>
+<tr class="memitem:a2fa6564d96a2d1910af7b64aa6f42eac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structtree__st.html">tTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#a2fa6564d96a2d1910af7b64aa6f42eac">tree_init</a> (char c, unsigned long long int weight, <a class="el" href="structtree__st.html">tTree</a> *e, <a class="el" href="structtree__st.html">tTree</a> *d)</td></tr>
 <tr class="memdesc:a2fa6564d96a2d1910af7b64aa6f42eac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create tree with passed parameters.  <a href="tree_8h.html#a2fa6564d96a2d1910af7b64aa6f42eac">Mais...</a><br /></td></tr>
 <tr class="separator:a2fa6564d96a2d1910af7b64aa6f42eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23769feed83ed62a9e1d5a7a090f870e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#a23769feed83ed62a9e1d5a7a090f870e">tree_free</a> (<a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *tree)</td></tr>
+<tr class="memitem:a23769feed83ed62a9e1d5a7a090f870e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structtree__st.html">tTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#a23769feed83ed62a9e1d5a7a090f870e">tree_free</a> (<a class="el" href="structtree__st.html">tTree</a> *tree)</td></tr>
 <tr class="memdesc:a23769feed83ed62a9e1d5a7a090f870e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free the memory allocated in by the tree.  <a href="tree_8h.html#a23769feed83ed62a9e1d5a7a090f870e">Mais...</a><br /></td></tr>
 <tr class="separator:a23769feed83ed62a9e1d5a7a090f870e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a64d419c9e41286c7e0fc4e7ca91dc4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#a4a64d419c9e41286c7e0fc4e7ca91dc4">tree_empty</a> (<a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *tree)</td></tr>
+<tr class="memitem:a4a64d419c9e41286c7e0fc4e7ca91dc4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#a4a64d419c9e41286c7e0fc4e7ca91dc4">tree_empty</a> (<a class="el" href="structtree__st.html">tTree</a> *tree)</td></tr>
 <tr class="memdesc:a4a64d419c9e41286c7e0fc4e7ca91dc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if tree is empty.  <a href="tree_8h.html#a4a64d419c9e41286c7e0fc4e7ca91dc4">Mais...</a><br /></td></tr>
 <tr class="separator:a4a64d419c9e41286c7e0fc4e7ca91dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f3cf0a1efb94a403bb8d4f4afa97e2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#a6f3cf0a1efb94a403bb8d4f4afa97e2d">tree_print</a> (<a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *tree)</td></tr>
+<tr class="memitem:a6f3cf0a1efb94a403bb8d4f4afa97e2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#a6f3cf0a1efb94a403bb8d4f4afa97e2d">tree_print</a> (<a class="el" href="structtree__st.html">tTree</a> *tree)</td></tr>
 <tr class="memdesc:a6f3cf0a1efb94a403bb8d4f4afa97e2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the tree with their informations.  <a href="tree_8h.html#a6f3cf0a1efb94a403bb8d4f4afa97e2d">Mais...</a><br /></td></tr>
 <tr class="separator:a6f3cf0a1efb94a403bb8d4f4afa97e2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdaaac17fcfd613ee90eac494c1b044c"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#acdaaac17fcfd613ee90eac494c1b044c">tree_info</a> (<a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *tree)</td></tr>
+<tr class="memitem:acdaaac17fcfd613ee90eac494c1b044c"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#acdaaac17fcfd613ee90eac494c1b044c">tree_info</a> (<a class="el" href="structtree__st.html">tTree</a> *tree)</td></tr>
 <tr class="memdesc:acdaaac17fcfd613ee90eac494c1b044c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return tree's info (character).  <a href="tree_8h.html#acdaaac17fcfd613ee90eac494c1b044c">Mais...</a><br /></td></tr>
 <tr class="separator:acdaaac17fcfd613ee90eac494c1b044c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a332138cdf7ea74b91cc1f6c9739958e6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#a332138cdf7ea74b91cc1f6c9739958e6">tree_is_leaf</a> (<a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *tree)</td></tr>
+<tr class="memitem:a332138cdf7ea74b91cc1f6c9739958e6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#a332138cdf7ea74b91cc1f6c9739958e6">tree_is_leaf</a> (<a class="el" href="structtree__st.html">tTree</a> *tree)</td></tr>
 <tr class="memdesc:a332138cdf7ea74b91cc1f6c9739958e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if tree is a leaf (does not have other trees below)  <a href="tree_8h.html#a332138cdf7ea74b91cc1f6c9739958e6">Mais...</a><br /></td></tr>
 <tr class="separator:a332138cdf7ea74b91cc1f6c9739958e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bb8f234bec53318df8d10a5d0ebea38"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#a7bb8f234bec53318df8d10a5d0ebea38">tree_weight</a> (<a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *tree)</td></tr>
+<tr class="memitem:a7bb8f234bec53318df8d10a5d0ebea38"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#a7bb8f234bec53318df8d10a5d0ebea38">tree_weight</a> (<a class="el" href="structtree__st.html">tTree</a> *tree)</td></tr>
 <tr class="memdesc:a7bb8f234bec53318df8d10a5d0ebea38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return tree's weight.  <a href="tree_8h.html#a7bb8f234bec53318df8d10a5d0ebea38">Mais...</a><br /></td></tr>
 <tr class="separator:a7bb8f234bec53318df8d10a5d0ebea38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca268bce3bb2838cbc4f13ee9a9f7f06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="bits_8h.html#a5ec04ea2c7dc06cfdd3521427411f5d9">tBits</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#aca268bce3bb2838cbc4f13ee9a9f7f06">tree_serialize</a> (<a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *tree)</td></tr>
+<tr class="memitem:aca268bce3bb2838cbc4f13ee9a9f7f06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structbits__st.html">tBits</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#aca268bce3bb2838cbc4f13ee9a9f7f06">tree_serialize</a> (<a class="el" href="structtree__st.html">tTree</a> *tree)</td></tr>
 <tr class="memdesc:aca268bce3bb2838cbc4f13ee9a9f7f06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the given tree to a sequence of bits.  <a href="tree_8h.html#aca268bce3bb2838cbc4f13ee9a9f7f06">Mais...</a><br /></td></tr>
 <tr class="separator:aca268bce3bb2838cbc4f13ee9a9f7f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa038656292eb34cba748b9fe7f7919d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#afa038656292eb34cba748b9fe7f7919d">tree_deserialize</a> (<a class="el" href="bits_8h.html#a5ec04ea2c7dc06cfdd3521427411f5d9">tBits</a> *bs)</td></tr>
+<tr class="memitem:afa038656292eb34cba748b9fe7f7919d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structtree__st.html">tTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#afa038656292eb34cba748b9fe7f7919d">tree_deserialize</a> (<a class="el" href="structbits__st.html">tBits</a> *bs)</td></tr>
 <tr class="memdesc:afa038656292eb34cba748b9fe7f7919d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize the given sequence of bits into a tree.  <a href="tree_8h.html#afa038656292eb34cba748b9fe7f7919d">Mais...</a><br /></td></tr>
 <tr class="separator:afa038656292eb34cba748b9fe7f7919d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4030f9dede7256f01461db03458f84d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#ab4030f9dede7256f01461db03458f84d">tree_nav</a> (<a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *tree, unsigned char dir)</td></tr>
+<tr class="memitem:ab4030f9dede7256f01461db03458f84d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structtree__st.html">tTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tree_8h.html#ab4030f9dede7256f01461db03458f84d">tree_nav</a> (<a class="el" href="structtree__st.html">tTree</a> *tree, unsigned char dir)</td></tr>
 <tr class="memdesc:ab4030f9dede7256f01461db03458f84d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Navegate through the tree.  <a href="tree_8h.html#ab4030f9dede7256f01461db03458f84d">Mais...</a><br /></td></tr>
 <tr class="separator:ab4030f9dede7256f01461db03458f84d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -183,24 +184,7 @@ Vitor F. Calmon </dd></dl>
 <dl class="section date"><dt>Data</dt><dd>2022-08-16 </dd></dl>
 
 <p class="definition">Definição no arquivo <a class="el" href="tree_8h_source.html">tree.h</a>.</p>
-</div><h2 class="groupheader">Definições dos tipos</h2>
-<a id="a5df55dad55229f100d95cc67b57ff395"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5df55dad55229f100d95cc67b57ff395">&#9670;&nbsp;</a></span>tTree</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="structtree__st.html">tree_st</a> <a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definição na linha <a class="el" href="tree_8h_source.html#l00001">1</a> do arquivo <a class="el" href="tree_8h_source.html">tree.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Funções</h2>
+</div><h2 class="groupheader">Funções</h2>
 <a id="afa038656292eb34cba748b9fe7f7919d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afa038656292eb34cba748b9fe7f7919d">&#9670;&nbsp;</a></span>tree_deserialize()</h2>
 
@@ -208,9 +192,9 @@ Vitor F. Calmon </dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a>* tree_deserialize </td>
+          <td class="memname"><a class="el" href="structtree__st.html">tTree</a>* tree_deserialize </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="bits_8h.html#a5ec04ea2c7dc06cfdd3521427411f5d9">tBits</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structbits__st.html">tBits</a> *&#160;</td>
           <td class="paramname"><em>bs</em></td><td>)</td>
           <td></td>
         </tr>
@@ -232,12 +216,11 @@ Este é o diagrama das funções utilizadas por essa função:</div>
 <div class="dyncontent">
 <div class="center"><img src="tree_8h_afa038656292eb34cba748b9fe7f7919d_cgraph.png" border="0" usemap="#atree_8h_afa038656292eb34cba748b9fe7f7919d_cgraph" alt=""/></div>
 <map name="atree_8h_afa038656292eb34cba748b9fe7f7919d_cgraph" id="atree_8h_afa038656292eb34cba748b9fe7f7919d_cgraph">
-<area shape="rect" title="Deserialize the given sequence of bits into a tree." alt="" coords="5,80,119,107"/>
-<area shape="rect" href="bits_8h.html#a4cfa06f3fe9324b810a8a19806b825bb" title="Get a bit in a tBits." alt="" coords="329,5,419,32"/>
-<area shape="rect" href="bits_8h.html#a59ab9afa29849c2b4e83346e3c082a61" title="Get current length of a tBits." alt="" coords="328,80,420,107"/>
-<area shape="rect" href="tree_8c.html#afa038656292eb34cba748b9fe7f7919d" title="Deserialize the given sequence of bits into a tree." alt="" coords="167,55,280,81"/>
-<area shape="rect" href="tree_8c.html#a2fa6564d96a2d1910af7b64aa6f42eac" title="Create tree with passed parameters." alt="" coords="340,143,408,169"/>
-<area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="468,5,531,32"/>
+<area shape="rect" title="Deserialize the given sequence of bits into a tree." alt="" coords="5,56,119,83"/>
+<area shape="rect" href="bits_8h.html#a4cfa06f3fe9324b810a8a19806b825bb" title="Get a bit in a tBits." alt="" coords="168,5,257,32"/>
+<area shape="rect" href="bits_8h.html#a59ab9afa29849c2b4e83346e3c082a61" title="Get current length of a tBits." alt="" coords="167,56,259,83"/>
+<area shape="rect" href="tree_8h.html#a2fa6564d96a2d1910af7b64aa6f42eac" title="Create tree with passed parameters." alt="" coords="179,107,247,133"/>
+<area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="307,5,369,32"/>
 </map>
 </div>
 <div class="dynheader">
@@ -245,7 +228,8 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="dyncontent">
 <div class="center"><img src="tree_8h_afa038656292eb34cba748b9fe7f7919d_icgraph.png" border="0" usemap="#atree_8h_afa038656292eb34cba748b9fe7f7919d_icgraph" alt=""/></div>
 <map name="atree_8h_afa038656292eb34cba748b9fe7f7919d_icgraph" id="atree_8h_afa038656292eb34cba748b9fe7f7919d_icgraph">
-<area shape="rect" title="Deserialize the given sequence of bits into a tree." alt="" coords="5,29,119,56"/>
+<area shape="rect" title="Deserialize the given sequence of bits into a tree." alt="" coords="185,5,299,32"/>
+<area shape="rect" href="compfile_8h.html#a8283258a0ab2a36089d1d8fa65a7f3db" title="Read the file header to a tCompfile, including metadata such as the file name, extension and the bina..." alt="" coords="5,5,137,32"/>
 </map>
 </div>
 
@@ -260,7 +244,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">int tree_empty </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structtree__st.html">tTree</a> *&#160;</td>
           <td class="paramname"><em>tree</em></td><td>)</td>
           <td></td>
         </tr>
@@ -282,11 +266,10 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="dyncontent">
 <div class="center"><img src="tree_8h_a4a64d419c9e41286c7e0fc4e7ca91dc4_icgraph.png" border="0" usemap="#atree_8h_a4a64d419c9e41286c7e0fc4e7ca91dc4_icgraph" alt=""/></div>
 <map name="atree_8h_a4a64d419c9e41286c7e0fc4e7ca91dc4_icgraph" id="atree_8h_a4a64d419c9e41286c7e0fc4e7ca91dc4_icgraph">
-<area shape="rect" title="Check if tree is empty." alt="" coords="359,67,445,93"/>
-<area shape="rect" href="tree_8h.html#a23769feed83ed62a9e1d5a7a090f870e" title="Free the memory allocated in by the tree." alt="" coords="236,29,309,56"/>
-<area shape="rect" href="tree_8h.html#a6f3cf0a1efb94a403bb8d4f4afa97e2d" title="Print the tree with their informations." alt="" coords="235,104,311,131"/>
-<area shape="rect" href="compfile_8h.html#a62cb777eed0bb7bbe5a079474bf79239" title="Free a tCompfile and all the memory it has allocated." alt="" coords="104,29,187,56"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,29,56,56"/>
+<area shape="rect" title="Check if tree is empty." alt="" coords="260,31,347,57"/>
+<area shape="rect" href="tree_8h.html#a23769feed83ed62a9e1d5a7a090f870e" title="Free the memory allocated in by the tree." alt="" coords="137,5,211,32"/>
+<area shape="rect" href="tree_8h.html#a6f3cf0a1efb94a403bb8d4f4afa97e2d" title="Print the tree with their informations." alt="" coords="136,56,212,83"/>
+<area shape="rect" href="compfile_8h.html#a62cb777eed0bb7bbe5a079474bf79239" title="Free a tCompfile and all the memory it has allocated." alt="" coords="5,5,88,32"/>
 </map>
 </div>
 
@@ -299,9 +282,9 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a>* tree_free </td>
+          <td class="memname"><a class="el" href="structtree__st.html">tTree</a>* tree_free </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structtree__st.html">tTree</a> *&#160;</td>
           <td class="paramname"><em>tree</em></td><td>)</td>
           <td></td>
         </tr>
@@ -323,9 +306,8 @@ Este é o diagrama das funções utilizadas por essa função:</div>
 <div class="dyncontent">
 <div class="center"><img src="tree_8h_a23769feed83ed62a9e1d5a7a090f870e_cgraph.png" border="0" usemap="#atree_8h_a23769feed83ed62a9e1d5a7a090f870e_cgraph" alt=""/></div>
 <map name="atree_8h_a23769feed83ed62a9e1d5a7a090f870e_cgraph" id="atree_8h_a23769feed83ed62a9e1d5a7a090f870e_cgraph">
-<area shape="rect" title="Free the memory allocated in by the tree." alt="" coords="5,6,79,33"/>
-<area shape="rect" href="tree_8c.html#a4a64d419c9e41286c7e0fc4e7ca91dc4" title="Check if tree is empty." alt="" coords="248,6,335,33"/>
-<area shape="rect" href="tree_8c.html#a23769feed83ed62a9e1d5a7a090f870e" title="Free the memory allocated in by the tree." alt="" coords="127,44,200,70"/>
+<area shape="rect" title="Free the memory allocated in by the tree." alt="" coords="5,5,79,32"/>
+<area shape="rect" href="tree_8h.html#a4a64d419c9e41286c7e0fc4e7ca91dc4" title="Check if tree is empty." alt="" coords="127,5,213,32"/>
 </map>
 </div>
 <div class="dynheader">
@@ -333,9 +315,8 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="dyncontent">
 <div class="center"><img src="tree_8h_a23769feed83ed62a9e1d5a7a090f870e_icgraph.png" border="0" usemap="#atree_8h_a23769feed83ed62a9e1d5a7a090f870e_icgraph" alt=""/></div>
 <map name="atree_8h_a23769feed83ed62a9e1d5a7a090f870e_icgraph" id="atree_8h_a23769feed83ed62a9e1d5a7a090f870e_icgraph">
-<area shape="rect" title="Free the memory allocated in by the tree." alt="" coords="235,29,308,56"/>
-<area shape="rect" href="compfile_8h.html#a62cb777eed0bb7bbe5a079474bf79239" title="Free a tCompfile and all the memory it has allocated." alt="" coords="104,29,187,56"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,29,56,56"/>
+<area shape="rect" title="Free the memory allocated in by the tree." alt="" coords="136,5,209,32"/>
+<area shape="rect" href="compfile_8h.html#a62cb777eed0bb7bbe5a079474bf79239" title="Free a tCompfile and all the memory it has allocated." alt="" coords="5,5,88,32"/>
 </map>
 </div>
 
@@ -350,7 +331,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">char tree_info </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structtree__st.html">tTree</a> *&#160;</td>
           <td class="paramname"><em>tree</em></td><td>)</td>
           <td></td>
         </tr>
@@ -372,9 +353,8 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="dyncontent">
 <div class="center"><img src="tree_8h_acdaaac17fcfd613ee90eac494c1b044c_icgraph.png" border="0" usemap="#atree_8h_acdaaac17fcfd613ee90eac494c1b044c_icgraph" alt=""/></div>
 <map name="atree_8h_acdaaac17fcfd613ee90eac494c1b044c_icgraph" id="atree_8h_acdaaac17fcfd613ee90eac494c1b044c_icgraph">
-<area shape="rect" title="Return tree&#39;s info (character)." alt="" coords="216,5,288,32"/>
-<area shape="rect" href="encoding_8h.html#ac0f5f307bd3c1000f51b62d389bd13aa" title="Decode bits to uncompressed Bytes, using an encoding tree." alt="" coords="104,5,168,32"/>
-<area shape="rect" href="descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" title="Return tree&#39;s info (character)." alt="" coords="117,5,189,32"/>
+<area shape="rect" href="encoding_8h.html#ac0f5f307bd3c1000f51b62d389bd13aa" title="Decode bits to uncompressed Bytes, using an encoding tree." alt="" coords="5,5,69,32"/>
 </map>
 </div>
 
@@ -387,7 +367,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a>* tree_init </td>
+          <td class="memname"><a class="el" href="structtree__st.html">tTree</a>* tree_init </td>
           <td>(</td>
           <td class="paramtype">char&#160;</td>
           <td class="paramname"><em>c</em>, </td>
@@ -401,13 +381,13 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structtree__st.html">tTree</a> *&#160;</td>
           <td class="paramname"><em>e</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structtree__st.html">tTree</a> *&#160;</td>
           <td class="paramname"><em>d</em>&#160;</td>
         </tr>
         <tr>
@@ -436,10 +416,10 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="dyncontent">
 <div class="center"><img src="tree_8h_a2fa6564d96a2d1910af7b64aa6f42eac_icgraph.png" border="0" usemap="#atree_8h_a2fa6564d96a2d1910af7b64aa6f42eac_icgraph" alt=""/></div>
 <map name="atree_8h_a2fa6564d96a2d1910af7b64aa6f42eac_icgraph" id="atree_8h_a2fa6564d96a2d1910af7b64aa6f42eac_icgraph">
-<area shape="rect" title="Create tree with passed parameters." alt="" coords="280,56,348,83"/>
-<area shape="rect" href="treelist_8h.html#afa3ebd1dc54d14a78c3601f6314d4e14" title="Apply the Huffman algorithm to the tree list." alt="" coords="104,5,232,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,31,56,57"/>
-<area shape="rect" href="tree_8h.html#afa038656292eb34cba748b9fe7f7919d" title="Deserialize the given sequence of bits into a tree." alt="" coords="111,131,225,157"/>
+<area shape="rect" title="Create tree with passed parameters." alt="" coords="361,31,429,57"/>
+<area shape="rect" href="treelist_8h.html#afa3ebd1dc54d14a78c3601f6314d4e14" title="Apply the Huffman algorithm to the tree list." alt="" coords="185,5,313,32"/>
+<area shape="rect" href="tree_8h.html#afa038656292eb34cba748b9fe7f7919d" title="Deserialize the given sequence of bits into a tree." alt="" coords="193,56,306,83"/>
+<area shape="rect" href="compfile_8h.html#a8283258a0ab2a36089d1d8fa65a7f3db" title="Read the file header to a tCompfile, including metadata such as the file name, extension and the bina..." alt="" coords="5,56,137,83"/>
 </map>
 </div>
 
@@ -452,7 +432,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a>* tree_init_empty </td>
+          <td class="memname"><a class="el" href="structtree__st.html">tTree</a>* tree_init_empty </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -476,7 +456,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">int tree_is_leaf </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structtree__st.html">tTree</a> *&#160;</td>
           <td class="paramname"><em>tree</em></td><td>)</td>
           <td></td>
         </tr>
@@ -498,9 +478,8 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="dyncontent">
 <div class="center"><img src="tree_8h_a332138cdf7ea74b91cc1f6c9739958e6_icgraph.png" border="0" usemap="#atree_8h_a332138cdf7ea74b91cc1f6c9739958e6_icgraph" alt=""/></div>
 <map name="atree_8h_a332138cdf7ea74b91cc1f6c9739958e6_icgraph" id="atree_8h_a332138cdf7ea74b91cc1f6c9739958e6_icgraph">
-<area shape="rect" title="Check if tree is a leaf (does not have other trees below)" alt="" coords="216,5,305,32"/>
-<area shape="rect" href="encoding_8h.html#ac0f5f307bd3c1000f51b62d389bd13aa" title="Decode bits to uncompressed Bytes, using an encoding tree." alt="" coords="104,5,168,32"/>
-<area shape="rect" href="descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" title="Check if tree is a leaf (does not have other trees below)" alt="" coords="117,5,207,32"/>
+<area shape="rect" href="encoding_8h.html#ac0f5f307bd3c1000f51b62d389bd13aa" title="Decode bits to uncompressed Bytes, using an encoding tree." alt="" coords="5,5,69,32"/>
 </map>
 </div>
 
@@ -513,9 +492,9 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a>* tree_nav </td>
+          <td class="memname"><a class="el" href="structtree__st.html">tTree</a>* tree_nav </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structtree__st.html">tTree</a> *&#160;</td>
           <td class="paramname"><em>tree</em>, </td>
         </tr>
         <tr>
@@ -557,9 +536,8 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="dyncontent">
 <div class="center"><img src="tree_8h_ab4030f9dede7256f01461db03458f84d_icgraph.png" border="0" usemap="#atree_8h_ab4030f9dede7256f01461db03458f84d_icgraph" alt=""/></div>
 <map name="atree_8h_ab4030f9dede7256f01461db03458f84d_icgraph" id="atree_8h_ab4030f9dede7256f01461db03458f84d_icgraph">
-<area shape="rect" title="Navegate through the tree." alt="" coords="216,5,288,32"/>
-<area shape="rect" href="encoding_8h.html#ac0f5f307bd3c1000f51b62d389bd13aa" title="Decode bits to uncompressed Bytes, using an encoding tree." alt="" coords="104,5,168,32"/>
-<area shape="rect" href="descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" title="Navegate through the tree." alt="" coords="117,5,189,32"/>
+<area shape="rect" href="encoding_8h.html#ac0f5f307bd3c1000f51b62d389bd13aa" title="Decode bits to uncompressed Bytes, using an encoding tree." alt="" coords="5,5,69,32"/>
 </map>
 </div>
 
@@ -574,7 +552,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">void tree_print </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structtree__st.html">tTree</a> *&#160;</td>
           <td class="paramname"><em>tree</em></td><td>)</td>
           <td></td>
         </tr>
@@ -595,17 +573,8 @@ Este é o diagrama das funções utilizadas por essa função:</div>
 <div class="dyncontent">
 <div class="center"><img src="tree_8h_a6f3cf0a1efb94a403bb8d4f4afa97e2d_cgraph.png" border="0" usemap="#atree_8h_a6f3cf0a1efb94a403bb8d4f4afa97e2d_cgraph" alt=""/></div>
 <map name="atree_8h_a6f3cf0a1efb94a403bb8d4f4afa97e2d_cgraph" id="atree_8h_a6f3cf0a1efb94a403bb8d4f4afa97e2d_cgraph">
-<area shape="rect" title="Print the tree with their informations." alt="" coords="5,6,81,33"/>
-<area shape="rect" href="tree_8c.html#a4a64d419c9e41286c7e0fc4e7ca91dc4" title="Check if tree is empty." alt="" coords="253,6,340,33"/>
-<area shape="rect" href="tree_8c.html#a6f3cf0a1efb94a403bb8d4f4afa97e2d" title="Print the tree with their informations." alt="" coords="129,44,205,70"/>
-</map>
-</div>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="tree_8h_a6f3cf0a1efb94a403bb8d4f4afa97e2d_icgraph.png" border="0" usemap="#atree_8h_a6f3cf0a1efb94a403bb8d4f4afa97e2d_icgraph" alt=""/></div>
-<map name="atree_8h_a6f3cf0a1efb94a403bb8d4f4afa97e2d_icgraph" id="atree_8h_a6f3cf0a1efb94a403bb8d4f4afa97e2d_icgraph">
-<area shape="rect" title="Print the tree with their informations." alt="" coords="5,29,81,56"/>
+<area shape="rect" title="Print the tree with their informations." alt="" coords="5,5,81,32"/>
+<area shape="rect" href="tree_8h.html#a4a64d419c9e41286c7e0fc4e7ca91dc4" title="Check if tree is empty." alt="" coords="129,5,216,32"/>
 </map>
 </div>
 
@@ -618,9 +587,9 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="bits_8h.html#a5ec04ea2c7dc06cfdd3521427411f5d9">tBits</a>* tree_serialize </td>
+          <td class="memname"><a class="el" href="structbits__st.html">tBits</a>* tree_serialize </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structtree__st.html">tTree</a> *&#160;</td>
           <td class="paramname"><em>tree</em></td><td>)</td>
           <td></td>
         </tr>
@@ -647,6 +616,15 @@ Este é o diagrama das funções utilizadas por essa função:</div>
 <area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="267,5,329,32"/>
 </map>
 </div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="tree_8h_aca268bce3bb2838cbc4f13ee9a9f7f06_icgraph.png" border="0" usemap="#atree_8h_aca268bce3bb2838cbc4f13ee9a9f7f06_icgraph" alt=""/></div>
+<map name="atree_8h_aca268bce3bb2838cbc4f13ee9a9f7f06_icgraph" id="atree_8h_aca268bce3bb2838cbc4f13ee9a9f7f06_icgraph">
+<area shape="rect" title="Serialize the given tree to a sequence of bits." alt="" coords="188,5,287,32"/>
+<area shape="rect" href="compfile_8h.html#a98bf9340a3e53ac8e7d0ac6575a24259" title="Write the file header from a tCompfile, including metadata such as the file name, extension and the b..." alt="" coords="5,5,140,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -659,7 +637,7 @@ Este é o diagrama das funções utilizadas por essa função:</div>
         <tr>
           <td class="memname">int tree_weight </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structtree__st.html">tTree</a> *&#160;</td>
           <td class="paramname"><em>tree</em></td><td>)</td>
           <td></td>
         </tr>
@@ -681,11 +659,10 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="dyncontent">
 <div class="center"><img src="tree_8h_a7bb8f234bec53318df8d10a5d0ebea38_icgraph.png" border="0" usemap="#atree_8h_a7bb8f234bec53318df8d10a5d0ebea38_icgraph" alt=""/></div>
 <map name="atree_8h_a7bb8f234bec53318df8d10a5d0ebea38_icgraph" id="atree_8h_a7bb8f234bec53318df8d10a5d0ebea38_icgraph">
-<area shape="rect" title="Return tree&#39;s weight." alt="" coords="435,56,524,83"/>
-<area shape="rect" href="treelist_8h.html#afa3ebd1dc54d14a78c3601f6314d4e14" title="Apply the Huffman algorithm to the tree list." alt="" coords="104,5,232,32"/>
-<area shape="rect" href="treelist_8h.html#a7daceef9d966c3bdbc2f14e5aa3c93a2" title="Insert tree in tree list with respect to ascending weight order." alt="" coords="280,56,387,83"/>
-<area shape="rect" href="treelist_8h.html#ab8dfd8e252f0ec8c8f50623b0237302d" title="Print tree list." alt="" coords="283,107,383,133"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,31,56,57"/>
+<area shape="rect" title="Return tree&#39;s weight." alt="" coords="336,31,425,57"/>
+<area shape="rect" href="treelist_8h.html#afa3ebd1dc54d14a78c3601f6314d4e14" title="Apply the Huffman algorithm to the tree list." alt="" coords="5,5,133,32"/>
+<area shape="rect" href="treelist_8h.html#a7daceef9d966c3bdbc2f14e5aa3c93a2" title="Insert tree in tree list with respect to ascending weight order." alt="" coords="181,31,288,57"/>
+<area shape="rect" href="treelist_8h.html#ab8dfd8e252f0ec8c8f50623b0237302d" title="Print tree list." alt="" coords="185,81,285,108"/>
 </map>
 </div>
 

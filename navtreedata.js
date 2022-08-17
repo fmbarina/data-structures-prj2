@@ -31,19 +31,13 @@ var NAVTREE =
     ] ],
     [ "Estruturas de Dados", "annotated.html", [
       [ "Estruturas de Dados", "annotated.html", "annotated_dup" ],
-      [ "Índice das Estruturas de Dados", "classes.html", null ],
-      [ "Campos de Dados", "functions.html", [
-        [ "Todos", "functions.html", null ],
-        [ "Variáveis", "functions_vars.html", null ]
-      ] ]
+      [ "Índice das Estruturas de Dados", "classes.html", null ]
     ] ],
     [ "Arquivos", "files.html", [
       [ "Lista de Arquivos", "files.html", "files_dup" ],
       [ "Ítens globais", "globals.html", [
-        [ "Todos", "globals.html", "globals_dup" ],
-        [ "Funções", "globals_func.html", null ],
-        [ "Definições de Tipos", "globals_type.html", null ],
-        [ "Definições e Macros", "globals_defs.html", null ]
+        [ "Todos", "globals.html", null ],
+        [ "Funções", "globals_func.html", null ]
       ] ]
     ] ]
   ] ]
@@ -51,8 +45,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html",
-"structbytes__st.html#a77124bd5f7e31e6fffc19f335da0c23f"
+"annotated.html"
 ];
 
 var SYNCONMSG = 'clique para desativar a sincronização do painel';

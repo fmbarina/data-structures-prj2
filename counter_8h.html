@@ -109,7 +109,7 @@ Este grafo mostra quais arquivos estão direta ou indiretamente relacionados com
 <map name="aheaders_2counter_8hdep" id="aheaders_2counter_8hdep">
 <area shape="rect" title="Count occurrences of bytes." alt="" coords="62,5,189,32"/>
 <area shape="rect" href="compacta_8c.html" title="Program to compress files to be decompressed with &#39;descompacta&#39;." alt="" coords="5,80,117,107"/>
-<area shape="rect" href="counter_8c.html" title=" " alt="" coords="141,80,240,107"/>
+<area shape="rect" href="counter_8c_source.html" title=" " alt="" coords="141,80,240,107"/>
 </map>
 </div>
 </div>
@@ -117,27 +117,28 @@ Este grafo mostra quais arquivos estão direta ou indiretamente relacionados com
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Definições de Tipos</h2></td></tr>
-<tr class="memitem:aa204e7efb0a14aa091dfac7da89831a2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structcounter__st.html">counter_st</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="counter_8h.html#aa204e7efb0a14aa091dfac7da89831a2">tCounter</a></td></tr>
+<tr class="memitem:aa204e7efb0a14aa091dfac7da89831a2"><td class="memItemLeft" align="right" valign="top"><a id="aa204e7efb0a14aa091dfac7da89831a2"></a>
+typedef struct <a class="el" href="structcounter__st.html">counter_st</a>&#160;</td><td class="memItemRight" valign="bottom"><b>tCounter</b></td></tr>
 <tr class="separator:aa204e7efb0a14aa091dfac7da89831a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Funções</h2></td></tr>
-<tr class="memitem:a015381c2b8365d811663ebfce8ff0b7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="counter_8h.html#aa204e7efb0a14aa091dfac7da89831a2">tCounter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="counter_8h.html#a015381c2b8365d811663ebfce8ff0b7e">counter_init</a> ()</td></tr>
+<tr class="memitem:a015381c2b8365d811663ebfce8ff0b7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structcounter__st.html">tCounter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="counter_8h.html#a015381c2b8365d811663ebfce8ff0b7e">counter_init</a> ()</td></tr>
 <tr class="memdesc:a015381c2b8365d811663ebfce8ff0b7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Byte counter.  <a href="counter_8h.html#a015381c2b8365d811663ebfce8ff0b7e">Mais...</a><br /></td></tr>
 <tr class="separator:a015381c2b8365d811663ebfce8ff0b7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0e180f133c992be24cc5a76b7523c1f"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="counter_8h.html#ab0e180f133c992be24cc5a76b7523c1f">counter_byte_inc</a> (<a class="el" href="counter_8h.html#aa204e7efb0a14aa091dfac7da89831a2">tCounter</a> *co, unsigned char byte)</td></tr>
+<tr class="memitem:ab0e180f133c992be24cc5a76b7523c1f"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="counter_8h.html#ab0e180f133c992be24cc5a76b7523c1f">counter_byte_inc</a> (<a class="el" href="structcounter__st.html">tCounter</a> *co, unsigned char byte)</td></tr>
 <tr class="memdesc:ab0e180f133c992be24cc5a76b7523c1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment the count of a byte in a byte counter.  <a href="counter_8h.html#ab0e180f133c992be24cc5a76b7523c1f">Mais...</a><br /></td></tr>
 <tr class="separator:ab0e180f133c992be24cc5a76b7523c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81e2b79335cc057d8d4809a8fd2057eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="counter_8h.html#a81e2b79335cc057d8d4809a8fd2057eb">counter_free</a> (<a class="el" href="counter_8h.html#aa204e7efb0a14aa091dfac7da89831a2">tCounter</a> *co)</td></tr>
+<tr class="memitem:a81e2b79335cc057d8d4809a8fd2057eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="counter_8h.html#a81e2b79335cc057d8d4809a8fd2057eb">counter_free</a> (<a class="el" href="structcounter__st.html">tCounter</a> *co)</td></tr>
 <tr class="memdesc:a81e2b79335cc057d8d4809a8fd2057eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free byte counter and all the memory it has allocated.  <a href="counter_8h.html#a81e2b79335cc057d8d4809a8fd2057eb">Mais...</a><br /></td></tr>
 <tr class="separator:a81e2b79335cc057d8d4809a8fd2057eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0d2c88bd9119a7c7db3607cf063e25d"><td class="memItemLeft" align="right" valign="top">unsigned long long int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="counter_8h.html#ac0d2c88bd9119a7c7db3607cf063e25d">counter_get_vet</a> (<a class="el" href="counter_8h.html#aa204e7efb0a14aa091dfac7da89831a2">tCounter</a> *co)</td></tr>
+<tr class="memitem:ac0d2c88bd9119a7c7db3607cf063e25d"><td class="memItemLeft" align="right" valign="top">unsigned long long int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="counter_8h.html#ac0d2c88bd9119a7c7db3607cf063e25d">counter_get_vet</a> (<a class="el" href="structcounter__st.html">tCounter</a> *co)</td></tr>
 <tr class="memdesc:ac0d2c88bd9119a7c7db3607cf063e25d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the vector of byte occurrences used by a counter.  <a href="counter_8h.html#ac0d2c88bd9119a7c7db3607cf063e25d">Mais...</a><br /></td></tr>
 <tr class="separator:ac0d2c88bd9119a7c7db3607cf063e25d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc6202ade489950b4b460491a338be38"><td class="memItemLeft" align="right" valign="top">unsigned long long int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="counter_8h.html#adc6202ade489950b4b460491a338be38">counter_get_vetx</a> (<a class="el" href="counter_8h.html#aa204e7efb0a14aa091dfac7da89831a2">tCounter</a> *co, int idx)</td></tr>
+<tr class="memitem:adc6202ade489950b4b460491a338be38"><td class="memItemLeft" align="right" valign="top">unsigned long long int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="counter_8h.html#adc6202ade489950b4b460491a338be38">counter_get_vetx</a> (<a class="el" href="structcounter__st.html">tCounter</a> *co, int idx)</td></tr>
 <tr class="memdesc:adc6202ade489950b4b460491a338be38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the count of a byte in a byte counter.  <a href="counter_8h.html#adc6202ade489950b4b460491a338be38">Mais...</a><br /></td></tr>
 <tr class="separator:adc6202ade489950b4b460491a338be38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ffb42270afba0e3c923e202eec8d81d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="counter_8h.html#a2ffb42270afba0e3c923e202eec8d81d">counter_print</a> (<a class="el" href="counter_8h.html#aa204e7efb0a14aa091dfac7da89831a2">tCounter</a> *co)</td></tr>
+<tr class="memitem:a2ffb42270afba0e3c923e202eec8d81d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="counter_8h.html#a2ffb42270afba0e3c923e202eec8d81d">counter_print</a> (<a class="el" href="structcounter__st.html">tCounter</a> *co)</td></tr>
 <tr class="memdesc:a2ffb42270afba0e3c923e202eec8d81d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the current count of all bytes in a byte counter.  <a href="counter_8h.html#a2ffb42270afba0e3c923e202eec8d81d">Mais...</a><br /></td></tr>
 <tr class="separator:a2ffb42270afba0e3c923e202eec8d81d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -149,24 +150,7 @@ Vitor F. Calmon </dd></dl>
 <dl class="section date"><dt>Data</dt><dd>2022-08-16 </dd></dl>
 
 <p class="definition">Definição no arquivo <a class="el" href="counter_8h_source.html">counter.h</a>.</p>
-</div><h2 class="groupheader">Definições dos tipos</h2>
-<a id="aa204e7efb0a14aa091dfac7da89831a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa204e7efb0a14aa091dfac7da89831a2">&#9670;&nbsp;</a></span>tCounter</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="structcounter__st.html">counter_st</a> <a class="el" href="counter_8h.html#aa204e7efb0a14aa091dfac7da89831a2">tCounter</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definição na linha <a class="el" href="counter_8h_source.html#l00001">1</a> do arquivo <a class="el" href="counter_8h_source.html">counter.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Funções</h2>
+</div><h2 class="groupheader">Funções</h2>
 <a id="ab0e180f133c992be24cc5a76b7523c1f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab0e180f133c992be24cc5a76b7523c1f">&#9670;&nbsp;</a></span>counter_byte_inc()</h2>
 
@@ -176,7 +160,7 @@ Vitor F. Calmon </dd></dl>
         <tr>
           <td class="memname">void* counter_byte_inc </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="counter_8h.html#aa204e7efb0a14aa091dfac7da89831a2">tCounter</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structcounter__st.html">tCounter</a> *&#160;</td>
           <td class="paramname"><em>co</em>, </td>
         </tr>
         <tr>
@@ -204,15 +188,6 @@ Vitor F. Calmon </dd></dl>
 <dl class="section return"><dt>Retorna</dt><dd>tCounter* Current byte count for the given byte. </dd></dl>
 
 <p class="definition">Definição na linha <a class="el" href="counter_8c_source.html#l00036">36</a> do arquivo <a class="el" href="counter_8c_source.html">counter.c</a>.</p>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="counter_8h_ab0e180f133c992be24cc5a76b7523c1f_icgraph.png" border="0" usemap="#acounter_8h_ab0e180f133c992be24cc5a76b7523c1f_icgraph" alt=""/></div>
-<map name="acounter_8h_ab0e180f133c992be24cc5a76b7523c1f_icgraph" id="acounter_8h_ab0e180f133c992be24cc5a76b7523c1f_icgraph">
-<area shape="rect" title="Increment the count of a byte in a byte counter." alt="" coords="104,5,225,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -225,7 +200,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">void counter_free </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="counter_8h.html#aa204e7efb0a14aa091dfac7da89831a2">tCounter</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structcounter__st.html">tCounter</a> *&#160;</td>
           <td class="paramname"><em>co</em></td><td>)</td>
           <td></td>
         </tr>
@@ -241,15 +216,6 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 </dl>
 
 <p class="definition">Definição na linha <a class="el" href="counter_8c_source.html#l00030">30</a> do arquivo <a class="el" href="counter_8c_source.html">counter.c</a>.</p>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="counter_8h_a81e2b79335cc057d8d4809a8fd2057eb_icgraph.png" border="0" usemap="#acounter_8h_a81e2b79335cc057d8d4809a8fd2057eb_icgraph" alt=""/></div>
-<map name="acounter_8h_a81e2b79335cc057d8d4809a8fd2057eb_icgraph" id="acounter_8h_a81e2b79335cc057d8d4809a8fd2057eb_icgraph">
-<area shape="rect" title="Free byte counter and all the memory it has allocated." alt="" coords="104,5,199,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -262,7 +228,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">unsigned long long int* counter_get_vet </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="counter_8h.html#aa204e7efb0a14aa091dfac7da89831a2">tCounter</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structcounter__st.html">tCounter</a> *&#160;</td>
           <td class="paramname"><em>co</em></td><td>)</td>
           <td></td>
         </tr>
@@ -291,7 +257,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">unsigned long long int counter_get_vetx </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="counter_8h.html#aa204e7efb0a14aa091dfac7da89831a2">tCounter</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structcounter__st.html">tCounter</a> *&#160;</td>
           <td class="paramname"><em>co</em>, </td>
         </tr>
         <tr>
@@ -328,15 +294,6 @@ Este é o diagrama das funções utilizadas por essa função:</div>
 <area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="176,5,239,32"/>
 </map>
 </div>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="counter_8h_adc6202ade489950b4b460491a338be38_icgraph.png" border="0" usemap="#acounter_8h_adc6202ade489950b4b460491a338be38_icgraph" alt=""/></div>
-<map name="acounter_8h_adc6202ade489950b4b460491a338be38_icgraph" id="acounter_8h_adc6202ade489950b4b460491a338be38_icgraph">
-<area shape="rect" title="Get the count of a byte in a byte counter." alt="" coords="104,5,227,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -347,7 +304,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="counter_8h.html#aa204e7efb0a14aa091dfac7da89831a2">tCounter</a>* counter_init </td>
+          <td class="memname"><a class="el" href="structcounter__st.html">tCounter</a>* counter_init </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -359,15 +316,6 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <dl class="section return"><dt>Retorna</dt><dd>tCounter* Byte counter. </dd></dl>
 
 <p class="definition">Definição na linha <a class="el" href="counter_8c_source.html#l00017">17</a> do arquivo <a class="el" href="counter_8c_source.html">counter.c</a>.</p>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="counter_8h_a015381c2b8365d811663ebfce8ff0b7e_icgraph.png" border="0" usemap="#acounter_8h_a015381c2b8365d811663ebfce8ff0b7e_icgraph" alt=""/></div>
-<map name="acounter_8h_a015381c2b8365d811663ebfce8ff0b7e_icgraph" id="acounter_8h_a015381c2b8365d811663ebfce8ff0b7e_icgraph">
-<area shape="rect" title="Create a Byte counter." alt="" coords="104,5,193,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -380,7 +328,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">void counter_print </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="counter_8h.html#aa204e7efb0a14aa091dfac7da89831a2">tCounter</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structcounter__st.html">tCounter</a> *&#160;</td>
           <td class="paramname"><em>co</em></td><td>)</td>
           <td></td>
         </tr>

@@ -1,5 +1,5 @@
 <map id="rbin_bits_block" name="rbin_bits_block">
-<area shape="rect" id="node1" title="Read a block of bits from binary file." alt="" coords="271,5,380,32"/>
-<area shape="rect" id="node2" href="$compfile_8h.html#ac3d32df217cd92388d45c39659dc294c" title="Write file data of a tCompfile in the form of a block of bits to a given tBits." alt="" coords="104,5,223,32"/>
-<area shape="rect" id="node3" href="$descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" id="node1" title="Read a block of bits from binary file." alt="" coords="185,31,295,57"/>
+<area shape="rect" id="node2" href="$compfile_8h.html#ac3d32df217cd92388d45c39659dc294c" title="Write file data of a tCompfile in the form of a block of bits to a given tBits." alt="" coords="12,5,131,32"/>
+<area shape="rect" id="node3" href="$compfile_8h.html#a8283258a0ab2a36089d1d8fa65a7f3db" title="Read the file header to a tCompfile, including metadata such as the file name, extension and the bina..." alt="" coords="5,56,137,83"/>
 </map>

@@ -1,5 +1,4 @@
 <map id="tree_print" name="tree_print">
-<area shape="rect" id="node1" title="Print the tree with their informations." alt="" coords="5,6,81,33"/>
-<area shape="rect" id="node2" href="$tree_8c.html#a4a64d419c9e41286c7e0fc4e7ca91dc4" title="Check if tree is empty." alt="" coords="253,6,340,33"/>
-<area shape="rect" id="node3" href="$tree_8c.html#a6f3cf0a1efb94a403bb8d4f4afa97e2d" title="Print the tree with their informations." alt="" coords="129,44,205,70"/>
+<area shape="rect" id="node1" title="Print the tree with their informations." alt="" coords="5,5,81,32"/>
+<area shape="rect" id="node2" href="$tree_8h.html#a4a64d419c9e41286c7e0fc4e7ca91dc4" title="Check if tree is empty." alt="" coords="129,5,216,32"/>
 </map>

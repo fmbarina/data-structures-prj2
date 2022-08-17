@@ -1,0 +1,4 @@
+<map id="wbin_long_str_block" name="wbin_long_str_block">
+<area shape="rect" id="node1" title="Write a long (&lt;=65535 characters) string to binary file." alt="" coords="188,5,328,32"/>
+<area shape="rect" id="node2" href="$compfile_8h.html#a98bf9340a3e53ac8e7d0ac6575a24259" title="Write the file header from a tCompfile, including metadata such as the file name, extension and the b..." alt="" coords="5,5,140,32"/>
+</map>

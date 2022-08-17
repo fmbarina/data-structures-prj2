@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['path_97',['path',['../structcompfile__st.html#a44196e6a5696d10442c29e639437196e',1,'compfile_st::path()'],['../structreglfile__st.html#a44196e6a5696d10442c29e639437196e',1,'reglfile_st::path()']]],
-  ['pathman_2ec_98',['pathman.c',['../pathman_8c.html',1,'']]],
-  ['pathman_2eh_99',['pathman.h',['../pathman_8h.html',1,'']]],
-  ['prim_100',['prim',['../structst__tree__list.html#a938454d019b7ebf7bd8533fd7787bf2c',1,'st_tree_list']]],
-  ['prox_101',['prox',['../structcel__st.html#a1157394da0a41673fd8c768776a2ed97',1,'cel_st']]]
+  ['wbin_5fbits_5fblock_115',['wbin_bits_block',['../rwbin_8h.html#a3ec4e8bddc1f9e6f32dda6899320e76c',1,'wbin_bits_block(FILE *f, tBits *bs):&#160;rwbin.c'],['../rwbin_8c.html#a3ec4e8bddc1f9e6f32dda6899320e76c',1,'wbin_bits_block(FILE *f, tBits *bs):&#160;rwbin.c']]],
+  ['wbin_5flong_5fstr_5fblock_116',['wbin_long_str_block',['../rwbin_8h.html#a8b36600049ee1667eb801f498ac5fd17',1,'wbin_long_str_block(FILE *f, char *str):&#160;rwbin.c'],['../rwbin_8c.html#a8b36600049ee1667eb801f498ac5fd17',1,'wbin_long_str_block(FILE *f, char *str):&#160;rwbin.c']]],
+  ['wbin_5fmagic_5fblock_117',['wbin_magic_block',['../rwbin_8h.html#ae2605de6df9291a467b80aae0c4eb46d',1,'wbin_magic_block(FILE *f, unsigned char *signature, unsigned char size):&#160;rwbin.c'],['../rwbin_8c.html#ae2605de6df9291a467b80aae0c4eb46d',1,'wbin_magic_block(FILE *f, unsigned char *signature, unsigned char size):&#160;rwbin.c']]],
+  ['wbin_5fshort_5fstr_5fblock_118',['wbin_short_str_block',['../rwbin_8h.html#ab7cdde125f95e6d9cb880e8951f23d52',1,'wbin_short_str_block(FILE *f, char *str):&#160;rwbin.c'],['../rwbin_8c.html#ab7cdde125f95e6d9cb880e8951f23d52',1,'wbin_short_str_block(FILE *f, char *str):&#160;rwbin.c']]]
 ];

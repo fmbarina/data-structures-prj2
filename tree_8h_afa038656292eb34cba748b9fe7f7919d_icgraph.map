@@ -1,3 +1,4 @@
 <map id="tree_deserialize" name="tree_deserialize">
-<area shape="rect" id="node1" title="Deserialize the given sequence of bits into a tree." alt="" coords="5,29,119,56"/>
+<area shape="rect" id="node1" title="Deserialize the given sequence of bits into a tree." alt="" coords="185,5,299,32"/>
+<area shape="rect" id="node2" href="$compfile_8h.html#a8283258a0ab2a36089d1d8fa65a7f3db" title="Read the file header to a tCompfile, including metadata such as the file name, extension and the bina..." alt="" coords="5,5,137,32"/>
 </map>

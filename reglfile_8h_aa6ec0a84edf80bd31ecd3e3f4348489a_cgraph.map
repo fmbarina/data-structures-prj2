@@ -3,5 +3,5 @@
 <area shape="rect" id="node2" href="$assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="217,5,279,32"/>
 <area shape="rect" id="node3" href="$pathman_8h.html#a37c63c71830350b7c38d82e6cb717f8b" title="Get extension from the file at the end of path. An extension is defined as the characters after the l..." alt="" coords="210,56,286,83"/>
 <area shape="rect" id="node4" href="$pathman_8h.html#a89457d4fafe6d90c14d17e62ff63e80a" title="Get file basename from the file at the end of path. A file name is defined as the characters before t..." alt="" coords="203,107,293,133"/>
-<area shape="rect" id="node5" href="$pathman_8c.html#aab33aaa11b68ad439ef66cd1f30f59ee" title="Trim path by removing the file extension at the end. An extension is defined as the characters after ..." alt="" coords="341,107,408,133"/>
+<area shape="rect" id="node5" href="$pathman_8h.html#aab33aaa11b68ad439ef66cd1f30f59ee" title="Trim path by removing the file extension at the end. An extension is defined as the characters after ..." alt="" coords="341,107,408,133"/>
 </map>

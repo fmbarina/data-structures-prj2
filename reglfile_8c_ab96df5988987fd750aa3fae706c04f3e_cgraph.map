@@ -1,7 +1,0 @@
-<map id="regl_read_bytes" name="regl_read_bytes">
-<area shape="rect" id="node1" title="Read bytes from a tReglfile to given tBytes." alt="" coords="5,81,120,108"/>
-<area shape="rect" id="node2" href="$assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="192,5,255,32"/>
-<area shape="rect" id="node3" href="$bytes_8h.html#a91fa70f22cbe219ff47a6d41846dddba" title="Get a tBytes bytes vector." alt="" coords="168,56,279,83"/>
-<area shape="rect" id="node4" href="$bytes_8h.html#a269da3ff64d53cc95683ed93cf693af5" title="Get maximum length of a tBytes." alt="" coords="180,107,267,133"/>
-<area shape="rect" id="node5" href="$bytes_8h.html#aa460ceb68b4f8bd91467a947ee7174f9" title="Set length of a tBytes manually." alt="" coords="172,157,275,184"/>
-</map>

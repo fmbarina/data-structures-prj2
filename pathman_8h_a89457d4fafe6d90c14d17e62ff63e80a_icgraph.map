@@ -1,5 +1,4 @@
 <map id="getnamepth" name="getnamepth">
-<area shape="rect" id="node1" title="Get file basename from the file at the end of path. A file name is defined as the characters before t..." alt="" coords="301,5,392,32"/>
-<area shape="rect" id="node2" href="$reglfile_8h.html#aa6ec0a84edf80bd31ecd3e3f4348489a" title="Attempt to extract and set the tReglfile name and extension from its path. tReglfile name needs to be..." alt="" coords="104,5,253,32"/>
-<area shape="rect" id="node3" href="$compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" id="node1" title="Get file basename from the file at the end of path. A file name is defined as the characters before t..." alt="" coords="203,5,293,32"/>
+<area shape="rect" id="node2" href="$reglfile_8h.html#aa6ec0a84edf80bd31ecd3e3f4348489a" title="Attempt to extract and set the tReglfile name and extension from its path. tReglfile name needs to be..." alt="" coords="5,5,155,32"/>
 </map>

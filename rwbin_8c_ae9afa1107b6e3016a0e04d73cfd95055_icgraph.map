@@ -1,5 +1,4 @@
 <map id="rbin_magic_block" name="rbin_magic_block">
-<area shape="rect" id="node1" title="Read and check binary file signature block (magic bits)." alt="" coords="284,5,407,32"/>
-<area shape="rect" id="node2" href="$compfile_8h.html#a8283258a0ab2a36089d1d8fa65a7f3db" title="Read the file header to a tCompfile, including metadata such as the file name, extension and the bina..." alt="" coords="104,5,236,32"/>
-<area shape="rect" id="node3" href="$descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" id="node1" title="Read and check binary file signature block (magic bits)." alt="" coords="185,5,308,32"/>
+<area shape="rect" id="node2" href="$compfile_8h.html#a8283258a0ab2a36089d1d8fa65a7f3db" title="Read the file header to a tCompfile, including metadata such as the file name, extension and the bina..." alt="" coords="5,5,137,32"/>
 </map>

@@ -1,4 +1,0 @@
-<map id="bits_read" name="bits_read">
-<area shape="rect" id="node1" title="Reads bits, bit by bit, from a tBits. A cursor inside advances one bit every function call...." alt="" coords="5,5,80,32"/>
-<area shape="rect" id="node2" href="$assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="128,5,191,32"/>
-</map>

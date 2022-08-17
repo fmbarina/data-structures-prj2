@@ -111,11 +111,11 @@ Este grafo mostra quais arquivos estão direta ou indiretamente relacionados com
 <area shape="rect" href="encoding_8h.html" title="Encode and decode binary data with an encoding tree." alt="" coords="306,80,441,107"/>
 <area shape="rect" href="compacta_8c.html" title="Program to compress files to be decompressed with &#39;descompacta&#39;." alt="" coords="163,155,275,181"/>
 <area shape="rect" href="descompacta_8c.html" title="Program to decompress files compressed with &#39;compacta&#39;." alt="" coords="5,155,139,181"/>
-<area shape="rect" href="encoding_8c.html" title=" " alt="" coords="544,155,651,181"/>
+<area shape="rect" href="encoding_8c_source.html" title=" " alt="" coords="544,155,651,181"/>
 <area shape="rect" href="reglfile_8h.html" title="Manage the data and operations relating to a regular file." alt="" coords="161,80,282,107"/>
-<area shape="rect" href="reglfile_8c.html" title=" " alt="" coords="299,155,392,181"/>
-<area shape="rect" href="bytes_8c.html" title=" " alt="" coords="567,80,654,107"/>
-<area shape="rect" href="compfile_8c.html" title=" " alt="" coords="416,155,520,181"/>
+<area shape="rect" href="reglfile_8c_source.html" title=" " alt="" coords="299,155,392,181"/>
+<area shape="rect" href="bytes_8c_source.html" title=" " alt="" coords="567,80,654,107"/>
+<area shape="rect" href="compfile_8c_source.html" title=" " alt="" coords="416,155,520,181"/>
 </map>
 </div>
 </div>
@@ -123,43 +123,44 @@ Este grafo mostra quais arquivos estão direta ou indiretamente relacionados com
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Definições de Tipos</h2></td></tr>
-<tr class="memitem:a2dd38295b6f64f70fb90f718848bf117"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structbytes__st.html">bytes_st</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a></td></tr>
+<tr class="memitem:a2dd38295b6f64f70fb90f718848bf117"><td class="memItemLeft" align="right" valign="top"><a id="a2dd38295b6f64f70fb90f718848bf117"></a>
+typedef struct <a class="el" href="structbytes__st.html">bytes_st</a>&#160;</td><td class="memItemRight" valign="bottom"><b>tBytes</b></td></tr>
 <tr class="separator:a2dd38295b6f64f70fb90f718848bf117"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Funções</h2></td></tr>
-<tr class="memitem:aec151d5d94a6928e3d16a9f589fb7538"><td class="memItemLeft" align="right" valign="top"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#aec151d5d94a6928e3d16a9f589fb7538">bytes_init</a> (unsigned int max_length)</td></tr>
+<tr class="memitem:aec151d5d94a6928e3d16a9f589fb7538"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structbytes__st.html">tBytes</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#aec151d5d94a6928e3d16a9f589fb7538">bytes_init</a> (unsigned int max_length)</td></tr>
 <tr class="memdesc:aec151d5d94a6928e3d16a9f589fb7538"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create tBytes.  <a href="bytes_8h.html#aec151d5d94a6928e3d16a9f589fb7538">Mais...</a><br /></td></tr>
 <tr class="separator:aec151d5d94a6928e3d16a9f589fb7538"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2b98d1f907939bf3c7452fef0fb0165"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#ad2b98d1f907939bf3c7452fef0fb0165">bytes_free</a> (<a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt)</td></tr>
+<tr class="memitem:ad2b98d1f907939bf3c7452fef0fb0165"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#ad2b98d1f907939bf3c7452fef0fb0165">bytes_free</a> (<a class="el" href="structbytes__st.html">tBytes</a> *bt)</td></tr>
 <tr class="memdesc:ad2b98d1f907939bf3c7452fef0fb0165"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free a tBytes and all the memory it has allocated.  <a href="bytes_8h.html#ad2b98d1f907939bf3c7452fef0fb0165">Mais...</a><br /></td></tr>
 <tr class="separator:ad2b98d1f907939bf3c7452fef0fb0165"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7530d554ffe55e1147d9383cb5be841"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#ae7530d554ffe55e1147d9383cb5be841">bytes_append</a> (<a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt, unsigned char byte)</td></tr>
+<tr class="memitem:ae7530d554ffe55e1147d9383cb5be841"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#ae7530d554ffe55e1147d9383cb5be841">bytes_append</a> (<a class="el" href="structbytes__st.html">tBytes</a> *bt, unsigned char byte)</td></tr>
 <tr class="memdesc:ae7530d554ffe55e1147d9383cb5be841"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append a bytes to a tBytes.  <a href="bytes_8h.html#ae7530d554ffe55e1147d9383cb5be841">Mais...</a><br /></td></tr>
 <tr class="separator:ae7530d554ffe55e1147d9383cb5be841"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a0dec9ecf604760263c09d61211ae19"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#a6a0dec9ecf604760263c09d61211ae19">bytes_read</a> (<a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt)</td></tr>
+<tr class="memitem:a6a0dec9ecf604760263c09d61211ae19"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#a6a0dec9ecf604760263c09d61211ae19">bytes_read</a> (<a class="el" href="structbytes__st.html">tBytes</a> *bt)</td></tr>
 <tr class="memdesc:a6a0dec9ecf604760263c09d61211ae19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads bytes, byte by byte, from a tBytes. A cursor inside <br  />
  advances one byte every function call. Attempting to read past the amount of bytes in tBytes will result in an error.  <a href="bytes_8h.html#a6a0dec9ecf604760263c09d61211ae19">Mais...</a><br /></td></tr>
 <tr class="separator:a6a0dec9ecf604760263c09d61211ae19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a102fc6f2506326201cd71bb4804fe28f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#a102fc6f2506326201cd71bb4804fe28f">bytes_set_byte</a> (<a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt, unsigned int idx, unsigned char byte)</td></tr>
+<tr class="memitem:a102fc6f2506326201cd71bb4804fe28f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#a102fc6f2506326201cd71bb4804fe28f">bytes_set_byte</a> (<a class="el" href="structbytes__st.html">tBytes</a> *bt, unsigned int idx, unsigned char byte)</td></tr>
 <tr class="memdesc:a102fc6f2506326201cd71bb4804fe28f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a byte in a tBytes.  <a href="bytes_8h.html#a102fc6f2506326201cd71bb4804fe28f">Mais...</a><br /></td></tr>
 <tr class="separator:a102fc6f2506326201cd71bb4804fe28f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad71cedf4b310bbe04f258398cedd728f"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#ad71cedf4b310bbe04f258398cedd728f">bytes_get_byte</a> (<a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt, unsigned int idx)</td></tr>
+<tr class="memitem:ad71cedf4b310bbe04f258398cedd728f"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#ad71cedf4b310bbe04f258398cedd728f">bytes_get_byte</a> (<a class="el" href="structbytes__st.html">tBytes</a> *bt, unsigned int idx)</td></tr>
 <tr class="memdesc:ad71cedf4b310bbe04f258398cedd728f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a byte in a tBytes.  <a href="bytes_8h.html#ad71cedf4b310bbe04f258398cedd728f">Mais...</a><br /></td></tr>
 <tr class="separator:ad71cedf4b310bbe04f258398cedd728f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa460ceb68b4f8bd91467a947ee7174f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#aa460ceb68b4f8bd91467a947ee7174f9">bytes_set_len</a> (<a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt, unsigned int len)</td></tr>
+<tr class="memitem:aa460ceb68b4f8bd91467a947ee7174f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#aa460ceb68b4f8bd91467a947ee7174f9">bytes_set_len</a> (<a class="el" href="structbytes__st.html">tBytes</a> *bt, unsigned int len)</td></tr>
 <tr class="memdesc:aa460ceb68b4f8bd91467a947ee7174f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set length of a tBytes manually.  <a href="bytes_8h.html#aa460ceb68b4f8bd91467a947ee7174f9">Mais...</a><br /></td></tr>
 <tr class="separator:aa460ceb68b4f8bd91467a947ee7174f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5802dee5b68024eb5b63764efcdade9"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#ac5802dee5b68024eb5b63764efcdade9">bytes_get_len</a> (<a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt)</td></tr>
+<tr class="memitem:ac5802dee5b68024eb5b63764efcdade9"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#ac5802dee5b68024eb5b63764efcdade9">bytes_get_len</a> (<a class="el" href="structbytes__st.html">tBytes</a> *bt)</td></tr>
 <tr class="memdesc:ac5802dee5b68024eb5b63764efcdade9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current length of a tBytes.  <a href="bytes_8h.html#ac5802dee5b68024eb5b63764efcdade9">Mais...</a><br /></td></tr>
 <tr class="separator:ac5802dee5b68024eb5b63764efcdade9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a269da3ff64d53cc95683ed93cf693af5"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#a269da3ff64d53cc95683ed93cf693af5">bytes_max</a> (<a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt)</td></tr>
+<tr class="memitem:a269da3ff64d53cc95683ed93cf693af5"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#a269da3ff64d53cc95683ed93cf693af5">bytes_max</a> (<a class="el" href="structbytes__st.html">tBytes</a> *bt)</td></tr>
 <tr class="memdesc:a269da3ff64d53cc95683ed93cf693af5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get maximum length of a tBytes.  <a href="bytes_8h.html#a269da3ff64d53cc95683ed93cf693af5">Mais...</a><br /></td></tr>
 <tr class="separator:a269da3ff64d53cc95683ed93cf693af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91fa70f22cbe219ff47a6d41846dddba"><td class="memItemLeft" align="right" valign="top">unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#a91fa70f22cbe219ff47a6d41846dddba">bytes_contents</a> (<a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt)</td></tr>
+<tr class="memitem:a91fa70f22cbe219ff47a6d41846dddba"><td class="memItemLeft" align="right" valign="top">unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#a91fa70f22cbe219ff47a6d41846dddba">bytes_contents</a> (<a class="el" href="structbytes__st.html">tBytes</a> *bt)</td></tr>
 <tr class="memdesc:a91fa70f22cbe219ff47a6d41846dddba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a tBytes bytes vector.  <a href="bytes_8h.html#a91fa70f22cbe219ff47a6d41846dddba">Mais...</a><br /></td></tr>
 <tr class="separator:a91fa70f22cbe219ff47a6d41846dddba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0d0de02266bcd633d0140f4b55cdb24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#ad0d0de02266bcd633d0140f4b55cdb24">bytes_print</a> (<a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt)</td></tr>
+<tr class="memitem:ad0d0de02266bcd633d0140f4b55cdb24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8h.html#ad0d0de02266bcd633d0140f4b55cdb24">bytes_print</a> (<a class="el" href="structbytes__st.html">tBytes</a> *bt)</td></tr>
 <tr class="memdesc:ad0d0de02266bcd633d0140f4b55cdb24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print current bytes in a tBytes.  <a href="bytes_8h.html#ad0d0de02266bcd633d0140f4b55cdb24">Mais...</a><br /></td></tr>
 <tr class="separator:ad0d0de02266bcd633d0140f4b55cdb24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -171,24 +172,7 @@ Vitor F. Calmon </dd></dl>
 <dl class="section date"><dt>Data</dt><dd>2022-08-16 </dd></dl>
 
 <p class="definition">Definição no arquivo <a class="el" href="bytes_8h_source.html">bytes.h</a>.</p>
-</div><h2 class="groupheader">Definições dos tipos</h2>
-<a id="a2dd38295b6f64f70fb90f718848bf117"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2dd38295b6f64f70fb90f718848bf117">&#9670;&nbsp;</a></span>tBytes</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="structbytes__st.html">bytes_st</a> <a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definição na linha <a class="el" href="bytes_8h_source.html#l00001">1</a> do arquivo <a class="el" href="bytes_8h_source.html">bytes.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Funções</h2>
+</div><h2 class="groupheader">Funções</h2>
 <a id="ae7530d554ffe55e1147d9383cb5be841"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae7530d554ffe55e1147d9383cb5be841">&#9670;&nbsp;</a></span>bytes_append()</h2>
 
@@ -198,7 +182,7 @@ Vitor F. Calmon </dd></dl>
         <tr>
           <td class="memname">void bytes_append </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structbytes__st.html">tBytes</a> *&#160;</td>
           <td class="paramname"><em>bt</em>, </td>
         </tr>
         <tr>
@@ -239,9 +223,8 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="dyncontent">
 <div class="center"><img src="bytes_8h_ae7530d554ffe55e1147d9383cb5be841_icgraph.png" border="0" usemap="#abytes_8h_ae7530d554ffe55e1147d9383cb5be841_icgraph" alt=""/></div>
 <map name="abytes_8h_ae7530d554ffe55e1147d9383cb5be841_icgraph" id="abytes_8h_ae7530d554ffe55e1147d9383cb5be841_icgraph">
-<area shape="rect" title="Append a bytes to a tBytes." alt="" coords="216,5,319,32"/>
-<area shape="rect" href="encoding_8h.html#ac0f5f307bd3c1000f51b62d389bd13aa" title="Decode bits to uncompressed Bytes, using an encoding tree." alt="" coords="104,5,168,32"/>
-<area shape="rect" href="descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" title="Append a bytes to a tBytes." alt="" coords="117,5,220,32"/>
+<area shape="rect" href="encoding_8h.html#ac0f5f307bd3c1000f51b62d389bd13aa" title="Decode bits to uncompressed Bytes, using an encoding tree." alt="" coords="5,5,69,32"/>
 </map>
 </div>
 
@@ -256,7 +239,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">unsigned char* bytes_contents </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structbytes__st.html">tBytes</a> *&#160;</td>
           <td class="paramname"><em>bt</em></td><td>)</td>
           <td></td>
         </tr>
@@ -278,11 +261,9 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="dyncontent">
 <div class="center"><img src="bytes_8h_a91fa70f22cbe219ff47a6d41846dddba_icgraph.png" border="0" usemap="#abytes_8h_a91fa70f22cbe219ff47a6d41846dddba_icgraph" alt=""/></div>
 <map name="abytes_8h_a91fa70f22cbe219ff47a6d41846dddba_icgraph" id="abytes_8h_a91fa70f22cbe219ff47a6d41846dddba_icgraph">
-<area shape="rect" title="Get a tBytes bytes vector." alt="" coords="269,31,380,57"/>
-<area shape="rect" href="reglfile_8h.html#ab96df5988987fd750aa3fae706c04f3e" title="Read bytes from a tReglfile to given tBytes." alt="" coords="105,5,220,32"/>
-<area shape="rect" href="reglfile_8h.html#a5d7b2248ad98ec2e71abf4de8279866c" title="Write bytes to a tReglfile from given tBytes." alt="" coords="104,56,221,83"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-<area shape="rect" href="descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,56,56,83"/>
+<area shape="rect" title="Get a tBytes bytes vector." alt="" coords="171,31,281,57"/>
+<area shape="rect" href="reglfile_8h.html#ab96df5988987fd750aa3fae706c04f3e" title="Read bytes from a tReglfile to given tBytes." alt="" coords="7,5,121,32"/>
+<area shape="rect" href="reglfile_8h.html#a5d7b2248ad98ec2e71abf4de8279866c" title="Write bytes to a tReglfile from given tBytes." alt="" coords="5,56,123,83"/>
 </map>
 </div>
 
@@ -297,7 +278,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">void bytes_free </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structbytes__st.html">tBytes</a> *&#160;</td>
           <td class="paramname"><em>bt</em></td><td>)</td>
           <td></td>
         </tr>
@@ -322,15 +303,6 @@ Este é o diagrama das funções utilizadas por essa função:</div>
 <area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="136,5,199,32"/>
 </map>
 </div>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="bytes_8h_ad2b98d1f907939bf3c7452fef0fb0165_icgraph.png" border="0" usemap="#abytes_8h_ad2b98d1f907939bf3c7452fef0fb0165_icgraph" alt=""/></div>
-<map name="abytes_8h_ad2b98d1f907939bf3c7452fef0fb0165_icgraph" id="abytes_8h_ad2b98d1f907939bf3c7452fef0fb0165_icgraph">
-<area shape="rect" title="Free a tBytes and all the memory it has allocated." alt="" coords="104,5,187,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -343,7 +315,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">unsigned char bytes_get_byte </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structbytes__st.html">tBytes</a> *&#160;</td>
           <td class="paramname"><em>bt</em>, </td>
         </tr>
         <tr>
@@ -380,6 +352,15 @@ Este é o diagrama das funções utilizadas por essa função:</div>
 <area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="164,5,227,32"/>
 </map>
 </div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bytes_8h_ad71cedf4b310bbe04f258398cedd728f_icgraph.png" border="0" usemap="#abytes_8h_ad71cedf4b310bbe04f258398cedd728f_icgraph" alt=""/></div>
+<map name="abytes_8h_ad71cedf4b310bbe04f258398cedd728f_icgraph" id="abytes_8h_ad71cedf4b310bbe04f258398cedd728f_icgraph">
+<area shape="rect" title="Get a byte in a tBytes." alt="" coords="117,5,228,32"/>
+<area shape="rect" href="encoding_8h.html#ad8a2ff0233638f245e618c05db1e2a31" title="Encode bytes to compressed bits, using an encoding tree." alt="" coords="5,5,69,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -392,7 +373,7 @@ Este é o diagrama das funções utilizadas por essa função:</div>
         <tr>
           <td class="memname">unsigned int bytes_get_len </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structbytes__st.html">tBytes</a> *&#160;</td>
           <td class="paramname"><em>bt</em></td><td>)</td>
           <td></td>
         </tr>
@@ -414,11 +395,9 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="dyncontent">
 <div class="center"><img src="bytes_8h_ac5802dee5b68024eb5b63764efcdade9_icgraph.png" border="0" usemap="#abytes_8h_ac5802dee5b68024eb5b63764efcdade9_icgraph" alt=""/></div>
 <map name="abytes_8h_ac5802dee5b68024eb5b63764efcdade9_icgraph" id="abytes_8h_ac5802dee5b68024eb5b63764efcdade9_icgraph">
-<area shape="rect" title="Get current length of a tBytes." alt="" coords="269,31,372,57"/>
-<area shape="rect" href="encoding_8h.html#ad8a2ff0233638f245e618c05db1e2a31" title="Encode bytes to compressed bits, using an encoding tree." alt="" coords="131,5,195,32"/>
-<area shape="rect" href="reglfile_8h.html#a5d7b2248ad98ec2e71abf4de8279866c" title="Write bytes to a tReglfile from given tBytes." alt="" coords="104,56,221,83"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-<area shape="rect" href="descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,56,56,83"/>
+<area shape="rect" title="Get current length of a tBytes." alt="" coords="171,31,273,57"/>
+<area shape="rect" href="encoding_8h.html#ad8a2ff0233638f245e618c05db1e2a31" title="Encode bytes to compressed bits, using an encoding tree." alt="" coords="32,5,96,32"/>
+<area shape="rect" href="reglfile_8h.html#a5d7b2248ad98ec2e71abf4de8279866c" title="Write bytes to a tReglfile from given tBytes." alt="" coords="5,56,123,83"/>
 </map>
 </div>
 
@@ -431,7 +410,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a>* bytes_init </td>
+          <td class="memname"><a class="el" href="structbytes__st.html">tBytes</a>* bytes_init </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>max_length</em></td><td>)</td>
@@ -450,15 +429,6 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <dl class="section return"><dt>Retorna</dt><dd>tBytes* tBytes. </dd></dl>
 
 <p class="definition">Definição na linha <a class="el" href="bytes_8c_source.html#l00014">14</a> do arquivo <a class="el" href="bytes_8c_source.html">bytes.c</a>.</p>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="bytes_8h_aec151d5d94a6928e3d16a9f589fb7538_icgraph.png" border="0" usemap="#abytes_8h_aec151d5d94a6928e3d16a9f589fb7538_icgraph" alt=""/></div>
-<map name="abytes_8h_aec151d5d94a6928e3d16a9f589fb7538_icgraph" id="abytes_8h_aec151d5d94a6928e3d16a9f589fb7538_icgraph">
-<area shape="rect" title="Create tBytes." alt="" coords="104,5,183,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -471,7 +441,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">unsigned int bytes_max </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structbytes__st.html">tBytes</a> *&#160;</td>
           <td class="paramname"><em>bt</em></td><td>)</td>
           <td></td>
         </tr>
@@ -493,9 +463,8 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="dyncontent">
 <div class="center"><img src="bytes_8h_a269da3ff64d53cc95683ed93cf693af5_icgraph.png" border="0" usemap="#abytes_8h_a269da3ff64d53cc95683ed93cf693af5_icgraph" alt=""/></div>
 <map name="abytes_8h_a269da3ff64d53cc95683ed93cf693af5_icgraph" id="abytes_8h_a269da3ff64d53cc95683ed93cf693af5_icgraph">
-<area shape="rect" title="Get maximum length of a tBytes." alt="" coords="267,5,353,32"/>
-<area shape="rect" href="reglfile_8h.html#ab96df5988987fd750aa3fae706c04f3e" title="Read bytes from a tReglfile to given tBytes." alt="" coords="104,5,219,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" title="Get maximum length of a tBytes." alt="" coords="168,5,255,32"/>
+<area shape="rect" href="reglfile_8h.html#ab96df5988987fd750aa3fae706c04f3e" title="Read bytes from a tReglfile to given tBytes." alt="" coords="5,5,120,32"/>
 </map>
 </div>
 
@@ -510,7 +479,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">void bytes_print </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structbytes__st.html">tBytes</a> *&#160;</td>
           <td class="paramname"><em>bt</em></td><td>)</td>
           <td></td>
         </tr>
@@ -538,7 +507,7 @@ Esse é o diagrama das funções que utilizam essa função:</div>
         <tr>
           <td class="memname">unsigned char bytes_read </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structbytes__st.html">tBytes</a> *&#160;</td>
           <td class="paramname"><em>bt</em></td><td>)</td>
           <td></td>
         </tr>
@@ -577,7 +546,7 @@ Este é o diagrama das funções utilizadas por essa função:</div>
         <tr>
           <td class="memname">void bytes_set_byte </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structbytes__st.html">tBytes</a> *&#160;</td>
           <td class="paramname"><em>bt</em>, </td>
         </tr>
         <tr>
@@ -632,7 +601,7 @@ Este é o diagrama das funções utilizadas por essa função:</div>
         <tr>
           <td class="memname">void bytes_set_len </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structbytes__st.html">tBytes</a> *&#160;</td>
           <td class="paramname"><em>bt</em>, </td>
         </tr>
         <tr>
@@ -664,9 +633,8 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="dyncontent">
 <div class="center"><img src="bytes_8h_aa460ceb68b4f8bd91467a947ee7174f9_icgraph.png" border="0" usemap="#abytes_8h_aa460ceb68b4f8bd91467a947ee7174f9_icgraph" alt=""/></div>
 <map name="abytes_8h_aa460ceb68b4f8bd91467a947ee7174f9_icgraph" id="abytes_8h_aa460ceb68b4f8bd91467a947ee7174f9_icgraph">
-<area shape="rect" title="Set length of a tBytes manually." alt="" coords="267,5,369,32"/>
-<area shape="rect" href="reglfile_8h.html#ab96df5988987fd750aa3fae706c04f3e" title="Read bytes from a tReglfile to given tBytes." alt="" coords="104,5,219,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" title="Set length of a tBytes manually." alt="" coords="168,5,271,32"/>
+<area shape="rect" href="reglfile_8h.html#ab96df5988987fd750aa3fae706c04f3e" title="Read bytes from a tReglfile to given tBytes." alt="" coords="5,5,120,32"/>
 </map>
 </div>
 

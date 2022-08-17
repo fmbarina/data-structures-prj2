@@ -123,9 +123,9 @@ Este grafo mostra quais arquivos estão direta ou indiretamente relacionados com
 <map name="aheaders_2encoding_8hdep" id="aheaders_2encoding_8hdep">
 <area shape="rect" title="Encode and decode binary data with an encoding tree." alt="" coords="197,5,331,32"/>
 <area shape="rect" href="compacta_8c.html" title="Program to compress files to be decompressed with &#39;descompacta&#39;." alt="" coords="5,80,117,107"/>
-<area shape="rect" href="compfile_8c.html" title=" " alt="" coords="141,80,245,107"/>
+<area shape="rect" href="compfile_8c_source.html" title=" " alt="" coords="141,80,245,107"/>
 <area shape="rect" href="descompacta_8c.html" title="Program to decompress files compressed with &#39;compacta&#39;." alt="" coords="269,80,403,107"/>
-<area shape="rect" href="encoding_8c.html" title=" " alt="" coords="427,80,533,107"/>
+<area shape="rect" href="encoding_8c_source.html" title=" " alt="" coords="427,80,533,107"/>
 </map>
 </div>
 </div>
@@ -133,7 +133,7 @@ Este grafo mostra quais arquivos estão direta ou indiretamente relacionados com
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Funções</h2></td></tr>
-<tr class="memitem:ad8a2ff0233638f245e618c05db1e2a31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="bits_8h.html#a5ec04ea2c7dc06cfdd3521427411f5d9">tBits</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="encoding_8h.html#ad8a2ff0233638f245e618c05db1e2a31">encode</a> (<a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *tr, <a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt, <a class="el" href="bits_8h.html#a5ec04ea2c7dc06cfdd3521427411f5d9">tBits</a> *bs)</td></tr>
+<tr class="memitem:ad8a2ff0233638f245e618c05db1e2a31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structbits__st.html">tBits</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="encoding_8h.html#ad8a2ff0233638f245e618c05db1e2a31">encode</a> (<a class="el" href="structtree__st.html">tTree</a> *tr, <a class="el" href="structbytes__st.html">tBytes</a> *bt, <a class="el" href="structbits__st.html">tBits</a> *bs)</td></tr>
 <tr class="memdesc:ad8a2ff0233638f245e618c05db1e2a31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode bytes to compressed bits, using an encoding tree.  <a href="encoding_8h.html#ad8a2ff0233638f245e618c05db1e2a31">Mais...</a><br /></td></tr>
 <tr class="separator:ad8a2ff0233638f245e618c05db1e2a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60c269dd60c6c608d86b492799ec9a2e"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="encoding_8h.html#a60c269dd60c6c608d86b492799ec9a2e">encode_limit_in</a> ()</td></tr>
@@ -142,7 +142,7 @@ Funções</h2></td></tr>
 <tr class="memitem:a99c57c2b6d05bdd465f9d12654eeb4d6"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="encoding_8h.html#a99c57c2b6d05bdd465f9d12654eeb4d6">encode_limit_out</a> ()</td></tr>
 <tr class="memdesc:a99c57c2b6d05bdd465f9d12654eeb4d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get maximum output of bits after encoding.  <a href="encoding_8h.html#a99c57c2b6d05bdd465f9d12654eeb4d6">Mais...</a><br /></td></tr>
 <tr class="separator:a99c57c2b6d05bdd465f9d12654eeb4d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0f5f307bd3c1000f51b62d389bd13aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="encoding_8h.html#ac0f5f307bd3c1000f51b62d389bd13aa">decode</a> (<a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *tr, <a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt, <a class="el" href="bits_8h.html#a5ec04ea2c7dc06cfdd3521427411f5d9">tBits</a> *bs)</td></tr>
+<tr class="memitem:ac0f5f307bd3c1000f51b62d389bd13aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structbytes__st.html">tBytes</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="encoding_8h.html#ac0f5f307bd3c1000f51b62d389bd13aa">decode</a> (<a class="el" href="structtree__st.html">tTree</a> *tr, <a class="el" href="structbytes__st.html">tBytes</a> *bt, <a class="el" href="structbits__st.html">tBits</a> *bs)</td></tr>
 <tr class="memdesc:ac0f5f307bd3c1000f51b62d389bd13aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode bits to uncompressed Bytes, using an encoding tree.  <a href="encoding_8h.html#ac0f5f307bd3c1000f51b62d389bd13aa">Mais...</a><br /></td></tr>
 <tr class="separator:ac0f5f307bd3c1000f51b62d389bd13aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a918f24ce6d558675332757d3ba8f619d"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="encoding_8h.html#a918f24ce6d558675332757d3ba8f619d">decode_limit_in</a> ()</td></tr>
@@ -168,21 +168,21 @@ Vitor F. Calmon </dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a>* decode </td>
+          <td class="memname"><a class="el" href="structbytes__st.html">tBytes</a>* decode </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structtree__st.html">tTree</a> *&#160;</td>
           <td class="paramname"><em>tr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structbytes__st.html">tBytes</a> *&#160;</td>
           <td class="paramname"><em>bt</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="bits_8h.html#a5ec04ea2c7dc06cfdd3521427411f5d9">tBits</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structbits__st.html">tBits</a> *&#160;</td>
           <td class="paramname"><em>bs</em>&#160;</td>
         </tr>
         <tr>
@@ -222,15 +222,6 @@ Este é o diagrama das funções utilizadas por essa função:</div>
 <area shape="rect" href="tree_8h.html#ab4030f9dede7256f01461db03458f84d" title="Navegate through the tree." alt="" coords="135,391,207,418"/>
 </map>
 </div>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="encoding_8h_ac0f5f307bd3c1000f51b62d389bd13aa_icgraph.png" border="0" usemap="#aencoding_8h_ac0f5f307bd3c1000f51b62d389bd13aa_icgraph" alt=""/></div>
-<map name="aencoding_8h_ac0f5f307bd3c1000f51b62d389bd13aa_icgraph" id="aencoding_8h_ac0f5f307bd3c1000f51b62d389bd13aa_icgraph">
-<area shape="rect" title="Decode bits to uncompressed Bytes, using an encoding tree." alt="" coords="104,5,168,32"/>
-<area shape="rect" href="descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -253,15 +244,6 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <dl class="section return"><dt>Retorna</dt><dd>unsigned int Limit. </dd></dl>
 
 <p class="definition">Definição na linha <a class="el" href="encoding_8c_source.html#l00117">117</a> do arquivo <a class="el" href="encoding_8c_source.html">encoding.c</a>.</p>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="encoding_8h_a918f24ce6d558675332757d3ba8f619d_icgraph.png" border="0" usemap="#aencoding_8h_a918f24ce6d558675332757d3ba8f619d_icgraph" alt=""/></div>
-<map name="aencoding_8h_a918f24ce6d558675332757d3ba8f619d_icgraph" id="aencoding_8h_a918f24ce6d558675332757d3ba8f619d_icgraph">
-<area shape="rect" title="Get limit of bits to decode." alt="" coords="104,5,216,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -284,15 +266,6 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <dl class="section return"><dt>Retorna</dt><dd>unsigned int Limit. </dd></dl>
 
 <p class="definition">Definição na linha <a class="el" href="encoding_8c_source.html#l00122">122</a> do arquivo <a class="el" href="encoding_8c_source.html">encoding.c</a>.</p>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="encoding_8h_adb5da168c78b4bb7decaac8882bcdf18_icgraph.png" border="0" usemap="#aencoding_8h_adb5da168c78b4bb7decaac8882bcdf18_icgraph" alt=""/></div>
-<map name="aencoding_8h_adb5da168c78b4bb7decaac8882bcdf18_icgraph" id="aencoding_8h_adb5da168c78b4bb7decaac8882bcdf18_icgraph">
-<area shape="rect" title="Get maximum output of bytes after decoding." alt="" coords="104,5,224,32"/>
-<area shape="rect" href="descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -303,21 +276,21 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="bits_8h.html#a5ec04ea2c7dc06cfdd3521427411f5d9">tBits</a>* encode </td>
+          <td class="memname"><a class="el" href="structbits__st.html">tBits</a>* encode </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structtree__st.html">tTree</a> *&#160;</td>
           <td class="paramname"><em>tr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structbytes__st.html">tBytes</a> *&#160;</td>
           <td class="paramname"><em>bt</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="bits_8h.html#a5ec04ea2c7dc06cfdd3521427411f5d9">tBits</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structbits__st.html">tBits</a> *&#160;</td>
           <td class="paramname"><em>bs</em>&#160;</td>
         </tr>
         <tr>
@@ -345,19 +318,16 @@ Este é o diagrama das funções utilizadas por essa função:</div>
 <div class="dyncontent">
 <div class="center"><img src="encoding_8h_ad8a2ff0233638f245e618c05db1e2a31_cgraph.png" border="0" usemap="#aencoding_8h_ad8a2ff0233638f245e618c05db1e2a31_cgraph" alt=""/></div>
 <map name="aencoding_8h_ad8a2ff0233638f245e618c05db1e2a31_cgraph" id="aencoding_8h_ad8a2ff0233638f245e618c05db1e2a31_cgraph">
-<area shape="rect" title="Encode bytes to compressed bits, using an encoding tree." alt="" coords="5,31,69,57"/>
-<area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="268,5,331,32"/>
-<area shape="rect" href="bits_8h.html#a58ad5405b4cd39db1fb7d793a91092a5" title="Create tBits." alt="" coords="135,31,202,57"/>
-<area shape="rect" href="bytes_8h.html#ac5802dee5b68024eb5b63764efcdade9" title="Get current length of a tBytes." alt="" coords="117,81,220,108"/>
-</map>
-</div>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="encoding_8h_ad8a2ff0233638f245e618c05db1e2a31_icgraph.png" border="0" usemap="#aencoding_8h_ad8a2ff0233638f245e618c05db1e2a31_icgraph" alt=""/></div>
-<map name="aencoding_8h_ad8a2ff0233638f245e618c05db1e2a31_icgraph" id="aencoding_8h_ad8a2ff0233638f245e618c05db1e2a31_icgraph">
-<area shape="rect" title="Encode bytes to compressed bits, using an encoding tree." alt="" coords="104,5,168,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" title="Encode bytes to compressed bits, using an encoding tree." alt="" coords="5,178,69,205"/>
+<area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="413,153,476,179"/>
+<area shape="rect" href="bits_8h.html#af4071ab75ae34cc27de99b16a825748f" title="Append a bit to a tBits." alt="" coords="127,51,219,78"/>
+<area shape="rect" href="bits_8h.html#ad44d3c4c8431ea66729df3da207b8827" title="Free a tBits and all the memory it has allocated." alt="" coords="285,153,357,179"/>
+<area shape="rect" href="bits_8h.html#a4cfa06f3fe9324b810a8a19806b825bb" title="Get a bit in a tBits." alt="" coords="276,203,365,230"/>
+<area shape="rect" href="bits_8h.html#a59ab9afa29849c2b4e83346e3c082a61" title="Get current length of a tBits." alt="" coords="127,203,219,230"/>
+<area shape="rect" href="bits_8h.html#a58ad5405b4cd39db1fb7d793a91092a5" title="Create tBits." alt="" coords="287,254,354,281"/>
+<area shape="rect" href="bytes_8h.html#ad71cedf4b310bbe04f258398cedd728f" title="Get a byte in a tBytes." alt="" coords="117,305,228,331"/>
+<area shape="rect" href="bytes_8h.html#ac5802dee5b68024eb5b63764efcdade9" title="Get current length of a tBytes." alt="" coords="121,355,224,382"/>
+<area shape="rect" href="bits_8h.html#acca1cc4d4062a04574036fb84470b3d0" title="Set a bit in a tBits." alt="" coords="276,102,365,129"/>
 </map>
 </div>
 
@@ -382,15 +352,6 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <dl class="section return"><dt>Retorna</dt><dd>unsigned int Limit. </dd></dl>
 
 <p class="definition">Definição na linha <a class="el" href="encoding_8c_source.html#l00076">76</a> do arquivo <a class="el" href="encoding_8c_source.html">encoding.c</a>.</p>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="encoding_8h_a60c269dd60c6c608d86b492799ec9a2e_icgraph.png" border="0" usemap="#aencoding_8h_a60c269dd60c6c608d86b492799ec9a2e_icgraph" alt=""/></div>
-<map name="aencoding_8h_a60c269dd60c6c608d86b492799ec9a2e_icgraph" id="aencoding_8h_a60c269dd60c6c608d86b492799ec9a2e_icgraph">
-<area shape="rect" title="Get limit of bytes to encode." alt="" coords="104,5,216,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -413,15 +374,6 @@ Esse é o diagrama das funções que utilizam essa função:</div>
 <dl class="section return"><dt>Retorna</dt><dd>unsigned int Limit. </dd></dl>
 
 <p class="definition">Definição na linha <a class="el" href="encoding_8c_source.html#l00081">81</a> do arquivo <a class="el" href="encoding_8c_source.html">encoding.c</a>.</p>
-<div class="dynheader">
-Esse é o diagrama das funções que utilizam essa função:</div>
-<div class="dyncontent">
-<div class="center"><img src="encoding_8h_a99c57c2b6d05bdd465f9d12654eeb4d6_icgraph.png" border="0" usemap="#aencoding_8h_a99c57c2b6d05bdd465f9d12654eeb4d6_icgraph" alt=""/></div>
-<map name="aencoding_8h_a99c57c2b6d05bdd465f9d12654eeb4d6_icgraph" id="aencoding_8h_a99c57c2b6d05bdd465f9d12654eeb4d6_icgraph">
-<area shape="rect" title="Get maximum output of bits after encoding." alt="" coords="104,5,224,32"/>
-<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>
-</div>
 
 </div>
 </div>

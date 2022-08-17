@@ -1,5 +1,0 @@
-<map id="tree_serialize" name="tree_serialize">
-<area shape="rect" id="node1" title="Serialize the given tree to a sequence of bits." alt="" coords="5,5,104,32"/>
-<area shape="rect" id="node2" href="$bits_8h.html#a58ad5405b4cd39db1fb7d793a91092a5" title="Create tBits." alt="" coords="152,5,219,32"/>
-<area shape="rect" id="node3" href="$assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="267,5,329,32"/>
-</map>

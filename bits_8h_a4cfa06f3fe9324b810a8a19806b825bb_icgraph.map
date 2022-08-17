@@ -1,5 +1,6 @@
 <map id="bits_get_bit" name="bits_get_bit">
-<area shape="rect" id="node1" title="Get a bit in a tBits." alt="" coords="167,43,256,69"/>
-<area shape="rect" id="node2" href="$compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="37,5,87,32"/>
-<area shape="rect" id="node3" href="$tree_8h.html#afa038656292eb34cba748b9fe7f7919d" title="Deserialize the given sequence of bits into a tree." alt="" coords="5,80,119,107"/>
+<area shape="rect" id="node1" title="Get a bit in a tBits." alt="" coords="347,31,436,57"/>
+<area shape="rect" id="node2" href="$encoding_8h.html#ad8a2ff0233638f245e618c05db1e2a31" title="Encode bytes to compressed bits, using an encoding tree." alt="" coords="210,5,274,32"/>
+<area shape="rect" id="node3" href="$tree_8h.html#afa038656292eb34cba748b9fe7f7919d" title="Deserialize the given sequence of bits into a tree." alt="" coords="185,56,299,83"/>
+<area shape="rect" id="node4" href="$compfile_8h.html#a8283258a0ab2a36089d1d8fa65a7f3db" title="Read the file header to a tCompfile, including metadata such as the file name, extension and the bina..." alt="" coords="5,56,137,83"/>
 </map>

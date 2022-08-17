@@ -1,7 +1,0 @@
-<map id="bits_append" name="bits_append">
-<area shape="rect" id="node1" title="Append a bit to a tBits." alt="" coords="428,31,520,57"/>
-<area shape="rect" id="node2" href="$compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="300,5,351,32"/>
-<area shape="rect" id="node3" href="$rwbin_8h.html#aaae132cb54c219fc1ce965cbb1e25c59" title="Read a block of bits from binary file." alt="" coords="271,56,380,83"/>
-<area shape="rect" id="node4" href="$compfile_8h.html#ac3d32df217cd92388d45c39659dc294c" title="Write file data of a tCompfile in the form of a block of bits to a given tBits." alt="" coords="104,56,223,83"/>
-<area shape="rect" id="node5" href="$descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,56,56,83"/>
-</map>

@@ -2,5 +2,5 @@
 <area shape="rect" id="node1" title="Read a block of bits from binary file." alt="" coords="5,5,115,32"/>
 <area shape="rect" id="node2" href="$bits_8h.html#af4071ab75ae34cc27de99b16a825748f" title="Append a bit to a tBits." alt="" coords="163,5,255,32"/>
 <area shape="rect" id="node3" href="$assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="440,5,503,32"/>
-<area shape="rect" id="node4" href="$bits_8c.html#acca1cc4d4062a04574036fb84470b3d0" title="Set a bit in a tBits." alt="" coords="303,31,392,57"/>
+<area shape="rect" id="node4" href="$bits_8h.html#acca1cc4d4062a04574036fb84470b3d0" title="Set a bit in a tBits." alt="" coords="303,31,392,57"/>
 </map>
