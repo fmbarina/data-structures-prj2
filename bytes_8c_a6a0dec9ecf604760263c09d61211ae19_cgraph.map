@@ -1,0 +1,4 @@
+<map id="bytes_read" name="bytes_read">
+<area shape="rect" id="node1" title="Reads bytes, byte by byte, from a tBytes. A cursor inside &#160;&#160;advances one byte every function call...." alt="" coords="5,5,92,32"/>
+<area shape="rect" id="node2" href="$assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="140,5,203,32"/>
+</map>

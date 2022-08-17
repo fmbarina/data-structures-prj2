@@ -1,0 +1,6 @@
+<map id="headers/compfile.h" name="headers/compfile.h">
+<area shape="rect" id="node1" title="Manage the data and operations relating to a compressed file." alt="" coords="127,5,259,32"/>
+<area shape="rect" id="node2" href="$compacta_8c.html" title="Program to compress files to be decompressed with &#39;descompacta&#39;." alt="" coords="5,80,117,107"/>
+<area shape="rect" id="node3" href="$compfile_8c.html" title=" " alt="" coords="141,80,245,107"/>
+<area shape="rect" id="node4" href="$descompacta_8c.html" title="Program to decompress files compressed with &#39;compacta&#39;." alt="" coords="269,80,403,107"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="huffman_algorithm" name="huffman_algorithm">
+<area shape="rect" id="node1" title="Apply the Huffman algorithm to the tree list." alt="" coords="5,107,133,133"/>
+<area shape="rect" id="node2" href="$treelist_8c.html#af3b6dc5912c7180a5575af2274fb4cb1" title="Check if tree list only contains one tree." alt="" coords="201,5,280,32"/>
+<area shape="rect" id="node3" href="$tree_8h.html#a2fa6564d96a2d1910af7b64aa6f42eac" title="Create tree with passed parameters." alt="" coords="207,56,275,83"/>
+<area shape="rect" id="node4" href="$treelist_8c.html#aa29aa91930c630dfc33262ec070091aa" title="Insert tree in tree list with respect to ascending weight order." alt="" coords="187,107,294,133"/>
+<area shape="rect" id="node5" href="$tree_8h.html#a7bb8f234bec53318df8d10a5d0ebea38" title="Return tree&#39;s weight." alt="" coords="348,132,437,159"/>
+<area shape="rect" id="node6" href="$treelist_8c.html#ae26b713e78717b06163b344d590eff34" title="Remove tree from tree list." alt="" coords="181,208,300,235"/>
+</map>

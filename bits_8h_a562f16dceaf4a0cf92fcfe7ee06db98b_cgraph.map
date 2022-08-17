@@ -1,0 +1,4 @@
+<map id="bits_set_cur" name="bits_set_cur">
+<area shape="rect" id="node1" title="Set cursor of a tBits manually." alt="" coords="5,5,99,32"/>
+<area shape="rect" id="node2" href="$assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="147,5,209,32"/>
+</map>

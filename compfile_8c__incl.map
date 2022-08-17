@@ -1,0 +1,14 @@
+<map id="src/compfile.c" name="src/compfile.c">
+<area shape="rect" id="node1" title=" " alt="" coords="266,5,370,32"/>
+<area shape="rect" id="node2" href="$compfile_8h.html" title="Manage the data and operations relating to a compressed file." alt="" coords="527,80,610,107"/>
+<area shape="rect" id="node3" href="$tree_8h.html" title="Manage trees." alt="" coords="252,155,306,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="24,229,86,256"/>
+<area shape="rect" id="node5" href="$bits_8h.html" title="Manage a collection of bits." alt="" coords="252,229,306,256"/>
+<area shape="rect" id="node6" title=" " alt="" coords="242,80,306,107"/>
+<area shape="rect" id="node7" title=" " alt="" coords="330,80,396,107"/>
+<area shape="rect" id="node8" href="$pathman_8h.html" title="Path manipulation functions. You should use cwalk instead." alt="" coords="420,80,503,107"/>
+<area shape="rect" id="node9" href="$rwbin_8h.html" title="Functions to ease binary read/write operations in a uniform manner." alt="" coords="23,155,87,181"/>
+<area shape="rect" id="node10" href="$assertr_8h.html" title="Custom assert function with error message." alt="" coords="634,80,708,107"/>
+<area shape="rect" id="node11" href="$encoding_8h.html" title="Encode and decode binary data with an encoding tree." alt="" coords="82,80,167,107"/>
+<area shape="rect" id="node12" href="$bytes_8h.html" title="Manage a collection of bytes." alt="" coords="162,155,228,181"/>
+</map>

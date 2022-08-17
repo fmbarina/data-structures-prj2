@@ -1,0 +1,4 @@
+<map id="counter_get_vetx" name="counter_get_vetx">
+<area shape="rect" id="node1" title="Get the count of a byte in a byte counter." alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node2" href="$assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="176,5,239,32"/>
+</map>

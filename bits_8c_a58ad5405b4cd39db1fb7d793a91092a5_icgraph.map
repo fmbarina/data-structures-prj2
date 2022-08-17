@@ -1,0 +1,6 @@
+<map id="bits_init" name="bits_init">
+<area shape="rect" id="node1" title="Create tBits." alt="" coords="251,56,317,83"/>
+<area shape="rect" id="node2" href="$encoding_8h.html#ad8a2ff0233638f245e618c05db1e2a31" title="Encode bytes to compressed bits, using an encoding tree." alt="" coords="121,5,185,32"/>
+<area shape="rect" id="node3" href="$compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,31,56,57"/>
+<area shape="rect" id="node4" href="$tree_8h.html#aca268bce3bb2838cbc4f13ee9a9f7f06" title="Serialize the given tree to a sequence of bits." alt="" coords="104,107,203,133"/>
+</map>

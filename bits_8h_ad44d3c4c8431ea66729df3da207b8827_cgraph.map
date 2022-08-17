@@ -1,0 +1,4 @@
+<map id="bits_free" name="bits_free">
+<area shape="rect" id="node1" title="Free a tBits and all the memory it has allocated." alt="" coords="5,5,77,32"/>
+<area shape="rect" id="node2" href="$assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="125,5,188,32"/>
+</map>

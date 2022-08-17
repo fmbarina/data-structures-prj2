@@ -1,0 +1,7 @@
+<map id="tree_empty" name="tree_empty">
+<area shape="rect" id="node1" title="Check if tree is empty." alt="" coords="359,67,445,93"/>
+<area shape="rect" id="node2" href="$tree_8h.html#a23769feed83ed62a9e1d5a7a090f870e" title="Free the memory allocated in by the tree." alt="" coords="236,29,309,56"/>
+<area shape="rect" id="node5" href="$tree_8h.html#a6f3cf0a1efb94a403bb8d4f4afa97e2d" title="Print the tree with their informations." alt="" coords="235,104,311,131"/>
+<area shape="rect" id="node3" href="$compfile_8h.html#a62cb777eed0bb7bbe5a079474bf79239" title="Free a tCompfile and all the memory it has allocated." alt="" coords="104,29,187,56"/>
+<area shape="rect" id="node4" href="$compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,29,56,56"/>
+</map>

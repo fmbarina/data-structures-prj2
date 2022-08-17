@@ -1,0 +1,6 @@
+<map id="tree_free" name="tree_free">
+<area shape="rect" id="node1" title="Free the memory allocated in by the tree." alt="" coords="356,6,429,33"/>
+<area shape="rect" id="node2" href="$compfile_8h.html#a62cb777eed0bb7bbe5a079474bf79239" title="Free a tCompfile and all the memory it has allocated." alt="" coords="104,6,187,33"/>
+<area shape="rect" id="node4" href="$tree_8h.html#a23769feed83ed62a9e1d5a7a090f870e" title="Free the memory allocated in by the tree." alt="" coords="235,44,308,70"/>
+<area shape="rect" id="node3" href="$compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,6,56,33"/>
+</map>

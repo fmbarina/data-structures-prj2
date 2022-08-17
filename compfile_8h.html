@@ -1,0 +1,849 @@
+<!-- HTML header for doxygen 1.9.1-->
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="generator" content="Doxygen 1.9.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EDCompacta: Referência do Arquivo headers/compfile.h</title>
+    <link href="tabs.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+    <!-- ... other metadata & script includes ... -->
+    <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+    <script type="text/javascript">
+        DoxygenAwesomeDarkModeToggle.init()
+    </script>
+</head>
+<body>
+    <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+            <table cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr style="height: 56px;">
+                        <td id="projectalign" style="padding-left: 0.5em;">
+                            <div id="projectname">EDCompacta
+                            </div>
+                            <div id="projectbrief">e Descompacta usando Codificação Huffman</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- end header part --><!-- Gerado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Busca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('compfile_8h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Definições de Tipos</a> &#124;
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência do Arquivo compfile.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Manage the data and operations relating to a compressed file.  
+<a href="#details">Mais...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="tree_8h_source.html">tree.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="bits_8h_source.html">bits.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Gráfico de dependência de inclusões para compfile.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="compfile_8h__incl.png" border="0" usemap="#aheaders_2compfile_8h" alt=""/></div>
+<map name="aheaders_2compfile_8h" id="aheaders_2compfile_8h">
+<area shape="rect" title="Manage the data and operations relating to a compressed file." alt="" coords="19,5,151,32"/>
+<area shape="rect" href="tree_8h.html" title="Manage trees." alt="" coords="26,80,81,107"/>
+<area shape="rect" href="bits_8h.html" title="Manage a collection of bits." alt="" coords="91,155,146,181"/>
+<area shape="rect" title=" " alt="" coords="5,155,67,181"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Este grafo mostra quais arquivos estão direta ou indiretamente relacionados com esse arquivo:</div>
+<div class="dyncontent">
+<div class="center"><img src="compfile_8h__dep__incl.png" border="0" usemap="#aheaders_2compfile_8hdep" alt=""/></div>
+<map name="aheaders_2compfile_8hdep" id="aheaders_2compfile_8hdep">
+<area shape="rect" title="Manage the data and operations relating to a compressed file." alt="" coords="127,5,259,32"/>
+<area shape="rect" href="compacta_8c.html" title="Program to compress files to be decompressed with &#39;descompacta&#39;." alt="" coords="5,80,117,107"/>
+<area shape="rect" href="compfile_8c.html" title=" " alt="" coords="141,80,245,107"/>
+<area shape="rect" href="descompacta_8c.html" title="Program to decompress files compressed with &#39;compacta&#39;." alt="" coords="269,80,403,107"/>
+</map>
+</div>
+</div>
+<p><a href="compfile_8h_source.html">Vá para o código-fonte desse arquivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Definições de Tipos</h2></td></tr>
+<tr class="memitem:acd17480ce6d959218a08632d2210f83b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structcompfile__st.html">compfile_st</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a></td></tr>
+<tr class="separator:acd17480ce6d959218a08632d2210f83b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:a2b2513bbb6bbb6e229db6baf3518d48f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compfile_8h.html#a2b2513bbb6bbb6e229db6baf3518d48f">comp_init</a> ()</td></tr>
+<tr class="memdesc:a2b2513bbb6bbb6e229db6baf3518d48f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a tCompfile.  <a href="compfile_8h.html#a2b2513bbb6bbb6e229db6baf3518d48f">Mais...</a><br /></td></tr>
+<tr class="separator:a2b2513bbb6bbb6e229db6baf3518d48f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62cb777eed0bb7bbe5a079474bf79239"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compfile_8h.html#a62cb777eed0bb7bbe5a079474bf79239">comp_free</a> (<a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *cf)</td></tr>
+<tr class="memdesc:a62cb777eed0bb7bbe5a079474bf79239"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free a tCompfile and all the memory it has allocated.  <a href="compfile_8h.html#a62cb777eed0bb7bbe5a079474bf79239">Mais...</a><br /></td></tr>
+<tr class="separator:a62cb777eed0bb7bbe5a079474bf79239"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98bf9340a3e53ac8e7d0ac6575a24259"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compfile_8h.html#a98bf9340a3e53ac8e7d0ac6575a24259">comp_write_header</a> (<a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *cf)</td></tr>
+<tr class="memdesc:a98bf9340a3e53ac8e7d0ac6575a24259"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the file header from a tCompfile, including metadata such as the file name, extension and the binary file signature.  <a href="compfile_8h.html#a98bf9340a3e53ac8e7d0ac6575a24259">Mais...</a><br /></td></tr>
+<tr class="separator:a98bf9340a3e53ac8e7d0ac6575a24259"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a096ee4e90b5bbb6df76d18b72c047fe1"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compfile_8h.html#a096ee4e90b5bbb6df76d18b72c047fe1">comp_write_data</a> (<a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *cf, <a class="el" href="bits_8h.html#a5ec04ea2c7dc06cfdd3521427411f5d9">tBits</a> *bs)</td></tr>
+<tr class="memdesc:a096ee4e90b5bbb6df76d18b72c047fe1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write file data of a tCompfile in the form of a given block of bits.  <a href="compfile_8h.html#a096ee4e90b5bbb6df76d18b72c047fe1">Mais...</a><br /></td></tr>
+<tr class="separator:a096ee4e90b5bbb6df76d18b72c047fe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8283258a0ab2a36089d1d8fa65a7f3db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compfile_8h.html#a8283258a0ab2a36089d1d8fa65a7f3db">comp_read_header</a> (<a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *cf)</td></tr>
+<tr class="memdesc:a8283258a0ab2a36089d1d8fa65a7f3db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the file header to a tCompfile, including metadata such as the file name, extension and the binary file signature.  <a href="compfile_8h.html#a8283258a0ab2a36089d1d8fa65a7f3db">Mais...</a><br /></td></tr>
+<tr class="separator:a8283258a0ab2a36089d1d8fa65a7f3db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3d32df217cd92388d45c39659dc294c"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compfile_8h.html#ac3d32df217cd92388d45c39659dc294c">comp_read_data</a> (<a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *cf, <a class="el" href="bits_8h.html#a5ec04ea2c7dc06cfdd3521427411f5d9">tBits</a> *bs)</td></tr>
+<tr class="memdesc:ac3d32df217cd92388d45c39659dc294c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write file data of a tCompfile in the form of a block of bits to a given tBits.  <a href="compfile_8h.html#ac3d32df217cd92388d45c39659dc294c">Mais...</a><br /></td></tr>
+<tr class="separator:ac3d32df217cd92388d45c39659dc294c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0265dc1706d4b73548d5c8bfcb1e201"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compfile_8h.html#af0265dc1706d4b73548d5c8bfcb1e201">comp_get_path</a> (<a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *cf)</td></tr>
+<tr class="memdesc:af0265dc1706d4b73548d5c8bfcb1e201"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get path of a tCompfile.  <a href="compfile_8h.html#af0265dc1706d4b73548d5c8bfcb1e201">Mais...</a><br /></td></tr>
+<tr class="separator:af0265dc1706d4b73548d5c8bfcb1e201"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c29ae8ca2afbe2bd5ca02b50f4858f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compfile_8h.html#a0c29ae8ca2afbe2bd5ca02b50f4858f8">comp_set_path</a> (<a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *cf, char *path)</td></tr>
+<tr class="memdesc:a0c29ae8ca2afbe2bd5ca02b50f4858f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set path of a tCompfile.  <a href="compfile_8h.html#a0c29ae8ca2afbe2bd5ca02b50f4858f8">Mais...</a><br /></td></tr>
+<tr class="separator:a0c29ae8ca2afbe2bd5ca02b50f4858f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94aed3f4f92ff844bbfd055e0973741a"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compfile_8h.html#a94aed3f4f92ff844bbfd055e0973741a">comp_get_name</a> (<a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *cf)</td></tr>
+<tr class="memdesc:a94aed3f4f92ff844bbfd055e0973741a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get name of a tCompfile.  <a href="compfile_8h.html#a94aed3f4f92ff844bbfd055e0973741a">Mais...</a><br /></td></tr>
+<tr class="separator:a94aed3f4f92ff844bbfd055e0973741a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55d12f87fb0b499fc6ed31c2a0075729"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compfile_8h.html#a55d12f87fb0b499fc6ed31c2a0075729">comp_set_name</a> (<a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *cf, char *name)</td></tr>
+<tr class="memdesc:a55d12f87fb0b499fc6ed31c2a0075729"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set name of a tCompfile.  <a href="compfile_8h.html#a55d12f87fb0b499fc6ed31c2a0075729">Mais...</a><br /></td></tr>
+<tr class="separator:a55d12f87fb0b499fc6ed31c2a0075729"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab212029880e951aeda74614c404146a"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compfile_8h.html#aab212029880e951aeda74614c404146a">comp_get_ext</a> (<a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *cf)</td></tr>
+<tr class="memdesc:aab212029880e951aeda74614c404146a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get extension of a tCompfile.  <a href="compfile_8h.html#aab212029880e951aeda74614c404146a">Mais...</a><br /></td></tr>
+<tr class="separator:aab212029880e951aeda74614c404146a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d8807f3b8dcaaf5683d78693ebd97d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compfile_8h.html#a9d8807f3b8dcaaf5683d78693ebd97d4">comp_set_ext</a> (<a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *cf, char *ext)</td></tr>
+<tr class="memdesc:a9d8807f3b8dcaaf5683d78693ebd97d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set extension of a tCompfile.  <a href="compfile_8h.html#a9d8807f3b8dcaaf5683d78693ebd97d4">Mais...</a><br /></td></tr>
+<tr class="separator:a9d8807f3b8dcaaf5683d78693ebd97d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac58f02f66d0559a8d329322c0cf04f59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compfile_8h.html#ac58f02f66d0559a8d329322c0cf04f59">comp_get_tree</a> (<a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *cf)</td></tr>
+<tr class="memdesc:ac58f02f66d0559a8d329322c0cf04f59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get encoding tree of a tCompfile.  <a href="compfile_8h.html#ac58f02f66d0559a8d329322c0cf04f59">Mais...</a><br /></td></tr>
+<tr class="separator:ac58f02f66d0559a8d329322c0cf04f59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5512f152654e861fb1cc534b1f948b62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compfile_8h.html#a5512f152654e861fb1cc534b1f948b62">comp_set_tree</a> (<a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *cf, <a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *tr)</td></tr>
+<tr class="memdesc:a5512f152654e861fb1cc534b1f948b62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set encoding tree of a tCompfile.  <a href="compfile_8h.html#a5512f152654e861fb1cc534b1f948b62">Mais...</a><br /></td></tr>
+<tr class="separator:a5512f152654e861fb1cc534b1f948b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Manage the data and operations relating to a compressed file. </p>
+<dl class="section author"><dt>Autor</dt><dd>Felipe M. Barina </dd>
+<dd>
+Vitor F. Calmon </dd></dl>
+<dl class="section date"><dt>Data</dt><dd>2022-08-16 </dd></dl>
+
+<p class="definition">Definição no arquivo <a class="el" href="compfile_8h_source.html">compfile.h</a>.</p>
+</div><h2 class="groupheader">Definições dos tipos</h2>
+<a id="acd17480ce6d959218a08632d2210f83b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd17480ce6d959218a08632d2210f83b">&#9670;&nbsp;</a></span>tCompfile</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="structcompfile__st.html">compfile_st</a> <a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="compfile_8h_source.html#l00001">1</a> do arquivo <a class="el" href="compfile_8h_source.html">compfile.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Funções</h2>
+<a id="a62cb777eed0bb7bbe5a079474bf79239"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62cb777eed0bb7bbe5a079474bf79239">&#9670;&nbsp;</a></span>comp_free()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void comp_free </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *&#160;</td>
+          <td class="paramname"><em>cf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Free a tCompfile and all the memory it has allocated. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cf</td><td>tCompfile. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="compfile_8c_source.html#l00056">56</a> do arquivo <a class="el" href="compfile_8c_source.html">compfile.c</a>.</p>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="compfile_8h_a62cb777eed0bb7bbe5a079474bf79239_cgraph.png" border="0" usemap="#acompfile_8h_a62cb777eed0bb7bbe5a079474bf79239_cgraph" alt=""/></div>
+<map name="acompfile_8h_a62cb777eed0bb7bbe5a079474bf79239_cgraph" id="acompfile_8h_a62cb777eed0bb7bbe5a079474bf79239_cgraph">
+<area shape="rect" title="Free a tCompfile and all the memory it has allocated." alt="" coords="5,31,88,57"/>
+<area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="141,5,204,32"/>
+<area shape="rect" href="tree_8h.html#a23769feed83ed62a9e1d5a7a090f870e" title="Free the memory allocated in by the tree." alt="" coords="136,56,209,83"/>
+<area shape="rect" href="tree_8c.html#a4a64d419c9e41286c7e0fc4e7ca91dc4" title="Check if tree is empty." alt="" coords="379,56,465,83"/>
+<area shape="rect" href="tree_8c.html#a23769feed83ed62a9e1d5a7a090f870e" title="Free the memory allocated in by the tree." alt="" coords="257,93,331,120"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="compfile_8h_a62cb777eed0bb7bbe5a079474bf79239_icgraph.png" border="0" usemap="#acompfile_8h_a62cb777eed0bb7bbe5a079474bf79239_icgraph" alt=""/></div>
+<map name="acompfile_8h_a62cb777eed0bb7bbe5a079474bf79239_icgraph" id="acompfile_8h_a62cb777eed0bb7bbe5a079474bf79239_icgraph">
+<area shape="rect" title="Free a tCompfile and all the memory it has allocated." alt="" coords="104,5,187,32"/>
+<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aab212029880e951aeda74614c404146a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab212029880e951aeda74614c404146a">&#9670;&nbsp;</a></span>comp_get_ext()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* comp_get_ext </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *&#160;</td>
+          <td class="paramname"><em>cf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get extension of a tCompfile. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cf</td><td>tCompfile. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>char* File extension. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="compfile_8c_source.html#l00153">153</a> do arquivo <a class="el" href="compfile_8c_source.html">compfile.c</a>.</p>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="compfile_8h_aab212029880e951aeda74614c404146a_icgraph.png" border="0" usemap="#acompfile_8h_aab212029880e951aeda74614c404146a_icgraph" alt=""/></div>
+<map name="acompfile_8h_aab212029880e951aeda74614c404146a_icgraph" id="acompfile_8h_aab212029880e951aeda74614c404146a_icgraph">
+<area shape="rect" title="Get extension of a tCompfile." alt="" coords="104,5,208,32"/>
+<area shape="rect" href="descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a94aed3f4f92ff844bbfd055e0973741a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94aed3f4f92ff844bbfd055e0973741a">&#9670;&nbsp;</a></span>comp_get_name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* comp_get_name </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *&#160;</td>
+          <td class="paramname"><em>cf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get name of a tCompfile. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cf</td><td>tCompfile. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>char* File name. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="compfile_8c_source.html#l00143">143</a> do arquivo <a class="el" href="compfile_8c_source.html">compfile.c</a>.</p>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="compfile_8h_a94aed3f4f92ff844bbfd055e0973741a_icgraph.png" border="0" usemap="#acompfile_8h_a94aed3f4f92ff844bbfd055e0973741a_icgraph" alt=""/></div>
+<map name="acompfile_8h_a94aed3f4f92ff844bbfd055e0973741a_icgraph" id="acompfile_8h_a94aed3f4f92ff844bbfd055e0973741a_icgraph">
+<area shape="rect" title="Get name of a tCompfile." alt="" coords="104,5,223,32"/>
+<area shape="rect" href="descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af0265dc1706d4b73548d5c8bfcb1e201"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0265dc1706d4b73548d5c8bfcb1e201">&#9670;&nbsp;</a></span>comp_get_path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* comp_get_path </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *&#160;</td>
+          <td class="paramname"><em>cf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get path of a tCompfile. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cf</td><td>tCompfile. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>char* File path string. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="compfile_8c_source.html#l00133">133</a> do arquivo <a class="el" href="compfile_8c_source.html">compfile.c</a>.</p>
+
+</div>
+</div>
+<a id="ac58f02f66d0559a8d329322c0cf04f59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac58f02f66d0559a8d329322c0cf04f59">&#9670;&nbsp;</a></span>comp_get_tree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a>* comp_get_tree </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *&#160;</td>
+          <td class="paramname"><em>cf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get encoding tree of a tCompfile. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cf</td><td>tCompfile. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>tTree* Encoding tree. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="compfile_8c_source.html#l00163">163</a> do arquivo <a class="el" href="compfile_8c_source.html">compfile.c</a>.</p>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="compfile_8h_ac58f02f66d0559a8d329322c0cf04f59_icgraph.png" border="0" usemap="#acompfile_8h_ac58f02f66d0559a8d329322c0cf04f59_icgraph" alt=""/></div>
+<map name="acompfile_8h_ac58f02f66d0559a8d329322c0cf04f59_icgraph" id="acompfile_8h_ac58f02f66d0559a8d329322c0cf04f59_icgraph">
+<area shape="rect" title="Get encoding tree of a tCompfile." alt="" coords="104,5,212,32"/>
+<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2b2513bbb6bbb6e229db6baf3518d48f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b2513bbb6bbb6e229db6baf3518d48f">&#9670;&nbsp;</a></span>comp_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a>* comp_init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a tCompfile. </p>
+<dl class="section return"><dt>Retorna</dt><dd>tCompfile* tCompfile. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="compfile_8c_source.html#l00044">44</a> do arquivo <a class="el" href="compfile_8c_source.html">compfile.c</a>.</p>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="compfile_8h_a2b2513bbb6bbb6e229db6baf3518d48f_icgraph.png" border="0" usemap="#acompfile_8h_a2b2513bbb6bbb6e229db6baf3518d48f_icgraph" alt=""/></div>
+<map name="acompfile_8h_a2b2513bbb6bbb6e229db6baf3518d48f_icgraph" id="acompfile_8h_a2b2513bbb6bbb6e229db6baf3518d48f_icgraph">
+<area shape="rect" title="Create a tCompfile." alt="" coords="104,5,183,32"/>
+<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac3d32df217cd92388d45c39659dc294c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3d32df217cd92388d45c39659dc294c">&#9670;&nbsp;</a></span>comp_read_data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int comp_read_data </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *&#160;</td>
+          <td class="paramname"><em>cf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="bits_8h.html#a5ec04ea2c7dc06cfdd3521427411f5d9">tBits</a> *&#160;</td>
+          <td class="paramname"><em>bs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write file data of a tCompfile in the form of a block of bits to a given tBits. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cf</td><td>tCompfile. </td></tr>
+    <tr><td class="paramname">bs</td><td>Bits to read to. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>unsigned int Amount of bytes read. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="compfile_8c_source.html#l00126">126</a> do arquivo <a class="el" href="compfile_8c_source.html">compfile.c</a>.</p>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="compfile_8h_ac3d32df217cd92388d45c39659dc294c_cgraph.png" border="0" usemap="#acompfile_8h_ac3d32df217cd92388d45c39659dc294c_cgraph" alt=""/></div>
+<map name="acompfile_8h_ac3d32df217cd92388d45c39659dc294c_cgraph" id="acompfile_8h_ac3d32df217cd92388d45c39659dc294c_cgraph">
+<area shape="rect" title="Write file data of a tCompfile in the form of a block of bits to a given tBits." alt="" coords="5,5,124,32"/>
+<area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="607,31,669,57"/>
+<area shape="rect" href="rwbin_8h.html#aaae132cb54c219fc1ce965cbb1e25c59" title="Read a block of bits from binary file." alt="" coords="172,31,281,57"/>
+<area shape="rect" href="bits_8h.html#af4071ab75ae34cc27de99b16a825748f" title="Append a bit to a tBits." alt="" coords="329,31,421,57"/>
+<area shape="rect" href="bits_8c.html#acca1cc4d4062a04574036fb84470b3d0" title="Set a bit in a tBits." alt="" coords="469,81,559,108"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="compfile_8h_ac3d32df217cd92388d45c39659dc294c_icgraph.png" border="0" usemap="#acompfile_8h_ac3d32df217cd92388d45c39659dc294c_icgraph" alt=""/></div>
+<map name="acompfile_8h_ac3d32df217cd92388d45c39659dc294c_icgraph" id="acompfile_8h_ac3d32df217cd92388d45c39659dc294c_icgraph">
+<area shape="rect" title="Write file data of a tCompfile in the form of a block of bits to a given tBits." alt="" coords="104,5,223,32"/>
+<area shape="rect" href="descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8283258a0ab2a36089d1d8fa65a7f3db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8283258a0ab2a36089d1d8fa65a7f3db">&#9670;&nbsp;</a></span>comp_read_header()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void comp_read_header </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *&#160;</td>
+          <td class="paramname"><em>cf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read the file header to a tCompfile, including metadata such as the file name, extension and the binary file signature. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cf</td><td>tCompfile. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="compfile_8c_source.html#l00103">103</a> do arquivo <a class="el" href="compfile_8c_source.html">compfile.c</a>.</p>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="compfile_8h_a8283258a0ab2a36089d1d8fa65a7f3db_cgraph.png" border="0" usemap="#acompfile_8h_a8283258a0ab2a36089d1d8fa65a7f3db_cgraph" alt=""/></div>
+<map name="acompfile_8h_a8283258a0ab2a36089d1d8fa65a7f3db_cgraph" id="acompfile_8h_a8283258a0ab2a36089d1d8fa65a7f3db_cgraph">
+<area shape="rect" title="Read the file header to a tCompfile, including metadata such as the file name, extension and the bina..." alt="" coords="5,31,137,57"/>
+<area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="215,5,278,32"/>
+<area shape="rect" href="rwbin_8h.html#ae9afa1107b6e3016a0e04d73cfd95055" title="Read and check binary file signature block (magic bits)." alt="" coords="185,56,308,83"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="compfile_8h_a8283258a0ab2a36089d1d8fa65a7f3db_icgraph.png" border="0" usemap="#acompfile_8h_a8283258a0ab2a36089d1d8fa65a7f3db_icgraph" alt=""/></div>
+<map name="acompfile_8h_a8283258a0ab2a36089d1d8fa65a7f3db_icgraph" id="acompfile_8h_a8283258a0ab2a36089d1d8fa65a7f3db_icgraph">
+<area shape="rect" title="Read the file header to a tCompfile, including metadata such as the file name, extension and the bina..." alt="" coords="104,5,236,32"/>
+<area shape="rect" href="descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a9d8807f3b8dcaaf5683d78693ebd97d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d8807f3b8dcaaf5683d78693ebd97d4">&#9670;&nbsp;</a></span>comp_set_ext()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void comp_set_ext </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *&#160;</td>
+          <td class="paramname"><em>cf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>ext</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set extension of a tCompfile. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cf</td><td>tCompfile. </td></tr>
+    <tr><td class="paramname">ext</td><td>File extension. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="compfile_8c_source.html#l00158">158</a> do arquivo <a class="el" href="compfile_8c_source.html">compfile.c</a>.</p>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="compfile_8h_a9d8807f3b8dcaaf5683d78693ebd97d4_icgraph.png" border="0" usemap="#acompfile_8h_a9d8807f3b8dcaaf5683d78693ebd97d4_icgraph" alt=""/></div>
+<map name="acompfile_8h_a9d8807f3b8dcaaf5683d78693ebd97d4_icgraph" id="acompfile_8h_a9d8807f3b8dcaaf5683d78693ebd97d4_icgraph">
+<area shape="rect" title="Set extension of a tCompfile." alt="" coords="104,5,208,32"/>
+<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a55d12f87fb0b499fc6ed31c2a0075729"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55d12f87fb0b499fc6ed31c2a0075729">&#9670;&nbsp;</a></span>comp_set_name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void comp_set_name </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *&#160;</td>
+          <td class="paramname"><em>cf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set name of a tCompfile. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cf</td><td>tCompfile. </td></tr>
+    <tr><td class="paramname">name</td><td>File name. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="compfile_8c_source.html#l00148">148</a> do arquivo <a class="el" href="compfile_8c_source.html">compfile.c</a>.</p>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="compfile_8h_a55d12f87fb0b499fc6ed31c2a0075729_icgraph.png" border="0" usemap="#acompfile_8h_a55d12f87fb0b499fc6ed31c2a0075729_icgraph" alt=""/></div>
+<map name="acompfile_8h_a55d12f87fb0b499fc6ed31c2a0075729_icgraph" id="acompfile_8h_a55d12f87fb0b499fc6ed31c2a0075729_icgraph">
+<area shape="rect" title="Set name of a tCompfile." alt="" coords="104,5,223,32"/>
+<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0c29ae8ca2afbe2bd5ca02b50f4858f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c29ae8ca2afbe2bd5ca02b50f4858f8">&#9670;&nbsp;</a></span>comp_set_path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void comp_set_path </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *&#160;</td>
+          <td class="paramname"><em>cf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>path</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set path of a tCompfile. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cf</td><td>tCompfile. </td></tr>
+    <tr><td class="paramname">path</td><td>File path string. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="compfile_8c_source.html#l00138">138</a> do arquivo <a class="el" href="compfile_8c_source.html">compfile.c</a>.</p>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="compfile_8h_a0c29ae8ca2afbe2bd5ca02b50f4858f8_icgraph.png" border="0" usemap="#acompfile_8h_a0c29ae8ca2afbe2bd5ca02b50f4858f8_icgraph" alt=""/></div>
+<map name="acompfile_8h_a0c29ae8ca2afbe2bd5ca02b50f4858f8_icgraph" id="acompfile_8h_a0c29ae8ca2afbe2bd5ca02b50f4858f8_icgraph">
+<area shape="rect" title="Set path of a tCompfile." alt="" coords="104,5,215,32"/>
+<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5512f152654e861fb1cc534b1f948b62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5512f152654e861fb1cc534b1f948b62">&#9670;&nbsp;</a></span>comp_set_tree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void comp_set_tree </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *&#160;</td>
+          <td class="paramname"><em>cf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="tree_8h.html#a5df55dad55229f100d95cc67b57ff395">tTree</a> *&#160;</td>
+          <td class="paramname"><em>tr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set encoding tree of a tCompfile. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cf</td><td>tCompfile. </td></tr>
+    <tr><td class="paramname">tr</td><td>Encoding tree. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="compfile_8c_source.html#l00168">168</a> do arquivo <a class="el" href="compfile_8c_source.html">compfile.c</a>.</p>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="compfile_8h_a5512f152654e861fb1cc534b1f948b62_icgraph.png" border="0" usemap="#acompfile_8h_a5512f152654e861fb1cc534b1f948b62_icgraph" alt=""/></div>
+<map name="acompfile_8h_a5512f152654e861fb1cc534b1f948b62_icgraph" id="acompfile_8h_a5512f152654e861fb1cc534b1f948b62_icgraph">
+<area shape="rect" title="Set encoding tree of a tCompfile." alt="" coords="104,5,212,32"/>
+<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a096ee4e90b5bbb6df76d18b72c047fe1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a096ee4e90b5bbb6df76d18b72c047fe1">&#9670;&nbsp;</a></span>comp_write_data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int comp_write_data </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *&#160;</td>
+          <td class="paramname"><em>cf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="bits_8h.html#a5ec04ea2c7dc06cfdd3521427411f5d9">tBits</a> *&#160;</td>
+          <td class="paramname"><em>bs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write file data of a tCompfile in the form of a given block of bits. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cf</td><td>tCompfile. </td></tr>
+    <tr><td class="paramname">bs</td><td>Bits to write from. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>unsigned int Amount of bytes written. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="compfile_8c_source.html#l00096">96</a> do arquivo <a class="el" href="compfile_8c_source.html">compfile.c</a>.</p>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="compfile_8h_a096ee4e90b5bbb6df76d18b72c047fe1_cgraph.png" border="0" usemap="#acompfile_8h_a096ee4e90b5bbb6df76d18b72c047fe1_cgraph" alt=""/></div>
+<map name="acompfile_8h_a096ee4e90b5bbb6df76d18b72c047fe1_cgraph" id="acompfile_8h_a096ee4e90b5bbb6df76d18b72c047fe1_cgraph">
+<area shape="rect" title="Write file data of a tCompfile in the form of a given block of bits." alt="" coords="5,31,127,57"/>
+<area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="201,5,263,32"/>
+<area shape="rect" href="rwbin_8h.html#a3ec4e8bddc1f9e6f32dda6899320e76c" title="Write a block of bits to binary file." alt="" coords="175,56,289,83"/>
+<area shape="rect" href="bits_8h.html#aba9365fa784524664dae68f42f7b6195" title="Get a tBits bits vector." alt="" coords="337,31,437,57"/>
+<area shape="rect" href="bits_8h.html#a59ab9afa29849c2b4e83346e3c082a61" title="Get current length of a tBits." alt="" coords="341,81,433,108"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="compfile_8h_a096ee4e90b5bbb6df76d18b72c047fe1_icgraph.png" border="0" usemap="#acompfile_8h_a096ee4e90b5bbb6df76d18b72c047fe1_icgraph" alt=""/></div>
+<map name="acompfile_8h_a096ee4e90b5bbb6df76d18b72c047fe1_icgraph" id="acompfile_8h_a096ee4e90b5bbb6df76d18b72c047fe1_icgraph">
+<area shape="rect" title="Write file data of a tCompfile in the form of a given block of bits." alt="" coords="104,5,225,32"/>
+<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a98bf9340a3e53ac8e7d0ac6575a24259"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98bf9340a3e53ac8e7d0ac6575a24259">&#9670;&nbsp;</a></span>comp_write_header()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void comp_write_header </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="compfile_8h.html#acd17480ce6d959218a08632d2210f83b">tCompfile</a> *&#160;</td>
+          <td class="paramname"><em>cf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write the file header from a tCompfile, including metadata such as the file name, extension and the binary file signature. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cf</td><td>tCompfile. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="compfile_8c_source.html#l00072">72</a> do arquivo <a class="el" href="compfile_8c_source.html">compfile.c</a>.</p>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="compfile_8h_a98bf9340a3e53ac8e7d0ac6575a24259_cgraph.png" border="0" usemap="#acompfile_8h_a98bf9340a3e53ac8e7d0ac6575a24259_cgraph" alt=""/></div>
+<map name="acompfile_8h_a98bf9340a3e53ac8e7d0ac6575a24259_cgraph" id="acompfile_8h_a98bf9340a3e53ac8e7d0ac6575a24259_cgraph">
+<area shape="rect" title="Write the file header from a tCompfile, including metadata such as the file name, extension and the b..." alt="" coords="5,31,140,57"/>
+<area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="221,5,284,32"/>
+<area shape="rect" href="rwbin_8h.html#ae2605de6df9291a467b80aae0c4eb46d" title="Write binary file signature block (magic bits)." alt="" coords="188,56,317,83"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="compfile_8h_a98bf9340a3e53ac8e7d0ac6575a24259_icgraph.png" border="0" usemap="#acompfile_8h_a98bf9340a3e53ac8e7d0ac6575a24259_icgraph" alt=""/></div>
+<map name="acompfile_8h_a98bf9340a3e53ac8e7d0ac6575a24259_icgraph" id="acompfile_8h_a98bf9340a3e53ac8e7d0ac6575a24259_icgraph">
+<area shape="rect" title="Write the file header from a tCompfile, including metadata such as the file name, extension and the b..." alt="" coords="104,5,239,32"/>
+<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_7f57b1e41c5acd0e859ae5f3a2b075a9.html">headers</a></li><li class="navelem"><a class="el" href="compfile_8h.html">compfile.h</a></li>
+    <li class="footer">Gerado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

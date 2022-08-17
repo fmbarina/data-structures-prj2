@@ -1,0 +1,5 @@
+<map id="wbin_bits_block" name="wbin_bits_block">
+<area shape="rect" id="node1" title="Write a block of bits to binary file." alt="" coords="5,31,120,57"/>
+<area shape="rect" id="node2" href="$bits_8h.html#aba9365fa784524664dae68f42f7b6195" title="Get a tBits bits vector." alt="" coords="168,5,268,32"/>
+<area shape="rect" id="node3" href="$bits_8h.html#a59ab9afa29849c2b4e83346e3c082a61" title="Get current length of a tBits." alt="" coords="172,56,264,83"/>
+</map>

@@ -1,0 +1,269 @@
+<!-- HTML header for doxygen 1.9.1-->
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="generator" content="Doxygen 1.9.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EDCompacta: Código-Fonte de src/encoding.c</title>
+    <link href="tabs.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+    <!-- ... other metadata & script includes ... -->
+    <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+    <script type="text/javascript">
+        DoxygenAwesomeDarkModeToggle.init()
+    </script>
+</head>
+<body>
+    <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+            <table cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr style="height: 56px;">
+                        <td id="projectalign" style="padding-left: 0.5em;">
+                            <div id="projectname">EDCompacta
+                            </div>
+                            <div id="projectbrief">e Descompacta usando Codificação Huffman</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- end header part --><!-- Gerado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Busca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('encoding_8c_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">encoding.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="encoding_8c.html">Vá para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="encoding_8h.html">encoding.h</a>&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="tree_8h.html">tree.h</a>&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="bits_8h.html">bits.h</a>&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="bytes_8h.html">bytes.h</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="assertr_8h.html">assertr.h</a>&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="encoding_8c.html#a95c743cd95b268e53469afff0fcbc209">    7</a></span>&#160;<span class="preprocessor">#define ENC_MAX_IN 4096 </span><span class="comment">/* bytes*/</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="encoding_8c.html#a81b0e8cb4da7107b96aea95d9d09bc29">    8</a></span>&#160;<span class="preprocessor">#define ENC_MAX_OUT 65535 </span><span class="comment">/* bits*/</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="encoding_8c.html#a2a32475d5d95bf173b2040ca4e7b9d6c">    9</a></span>&#160;<span class="preprocessor">#define DEC_MAX_IN 4096 </span><span class="comment">/* bits */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="encoding_8c.html#adb43b3ce8f3c405b717511a7b444d22a">   10</a></span>&#160;<span class="preprocessor">#define DEC_MAX_OUT 65535 </span><span class="comment">/* bytes*/</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">/* How many exceeding bytes are tolerated */</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="encoding_8c.html#af3167d8bce2f2d7a5075c8cd8e9a1d49">   13</a></span>&#160;<span class="preprocessor">#define ENC_TOL 0 </span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">/* How many exceeding bits are tolerated */</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="encoding_8c.html#ab2c018beaca4f3225537737ae7c6736e">   15</a></span>&#160;<span class="preprocessor">#define DEC_TOL 256</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">/* função auxiliar que preenche um tBits pré criado com bits de</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> * caminho até alcançar o byte (unsigned char) b na árvore. Note</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> * que o tBits é retornado com o caminho ao contrário: o 1° bit</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> * está em tBits[length - 1]</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">static</span> <span class="keywordtype">int</span> bitpath_to_byte(<a class="code" href="structbits__st.html">tBits</a>* bs, <a class="code" href="structtree__st.html">tTree</a>* tr, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> b)</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="tree_8h.html#a332138cdf7ea74b91cc1f6c9739958e6">tree_is_leaf</a>(tr))</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    {</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> byte_ret = <a class="code" href="tree_8h.html#acdaaac17fcfd613ee90eac494c1b044c">tree_info</a>(tr);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordflow">if</span> (byte_ret == b)</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="comment">/* Left */</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">if</span> (bitpath_to_byte(bs, <a class="code" href="tree_8h.html#ab4030f9dede7256f01461db03458f84d">tree_nav</a>(tr, 0), b))</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="bits_8h.html#af4071ab75ae34cc27de99b16a825748f">bits_append</a>(bs, 0x00);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="comment">/* Right */</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">if</span> (bitpath_to_byte(bs, <a class="code" href="tree_8h.html#ab4030f9dede7256f01461db03458f84d">tree_nav</a>(tr, 1), b))</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    {</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="bits_8h.html#af4071ab75ae34cc27de99b16a825748f">bits_append</a>(bs, 0x01);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">/* TODO: Maybe in the future, consider a more efficient way to do this.</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment"> * Currently, it&#39;s necessary to search the tree for every byte. Maybe </span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment"> * build a hash table for all bytes the first time, then use that as a</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment"> * translation dictionary later?</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="encoding_8h.html#ad8a2ff0233638f245e618c05db1e2a31">   55</a></span>&#160;<a class="code" href="structbits__st.html">tBits</a> *<a class="code" href="encoding_8c.html#ad8a2ff0233638f245e618c05db1e2a31">encode</a>(<a class="code" href="structtree__st.html">tTree</a> *tr, <a class="code" href="structbytes__st.html">tBytes</a> *bt, <a class="code" href="structbits__st.html">tBits</a>* bs)</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;{</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b">assertr</a>(<a class="code" href="bytes_8h.html#ac5802dee5b68024eb5b63764efcdade9">bytes_get_len</a>(bt) &lt;= <a class="code" href="encoding_8c.html#a95c743cd95b268e53469afff0fcbc209">ENC_MAX_IN</a> + <a class="code" href="encoding_8c.html#af3167d8bce2f2d7a5075c8cd8e9a1d49">ENC_TOL</a>, <span class="stringliteral">&quot;tBytes demais&quot;</span>);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">for</span> (i = 0; i &lt; <a class="code" href="bytes_8h.html#ac5802dee5b68024eb5b63764efcdade9">bytes_get_len</a>(bt); i++)</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="comment">/* Get bit by bit path to byte in tree */</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="structbits__st.html">tBits</a>* encoded = <a class="code" href="bits_8h.html#a58ad5405b4cd39db1fb7d793a91092a5">bits_init</a>(256);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        bitpath_to_byte(encoded, tr, <a class="code" href="bytes_8h.html#ad71cedf4b310bbe04f258398cedd728f">bytes_get_byte</a>(bt, i));</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordtype">int</span> j;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">for</span> (j = <a class="code" href="bits_8h.html#a59ab9afa29849c2b4e83346e3c082a61">bits_get_len</a>(encoded) - 1; j &gt;= 0; j--)</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <a class="code" href="bits_8h.html#af4071ab75ae34cc27de99b16a825748f">bits_append</a>(bs, <a class="code" href="bits_8h.html#a4cfa06f3fe9324b810a8a19806b825bb">bits_get_bit</a>(encoded, j));</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="bits_8h.html#ad44d3c4c8431ea66729df3da207b8827">bits_free</a>(encoded);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">return</span> bs;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;}</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="encoding_8h.html#a60c269dd60c6c608d86b492799ec9a2e">   76</a></span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="encoding_8c.html#a60c269dd60c6c608d86b492799ec9a2e">encode_limit_in</a>()</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;{</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>)<a class="code" href="encoding_8c.html#a95c743cd95b268e53469afff0fcbc209">ENC_MAX_IN</a>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="encoding_8h.html#a99c57c2b6d05bdd465f9d12654eeb4d6">   81</a></span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="encoding_8c.html#a99c57c2b6d05bdd465f9d12654eeb4d6">encode_limit_out</a>()</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;{</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>)<a class="code" href="encoding_8c.html#a81b0e8cb4da7107b96aea95d9d09bc29">ENC_MAX_OUT</a>;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;}</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">/* Navegar arvore seguindo a direção dos tBits</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment"> * (0: esquerda, 1: direita) até atingir uma folha. Ao</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment"> * achar a folha, adicionar o byte nela contido ao tBytes</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment"> * de retorno.</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="encoding_8h.html#ac0f5f307bd3c1000f51b62d389bd13aa">   91</a></span>&#160;<a class="code" href="structbytes__st.html">tBytes</a>* <a class="code" href="encoding_8c.html#ac0f5f307bd3c1000f51b62d389bd13aa">decode</a>(<a class="code" href="structtree__st.html">tTree</a>* tr, <a class="code" href="structbytes__st.html">tBytes</a> *bt, <a class="code" href="structbits__st.html">tBits</a>* bs)</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;{</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <a class="code" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b">assertr</a>(<a class="code" href="bits_8h.html#a59ab9afa29849c2b4e83346e3c082a61">bits_get_len</a>(bs) &lt;= <a class="code" href="encoding_8c.html#a2a32475d5d95bf173b2040ca4e7b9d6c">DEC_MAX_IN</a> + <a class="code" href="encoding_8c.html#ab2c018beaca4f3225537737ae7c6736e">DEC_TOL</a>, <span class="stringliteral">&quot;tBits demais&quot;</span>);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="structtree__st.html">tTree</a> *aux_tr = tr;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> steps = 0;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="bits_8h.html#a6f43eae856cab7b9f20c45cb7a4756ce">bits_cur</a>(bs) &lt; <a class="code" href="bits_8h.html#a59ab9afa29849c2b4e83346e3c082a61">bits_get_len</a>(bs))</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    {</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> dir = <a class="code" href="bits_8h.html#a7315574a699bff6d24f7ebfa943dbea4">bits_read</a>(bs); steps++;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        aux_tr = <a class="code" href="tree_8h.html#ab4030f9dede7256f01461db03458f84d">tree_nav</a>(aux_tr, dir);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="tree_8h.html#a332138cdf7ea74b91cc1f6c9739958e6">tree_is_leaf</a>(aux_tr))</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        {</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            <a class="code" href="bytes_8h.html#ae7530d554ffe55e1147d9383cb5be841">bytes_append</a>(bt, <a class="code" href="tree_8h.html#acdaaac17fcfd613ee90eac494c1b044c">tree_info</a>(aux_tr));</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            aux_tr = tr;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            steps = 0;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        }</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordflow">if</span> (steps)</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <a class="code" href="bits_8h.html#a4e6877a7e62ef499d048df863990443a">bits_offset_cur</a>(bs, (-steps));</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160; </div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordflow">return</span> bt;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;}</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
+<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="encoding_8h.html#a918f24ce6d558675332757d3ba8f619d">  117</a></span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="encoding_8c.html#a918f24ce6d558675332757d3ba8f619d">decode_limit_in</a>()</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;{</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>)<a class="code" href="encoding_8c.html#a2a32475d5d95bf173b2040ca4e7b9d6c">DEC_MAX_IN</a>;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;}</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160; </div>
+<div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="encoding_8h.html#adb5da168c78b4bb7decaac8882bcdf18">  122</a></span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="encoding_8c.html#adb5da168c78b4bb7decaac8882bcdf18">decode_limit_out</a>()</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;{</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>)<a class="code" href="encoding_8c.html#adb43b3ce8f3c405b717511a7b444d22a">DEC_MAX_OUT</a>;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;}</div>
+<div class="ttc" id="aassertr_8h_html"><div class="ttname"><a href="assertr_8h.html">assertr.h</a></div><div class="ttdoc">Custom assert function with error message.</div></div>
+<div class="ttc" id="aassertr_8h_html_a329be2d71db175fa0620ceb4e3c6356b"><div class="ttname"><a href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b">assertr</a></div><div class="ttdeci">void assertr(int cond, char *err)</div><div class="ttdoc">Assert that condition is true. If false, print error message and quit the program.</div><div class="ttdef"><b>Definition:</b> <a href="assertr_8c_source.html#l00006">assertr.c:6</a></div></div>
+<div class="ttc" id="abits_8h_html"><div class="ttname"><a href="bits_8h.html">bits.h</a></div><div class="ttdoc">Manage a collection of bits.</div></div>
+<div class="ttc" id="abits_8h_html_a4cfa06f3fe9324b810a8a19806b825bb"><div class="ttname"><a href="bits_8h.html#a4cfa06f3fe9324b810a8a19806b825bb">bits_get_bit</a></div><div class="ttdeci">unsigned char bits_get_bit(tBits *bs, unsigned int idx)</div><div class="ttdoc">Get a bit in a tBits.</div><div class="ttdef"><b>Definition:</b> <a href="bits_8c_source.html#l00083">bits.c:83</a></div></div>
+<div class="ttc" id="abits_8h_html_a4e6877a7e62ef499d048df863990443a"><div class="ttname"><a href="bits_8h.html#a4e6877a7e62ef499d048df863990443a">bits_offset_cur</a></div><div class="ttdeci">void bits_offset_cur(tBits *bs, unsigned int offset)</div><div class="ttdoc">Offset cursor of a tBits manually.</div><div class="ttdef"><b>Definition:</b> <a href="bits_8c_source.html#l00108">bits.c:108</a></div></div>
+<div class="ttc" id="abits_8h_html_a58ad5405b4cd39db1fb7d793a91092a5"><div class="ttname"><a href="bits_8h.html#a58ad5405b4cd39db1fb7d793a91092a5">bits_init</a></div><div class="ttdeci">tBits * bits_init(unsigned int max_length)</div><div class="ttdoc">Create tBits.</div><div class="ttdef"><b>Definition:</b> <a href="bits_8c_source.html#l00023">bits.c:23</a></div></div>
+<div class="ttc" id="abits_8h_html_a59ab9afa29849c2b4e83346e3c082a61"><div class="ttname"><a href="bits_8h.html#a59ab9afa29849c2b4e83346e3c082a61">bits_get_len</a></div><div class="ttdeci">unsigned int bits_get_len(tBits *bs)</div><div class="ttdoc">Get current length of a tBits.</div><div class="ttdef"><b>Definition:</b> <a href="bits_8c_source.html#l00096">bits.c:96</a></div></div>
+<div class="ttc" id="abits_8h_html_a6f43eae856cab7b9f20c45cb7a4756ce"><div class="ttname"><a href="bits_8h.html#a6f43eae856cab7b9f20c45cb7a4756ce">bits_cur</a></div><div class="ttdeci">unsigned int bits_cur(tBits *bs)</div><div class="ttdoc">Get current length of a tBits.</div><div class="ttdef"><b>Definition:</b> <a href="bits_8c_source.html#l00115">bits.c:115</a></div></div>
+<div class="ttc" id="abits_8h_html_a7315574a699bff6d24f7ebfa943dbea4"><div class="ttname"><a href="bits_8h.html#a7315574a699bff6d24f7ebfa943dbea4">bits_read</a></div><div class="ttdeci">unsigned char bits_read(tBits *bs)</div><div class="ttdoc">Reads bits, bit by bit, from a tBits. A cursor inside advances one bit every function call....</div><div class="ttdef"><b>Definition:</b> <a href="bits_8c_source.html#l00060">bits.c:60</a></div></div>
+<div class="ttc" id="abits_8h_html_ad44d3c4c8431ea66729df3da207b8827"><div class="ttname"><a href="bits_8h.html#ad44d3c4c8431ea66729df3da207b8827">bits_free</a></div><div class="ttdeci">void bits_free(tBits *bs)</div><div class="ttdoc">Free a tBits and all the memory it has allocated.</div><div class="ttdef"><b>Definition:</b> <a href="bits_8c_source.html#l00041">bits.c:41</a></div></div>
+<div class="ttc" id="abits_8h_html_af4071ab75ae34cc27de99b16a825748f"><div class="ttname"><a href="bits_8h.html#af4071ab75ae34cc27de99b16a825748f">bits_append</a></div><div class="ttdeci">void bits_append(tBits *bs, unsigned char bit)</div><div class="ttdoc">Append a bit to a tBits.</div><div class="ttdef"><b>Definition:</b> <a href="bits_8c_source.html#l00049">bits.c:49</a></div></div>
+<div class="ttc" id="abytes_8h_html"><div class="ttname"><a href="bytes_8h.html">bytes.h</a></div><div class="ttdoc">Manage a collection of bytes.</div></div>
+<div class="ttc" id="abytes_8h_html_ac5802dee5b68024eb5b63764efcdade9"><div class="ttname"><a href="bytes_8h.html#ac5802dee5b68024eb5b63764efcdade9">bytes_get_len</a></div><div class="ttdeci">unsigned int bytes_get_len(tBytes *bt)</div><div class="ttdoc">Get current length of a tBytes.</div><div class="ttdef"><b>Definition:</b> <a href="bytes_8c_source.html#l00065">bytes.c:65</a></div></div>
+<div class="ttc" id="abytes_8h_html_ad71cedf4b310bbe04f258398cedd728f"><div class="ttname"><a href="bytes_8h.html#ad71cedf4b310bbe04f258398cedd728f">bytes_get_byte</a></div><div class="ttdeci">unsigned char bytes_get_byte(tBytes *bt, unsigned int idx)</div><div class="ttdoc">Get a byte in a tBytes.</div><div class="ttdef"><b>Definition:</b> <a href="bytes_8c_source.html#l00053">bytes.c:53</a></div></div>
+<div class="ttc" id="abytes_8h_html_ae7530d554ffe55e1147d9383cb5be841"><div class="ttname"><a href="bytes_8h.html#ae7530d554ffe55e1147d9383cb5be841">bytes_append</a></div><div class="ttdeci">void bytes_append(tBytes *bt, unsigned char byte)</div><div class="ttdoc">Append a bytes to a tBytes.</div><div class="ttdef"><b>Definition:</b> <a href="bytes_8c_source.html#l00032">bytes.c:32</a></div></div>
+<div class="ttc" id="aencoding_8c_html_a2a32475d5d95bf173b2040ca4e7b9d6c"><div class="ttname"><a href="encoding_8c.html#a2a32475d5d95bf173b2040ca4e7b9d6c">DEC_MAX_IN</a></div><div class="ttdeci">#define DEC_MAX_IN</div><div class="ttdef"><b>Definition:</b> <a href="encoding_8c_source.html#l00009">encoding.c:9</a></div></div>
+<div class="ttc" id="aencoding_8c_html_a60c269dd60c6c608d86b492799ec9a2e"><div class="ttname"><a href="encoding_8c.html#a60c269dd60c6c608d86b492799ec9a2e">encode_limit_in</a></div><div class="ttdeci">unsigned int encode_limit_in()</div><div class="ttdoc">Get limit of bytes to encode.</div><div class="ttdef"><b>Definition:</b> <a href="encoding_8c_source.html#l00076">encoding.c:76</a></div></div>
+<div class="ttc" id="aencoding_8c_html_a81b0e8cb4da7107b96aea95d9d09bc29"><div class="ttname"><a href="encoding_8c.html#a81b0e8cb4da7107b96aea95d9d09bc29">ENC_MAX_OUT</a></div><div class="ttdeci">#define ENC_MAX_OUT</div><div class="ttdef"><b>Definition:</b> <a href="encoding_8c_source.html#l00008">encoding.c:8</a></div></div>
+<div class="ttc" id="aencoding_8c_html_a918f24ce6d558675332757d3ba8f619d"><div class="ttname"><a href="encoding_8c.html#a918f24ce6d558675332757d3ba8f619d">decode_limit_in</a></div><div class="ttdeci">unsigned int decode_limit_in()</div><div class="ttdoc">Get limit of bits to decode.</div><div class="ttdef"><b>Definition:</b> <a href="encoding_8c_source.html#l00117">encoding.c:117</a></div></div>
+<div class="ttc" id="aencoding_8c_html_a95c743cd95b268e53469afff0fcbc209"><div class="ttname"><a href="encoding_8c.html#a95c743cd95b268e53469afff0fcbc209">ENC_MAX_IN</a></div><div class="ttdeci">#define ENC_MAX_IN</div><div class="ttdef"><b>Definition:</b> <a href="encoding_8c_source.html#l00007">encoding.c:7</a></div></div>
+<div class="ttc" id="aencoding_8c_html_a99c57c2b6d05bdd465f9d12654eeb4d6"><div class="ttname"><a href="encoding_8c.html#a99c57c2b6d05bdd465f9d12654eeb4d6">encode_limit_out</a></div><div class="ttdeci">unsigned int encode_limit_out()</div><div class="ttdoc">Get maximum output of bits after encoding.</div><div class="ttdef"><b>Definition:</b> <a href="encoding_8c_source.html#l00081">encoding.c:81</a></div></div>
+<div class="ttc" id="aencoding_8c_html_ab2c018beaca4f3225537737ae7c6736e"><div class="ttname"><a href="encoding_8c.html#ab2c018beaca4f3225537737ae7c6736e">DEC_TOL</a></div><div class="ttdeci">#define DEC_TOL</div><div class="ttdef"><b>Definition:</b> <a href="encoding_8c_source.html#l00015">encoding.c:15</a></div></div>
+<div class="ttc" id="aencoding_8c_html_ac0f5f307bd3c1000f51b62d389bd13aa"><div class="ttname"><a href="encoding_8c.html#ac0f5f307bd3c1000f51b62d389bd13aa">decode</a></div><div class="ttdeci">tBytes * decode(tTree *tr, tBytes *bt, tBits *bs)</div><div class="ttdoc">Decode bits to uncompressed Bytes, using an encoding tree.</div><div class="ttdef"><b>Definition:</b> <a href="encoding_8c_source.html#l00091">encoding.c:91</a></div></div>
+<div class="ttc" id="aencoding_8c_html_ad8a2ff0233638f245e618c05db1e2a31"><div class="ttname"><a href="encoding_8c.html#ad8a2ff0233638f245e618c05db1e2a31">encode</a></div><div class="ttdeci">tBits * encode(tTree *tr, tBytes *bt, tBits *bs)</div><div class="ttdoc">Encode bytes to compressed bits, using an encoding tree.</div><div class="ttdef"><b>Definition:</b> <a href="encoding_8c_source.html#l00055">encoding.c:55</a></div></div>
+<div class="ttc" id="aencoding_8c_html_adb43b3ce8f3c405b717511a7b444d22a"><div class="ttname"><a href="encoding_8c.html#adb43b3ce8f3c405b717511a7b444d22a">DEC_MAX_OUT</a></div><div class="ttdeci">#define DEC_MAX_OUT</div><div class="ttdef"><b>Definition:</b> <a href="encoding_8c_source.html#l00010">encoding.c:10</a></div></div>
+<div class="ttc" id="aencoding_8c_html_adb5da168c78b4bb7decaac8882bcdf18"><div class="ttname"><a href="encoding_8c.html#adb5da168c78b4bb7decaac8882bcdf18">decode_limit_out</a></div><div class="ttdeci">unsigned int decode_limit_out()</div><div class="ttdoc">Get maximum output of bytes after decoding.</div><div class="ttdef"><b>Definition:</b> <a href="encoding_8c_source.html#l00122">encoding.c:122</a></div></div>
+<div class="ttc" id="aencoding_8c_html_af3167d8bce2f2d7a5075c8cd8e9a1d49"><div class="ttname"><a href="encoding_8c.html#af3167d8bce2f2d7a5075c8cd8e9a1d49">ENC_TOL</a></div><div class="ttdeci">#define ENC_TOL</div><div class="ttdef"><b>Definition:</b> <a href="encoding_8c_source.html#l00013">encoding.c:13</a></div></div>
+<div class="ttc" id="aencoding_8h_html"><div class="ttname"><a href="encoding_8h.html">encoding.h</a></div><div class="ttdoc">Encode and decode binary data with an encoding tree.</div></div>
+<div class="ttc" id="astructbits__st_html"><div class="ttname"><a href="structbits__st.html">bits_st</a></div><div class="ttdef"><b>Definition:</b> <a href="bits_8c_source.html#l00015">bits.c:16</a></div></div>
+<div class="ttc" id="astructbytes__st_html"><div class="ttname"><a href="structbytes__st.html">bytes_st</a></div><div class="ttdef"><b>Definition:</b> <a href="bytes_8c_source.html#l00006">bytes.c:7</a></div></div>
+<div class="ttc" id="astructtree__st_html"><div class="ttname"><a href="structtree__st.html">tree_st</a></div><div class="ttdef"><b>Definition:</b> <a href="tree_8c_source.html#l00008">tree.c:9</a></div></div>
+<div class="ttc" id="atree_8h_html"><div class="ttname"><a href="tree_8h.html">tree.h</a></div><div class="ttdoc">Manage trees.</div></div>
+<div class="ttc" id="atree_8h_html_a332138cdf7ea74b91cc1f6c9739958e6"><div class="ttname"><a href="tree_8h.html#a332138cdf7ea74b91cc1f6c9739958e6">tree_is_leaf</a></div><div class="ttdeci">int tree_is_leaf(tTree *tree)</div><div class="ttdoc">Check if tree is a leaf (does not have other trees below)</div><div class="ttdef"><b>Definition:</b> <a href="tree_8c_source.html#l00069">tree.c:69</a></div></div>
+<div class="ttc" id="atree_8h_html_ab4030f9dede7256f01461db03458f84d"><div class="ttname"><a href="tree_8h.html#ab4030f9dede7256f01461db03458f84d">tree_nav</a></div><div class="ttdeci">tTree * tree_nav(tTree *tree, unsigned char dir)</div><div class="ttdoc">Navegate through the tree.</div><div class="ttdef"><b>Definition:</b> <a href="tree_8c_source.html#l00137">tree.c:137</a></div></div>
+<div class="ttc" id="atree_8h_html_acdaaac17fcfd613ee90eac494c1b044c"><div class="ttname"><a href="tree_8h.html#acdaaac17fcfd613ee90eac494c1b044c">tree_info</a></div><div class="ttdeci">char tree_info(tTree *tree)</div><div class="ttdoc">Return tree's info (character).</div><div class="ttdef"><b>Definition:</b> <a href="tree_8c_source.html#l00064">tree.c:64</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="encoding_8c.html">encoding.c</a></li>
+    <li class="footer">Gerado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

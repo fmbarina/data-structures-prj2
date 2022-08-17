@@ -1,0 +1,9 @@
+<map id="src/encoding.c" name="src/encoding.c">
+<area shape="rect" id="node1" title=" " alt="" coords="148,5,255,32"/>
+<area shape="rect" id="node2" href="$encoding_8h.html" title="Encode and decode binary data with an encoding tree." alt="" coords="79,80,164,107"/>
+<area shape="rect" id="node3" href="$tree_8h.html" title="Manage trees." alt="" coords="17,155,71,181"/>
+<area shape="rect" id="node5" href="$bits_8h.html" title="Manage a collection of bits." alt="" coords="91,229,146,256"/>
+<area shape="rect" id="node6" href="$bytes_8h.html" title="Manage a collection of bytes." alt="" coords="149,155,214,181"/>
+<area shape="rect" id="node7" href="$assertr_8h.html" title="Custom assert function with error message." alt="" coords="290,80,363,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,229,67,256"/>
+</map>

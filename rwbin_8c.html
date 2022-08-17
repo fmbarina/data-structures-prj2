@@ -1,0 +1,562 @@
+<!-- HTML header for doxygen 1.9.1-->
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="generator" content="Doxygen 1.9.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EDCompacta: Referência do Arquivo src/rwbin.c</title>
+    <link href="tabs.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+    <!-- ... other metadata & script includes ... -->
+    <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+    <script type="text/javascript">
+        DoxygenAwesomeDarkModeToggle.init()
+    </script>
+</head>
+<body>
+    <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+            <table cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr style="height: 56px;">
+                        <td id="projectalign" style="padding-left: 0.5em;">
+                            <div id="projectname">EDCompacta
+                            </div>
+                            <div id="projectbrief">e Descompacta usando Codificação Huffman</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- end header part --><!-- Gerado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Busca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('rwbin_8c.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Definições e Macros</a> &#124;
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência do Arquivo rwbin.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="rwbin_8h_source.html">rwbin.h</a>&quot;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="bits_8h_source.html">bits.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Gráfico de dependência de inclusões para rwbin.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="rwbin_8c__incl.png" border="0" usemap="#asrc_2rwbin_8c" alt=""/></div>
+<map name="asrc_2rwbin_8c" id="asrc_2rwbin_8c">
+<area shape="rect" title=" " alt="" coords="103,5,190,32"/>
+<area shape="rect" href="rwbin_8h.html" title="Functions to ease binary read/write operations in a uniform manner." alt="" coords="45,80,109,107"/>
+<area shape="rect" title=" " alt="" coords="5,155,67,181"/>
+<area shape="rect" href="bits_8h.html" title="Manage a collection of bits." alt="" coords="105,155,159,181"/>
+<area shape="rect" title=" " alt="" coords="184,80,248,107"/>
+<area shape="rect" title=" " alt="" coords="273,80,338,107"/>
+</map>
+</div>
+</div>
+<p><a href="rwbin_8c_source.html">Vá para o código-fonte desse arquivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Definições e Macros</h2></td></tr>
+<tr class="memitem:a711604c91671031786422516acc6f65d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rwbin_8c.html#a711604c91671031786422516acc6f65d">M_LSTR</a>&#160;&#160;&#160;65535</td></tr>
+<tr class="separator:a711604c91671031786422516acc6f65d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:ae2605de6df9291a467b80aae0c4eb46d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rwbin_8c.html#ae2605de6df9291a467b80aae0c4eb46d">wbin_magic_block</a> (FILE *f, unsigned char *signature, unsigned char size)</td></tr>
+<tr class="memdesc:ae2605de6df9291a467b80aae0c4eb46d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write binary file signature block (magic bits).  <a href="rwbin_8c.html#ae2605de6df9291a467b80aae0c4eb46d">Mais...</a><br /></td></tr>
+<tr class="separator:ae2605de6df9291a467b80aae0c4eb46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7cdde125f95e6d9cb880e8951f23d52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rwbin_8c.html#ab7cdde125f95e6d9cb880e8951f23d52">wbin_short_str_block</a> (FILE *f, char *str)</td></tr>
+<tr class="memdesc:ab7cdde125f95e6d9cb880e8951f23d52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a short (&lt;=255 characters) string to binary file.  <a href="rwbin_8c.html#ab7cdde125f95e6d9cb880e8951f23d52">Mais...</a><br /></td></tr>
+<tr class="separator:ab7cdde125f95e6d9cb880e8951f23d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b36600049ee1667eb801f498ac5fd17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rwbin_8c.html#a8b36600049ee1667eb801f498ac5fd17">wbin_long_str_block</a> (FILE *f, char *str)</td></tr>
+<tr class="memdesc:a8b36600049ee1667eb801f498ac5fd17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a long (&lt;=65535 characters) string to binary file.  <a href="rwbin_8c.html#a8b36600049ee1667eb801f498ac5fd17">Mais...</a><br /></td></tr>
+<tr class="separator:a8b36600049ee1667eb801f498ac5fd17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ec4e8bddc1f9e6f32dda6899320e76c"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rwbin_8c.html#a3ec4e8bddc1f9e6f32dda6899320e76c">wbin_bits_block</a> (FILE *f, <a class="el" href="bits_8h.html#a5ec04ea2c7dc06cfdd3521427411f5d9">tBits</a> *bs)</td></tr>
+<tr class="memdesc:a3ec4e8bddc1f9e6f32dda6899320e76c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a block of bits to binary file.  <a href="rwbin_8c.html#a3ec4e8bddc1f9e6f32dda6899320e76c">Mais...</a><br /></td></tr>
+<tr class="separator:a3ec4e8bddc1f9e6f32dda6899320e76c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9afa1107b6e3016a0e04d73cfd95055"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rwbin_8c.html#ae9afa1107b6e3016a0e04d73cfd95055">rbin_magic_block</a> (FILE *f, unsigned char *signature, unsigned char size)</td></tr>
+<tr class="memdesc:ae9afa1107b6e3016a0e04d73cfd95055"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read and check binary file signature block (magic bits).  <a href="rwbin_8c.html#ae9afa1107b6e3016a0e04d73cfd95055">Mais...</a><br /></td></tr>
+<tr class="separator:ae9afa1107b6e3016a0e04d73cfd95055"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b9855cee4f77e7bcb32d3c581737292"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rwbin_8c.html#a8b9855cee4f77e7bcb32d3c581737292">rbin_short_str_block</a> (FILE *f)</td></tr>
+<tr class="memdesc:a8b9855cee4f77e7bcb32d3c581737292"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a short (&lt;=255 characters) string from binary file.  <a href="rwbin_8c.html#a8b9855cee4f77e7bcb32d3c581737292">Mais...</a><br /></td></tr>
+<tr class="separator:a8b9855cee4f77e7bcb32d3c581737292"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab239c2e56bb97a0c4bfe9e2b964500f8"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rwbin_8c.html#ab239c2e56bb97a0c4bfe9e2b964500f8">rbin_long_str_block</a> (FILE *f)</td></tr>
+<tr class="memdesc:ab239c2e56bb97a0c4bfe9e2b964500f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a long (&lt;=65535 characters) string from binary file.  <a href="rwbin_8c.html#ab239c2e56bb97a0c4bfe9e2b964500f8">Mais...</a><br /></td></tr>
+<tr class="separator:ab239c2e56bb97a0c4bfe9e2b964500f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaae132cb54c219fc1ce965cbb1e25c59"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rwbin_8c.html#aaae132cb54c219fc1ce965cbb1e25c59">rbin_bits_block</a> (FILE *f, <a class="el" href="bits_8h.html#a5ec04ea2c7dc06cfdd3521427411f5d9">tBits</a> *bs)</td></tr>
+<tr class="memdesc:aaae132cb54c219fc1ce965cbb1e25c59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a block of bits from binary file.  <a href="rwbin_8c.html#aaae132cb54c219fc1ce965cbb1e25c59">Mais...</a><br /></td></tr>
+<tr class="separator:aaae132cb54c219fc1ce965cbb1e25c59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><dl class="section author"><dt>Autor</dt><dd>Felipe M. Barina </dd>
+<dd>
+Vitor F. Calmon </dd></dl>
+<dl class="section version"><dt>Versão</dt><dd>0.1 </dd></dl>
+<dl class="section date"><dt>Data</dt><dd>2022-08-16</dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2022 </dd></dl>
+
+<p class="definition">Definição no arquivo <a class="el" href="rwbin_8c_source.html">rwbin.c</a>.</p>
+</div><h2 class="groupheader">Definições e macros</h2>
+<a id="a711604c91671031786422516acc6f65d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a711604c91671031786422516acc6f65d">&#9670;&nbsp;</a></span>M_LSTR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define M_LSTR&#160;&#160;&#160;65535</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="rwbin_8c_source.html#l00032">32</a> do arquivo <a class="el" href="rwbin_8c_source.html">rwbin.c</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Funções</h2>
+<a id="aaae132cb54c219fc1ce965cbb1e25c59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaae132cb54c219fc1ce965cbb1e25c59">&#9670;&nbsp;</a></span>rbin_bits_block()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int rbin_bits_block </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="bits_8h.html#a5ec04ea2c7dc06cfdd3521427411f5d9">tBits</a> *&#160;</td>
+          <td class="paramname"><em>bs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read a block of bits from binary file. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>Binary file stream. </td></tr>
+    <tr><td class="paramname">bs</td><td>Bits to which write. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>unsigned int Amount of bytes (containing the bits) read. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="rwbin_8c_source.html#l00122">122</a> do arquivo <a class="el" href="rwbin_8c_source.html">rwbin.c</a>.</p>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="rwbin_8c_aaae132cb54c219fc1ce965cbb1e25c59_cgraph.png" border="0" usemap="#arwbin_8c_aaae132cb54c219fc1ce965cbb1e25c59_cgraph" alt=""/></div>
+<map name="arwbin_8c_aaae132cb54c219fc1ce965cbb1e25c59_cgraph" id="arwbin_8c_aaae132cb54c219fc1ce965cbb1e25c59_cgraph">
+<area shape="rect" title="Read a block of bits from binary file." alt="" coords="5,5,115,32"/>
+<area shape="rect" href="bits_8h.html#af4071ab75ae34cc27de99b16a825748f" title="Append a bit to a tBits." alt="" coords="163,5,255,32"/>
+<area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="440,5,503,32"/>
+<area shape="rect" href="bits_8c.html#acca1cc4d4062a04574036fb84470b3d0" title="Set a bit in a tBits." alt="" coords="303,31,392,57"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="rwbin_8c_aaae132cb54c219fc1ce965cbb1e25c59_icgraph.png" border="0" usemap="#arwbin_8c_aaae132cb54c219fc1ce965cbb1e25c59_icgraph" alt=""/></div>
+<map name="arwbin_8c_aaae132cb54c219fc1ce965cbb1e25c59_icgraph" id="arwbin_8c_aaae132cb54c219fc1ce965cbb1e25c59_icgraph">
+<area shape="rect" title="Read a block of bits from binary file." alt="" coords="271,5,380,32"/>
+<area shape="rect" href="compfile_8h.html#ac3d32df217cd92388d45c39659dc294c" title="Write file data of a tCompfile in the form of a block of bits to a given tBits." alt="" coords="104,5,223,32"/>
+<area shape="rect" href="descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab239c2e56bb97a0c4bfe9e2b964500f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab239c2e56bb97a0c4bfe9e2b964500f8">&#9670;&nbsp;</a></span>rbin_long_str_block()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* rbin_long_str_block </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read a long (&lt;=65535 characters) string from binary file. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>Binary file stream. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>char* String read. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="rwbin_8c_source.html#l00109">109</a> do arquivo <a class="el" href="rwbin_8c_source.html">rwbin.c</a>.</p>
+
+</div>
+</div>
+<a id="ae9afa1107b6e3016a0e04d73cfd95055"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9afa1107b6e3016a0e04d73cfd95055">&#9670;&nbsp;</a></span>rbin_magic_block()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int rbin_magic_block </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned char *&#160;</td>
+          <td class="paramname"><em>signature</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned char&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read and check binary file signature block (magic bits). </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>Binary file stream. </td></tr>
+    <tr><td class="paramname">signature</td><td>Signature bytes to check against. </td></tr>
+    <tr><td class="paramname">size</td><td>Amount of bytes in signature. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>int Signature comparison result. One in case of match success, zero in case of failure. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="rwbin_8c_source.html#l00085">85</a> do arquivo <a class="el" href="rwbin_8c_source.html">rwbin.c</a>.</p>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="rwbin_8c_ae9afa1107b6e3016a0e04d73cfd95055_icgraph.png" border="0" usemap="#arwbin_8c_ae9afa1107b6e3016a0e04d73cfd95055_icgraph" alt=""/></div>
+<map name="arwbin_8c_ae9afa1107b6e3016a0e04d73cfd95055_icgraph" id="arwbin_8c_ae9afa1107b6e3016a0e04d73cfd95055_icgraph">
+<area shape="rect" title="Read and check binary file signature block (magic bits)." alt="" coords="284,5,407,32"/>
+<area shape="rect" href="compfile_8h.html#a8283258a0ab2a36089d1d8fa65a7f3db" title="Read the file header to a tCompfile, including metadata such as the file name, extension and the bina..." alt="" coords="104,5,236,32"/>
+<area shape="rect" href="descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8b9855cee4f77e7bcb32d3c581737292"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b9855cee4f77e7bcb32d3c581737292">&#9670;&nbsp;</a></span>rbin_short_str_block()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* rbin_short_str_block </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read a short (&lt;=255 characters) string from binary file. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>Binary file stream. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>char* String read. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="rwbin_8c_source.html#l00096">96</a> do arquivo <a class="el" href="rwbin_8c_source.html">rwbin.c</a>.</p>
+
+</div>
+</div>
+<a id="a3ec4e8bddc1f9e6f32dda6899320e76c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ec4e8bddc1f9e6f32dda6899320e76c">&#9670;&nbsp;</a></span>wbin_bits_block()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int wbin_bits_block </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="bits_8h.html#a5ec04ea2c7dc06cfdd3521427411f5d9">tBits</a> *&#160;</td>
+          <td class="paramname"><em>bs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write a block of bits to binary file. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>Binary file stream. </td></tr>
+    <tr><td class="paramname">bs</td><td>Bits from which to write. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>unsigned int Amount of bytes (containing the bits) written. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="rwbin_8c_source.html#l00071">71</a> do arquivo <a class="el" href="rwbin_8c_source.html">rwbin.c</a>.</p>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="rwbin_8c_a3ec4e8bddc1f9e6f32dda6899320e76c_cgraph.png" border="0" usemap="#arwbin_8c_a3ec4e8bddc1f9e6f32dda6899320e76c_cgraph" alt=""/></div>
+<map name="arwbin_8c_a3ec4e8bddc1f9e6f32dda6899320e76c_cgraph" id="arwbin_8c_a3ec4e8bddc1f9e6f32dda6899320e76c_cgraph">
+<area shape="rect" title="Write a block of bits to binary file." alt="" coords="5,31,120,57"/>
+<area shape="rect" href="bits_8h.html#aba9365fa784524664dae68f42f7b6195" title="Get a tBits bits vector." alt="" coords="168,5,268,32"/>
+<area shape="rect" href="bits_8h.html#a59ab9afa29849c2b4e83346e3c082a61" title="Get current length of a tBits." alt="" coords="172,56,264,83"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="rwbin_8c_a3ec4e8bddc1f9e6f32dda6899320e76c_icgraph.png" border="0" usemap="#arwbin_8c_a3ec4e8bddc1f9e6f32dda6899320e76c_icgraph" alt=""/></div>
+<map name="arwbin_8c_a3ec4e8bddc1f9e6f32dda6899320e76c_icgraph" id="arwbin_8c_a3ec4e8bddc1f9e6f32dda6899320e76c_icgraph">
+<area shape="rect" title="Write a block of bits to binary file." alt="" coords="273,5,388,32"/>
+<area shape="rect" href="compfile_8h.html#a096ee4e90b5bbb6df76d18b72c047fe1" title="Write file data of a tCompfile in the form of a given block of bits." alt="" coords="104,5,225,32"/>
+<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8b36600049ee1667eb801f498ac5fd17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b36600049ee1667eb801f498ac5fd17">&#9670;&nbsp;</a></span>wbin_long_str_block()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wbin_long_str_block </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write a long (&lt;=65535 characters) string to binary file. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>Binary file stream. </td></tr>
+    <tr><td class="paramname">str</td><td>String of characters to write. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="rwbin_8c_source.html#l00055">55</a> do arquivo <a class="el" href="rwbin_8c_source.html">rwbin.c</a>.</p>
+
+</div>
+</div>
+<a id="ae2605de6df9291a467b80aae0c4eb46d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2605de6df9291a467b80aae0c4eb46d">&#9670;&nbsp;</a></span>wbin_magic_block()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wbin_magic_block </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned char *&#160;</td>
+          <td class="paramname"><em>signature</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned char&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write binary file signature block (magic bits). </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>Binary file stream. </td></tr>
+    <tr><td class="paramname">signature</td><td>Signature bytes to write. </td></tr>
+    <tr><td class="paramname">size</td><td>Amount of bytes in signature. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="rwbin_8c_source.html#l00034">34</a> do arquivo <a class="el" href="rwbin_8c_source.html">rwbin.c</a>.</p>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="rwbin_8c_ae2605de6df9291a467b80aae0c4eb46d_icgraph.png" border="0" usemap="#arwbin_8c_ae2605de6df9291a467b80aae0c4eb46d_icgraph" alt=""/></div>
+<map name="arwbin_8c_ae2605de6df9291a467b80aae0c4eb46d_icgraph" id="arwbin_8c_ae2605de6df9291a467b80aae0c4eb46d_icgraph">
+<area shape="rect" title="Write binary file signature block (magic bits)." alt="" coords="287,5,416,32"/>
+<area shape="rect" href="compfile_8h.html#a98bf9340a3e53ac8e7d0ac6575a24259" title="Write the file header from a tCompfile, including metadata such as the file name, extension and the b..." alt="" coords="104,5,239,32"/>
+<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab7cdde125f95e6d9cb880e8951f23d52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7cdde125f95e6d9cb880e8951f23d52">&#9670;&nbsp;</a></span>wbin_short_str_block()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wbin_short_str_block </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write a short (&lt;=255 characters) string to binary file. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>Binary file stream. </td></tr>
+    <tr><td class="paramname">str</td><td>String of characters to write. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="rwbin_8c_source.html#l00039">39</a> do arquivo <a class="el" href="rwbin_8c_source.html">rwbin.c</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="rwbin_8c.html">rwbin.c</a></li>
+    <li class="footer">Gerado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

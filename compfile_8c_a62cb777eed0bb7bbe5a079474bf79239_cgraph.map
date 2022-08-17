@@ -1,0 +1,7 @@
+<map id="comp_free" name="comp_free">
+<area shape="rect" id="node1" title="Free a tCompfile and all the memory it has allocated." alt="" coords="5,31,88,57"/>
+<area shape="rect" id="node2" href="$assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="141,5,204,32"/>
+<area shape="rect" id="node3" href="$tree_8h.html#a23769feed83ed62a9e1d5a7a090f870e" title="Free the memory allocated in by the tree." alt="" coords="136,56,209,83"/>
+<area shape="rect" id="node4" href="$tree_8c.html#a4a64d419c9e41286c7e0fc4e7ca91dc4" title="Check if tree is empty." alt="" coords="379,56,465,83"/>
+<area shape="rect" id="node5" href="$tree_8c.html#a23769feed83ed62a9e1d5a7a090f870e" title="Free the memory allocated in by the tree." alt="" coords="257,93,331,120"/>
+</map>

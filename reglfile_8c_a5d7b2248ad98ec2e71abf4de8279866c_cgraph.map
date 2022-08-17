@@ -1,0 +1,6 @@
+<map id="regl_write_bytes" name="regl_write_bytes">
+<area shape="rect" id="node1" title="Write bytes to a tReglfile from given tBytes." alt="" coords="5,56,123,83"/>
+<area shape="rect" id="node2" href="$assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="195,5,257,32"/>
+<area shape="rect" id="node3" href="$bytes_8h.html#a91fa70f22cbe219ff47a6d41846dddba" title="Get a tBytes bytes vector." alt="" coords="171,56,281,83"/>
+<area shape="rect" id="node4" href="$bytes_8h.html#ac5802dee5b68024eb5b63764efcdade9" title="Get current length of a tBytes." alt="" coords="175,107,277,133"/>
+</map>

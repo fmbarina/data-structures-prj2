@@ -1,0 +1,5 @@
+<map id="comp_write_header" name="comp_write_header">
+<area shape="rect" id="node1" title="Write the file header from a tCompfile, including metadata such as the file name, extension and the b..." alt="" coords="5,31,140,57"/>
+<area shape="rect" id="node2" href="$assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="221,5,284,32"/>
+<area shape="rect" id="node3" href="$rwbin_8h.html#ae2605de6df9291a467b80aae0c4eb46d" title="Write binary file signature block (magic bits)." alt="" coords="188,56,317,83"/>
+</map>

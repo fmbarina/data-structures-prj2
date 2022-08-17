@@ -1,0 +1,6 @@
+<map id="headers/reglfile.h" name="headers/reglfile.h">
+<area shape="rect" id="node1" title="Manage the data and operations relating to a regular file." alt="" coords="147,5,269,32"/>
+<area shape="rect" id="node2" href="$compacta_8c.html" title="Program to compress files to be decompressed with &#39;descompacta&#39;." alt="" coords="5,80,117,107"/>
+<area shape="rect" id="node3" href="$descompacta_8c.html" title="Program to decompress files compressed with &#39;compacta&#39;." alt="" coords="141,80,275,107"/>
+<area shape="rect" id="node4" href="$reglfile_8c.html" title=" " alt="" coords="299,80,392,107"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="headers/pathman.h" name="headers/pathman.h">
+<area shape="rect" id="node1" title="Path manipulation functions. You should use cwalk instead." alt="" coords="269,5,403,32"/>
+<area shape="rect" id="node2" href="$compacta_8c.html" title="Program to compress files to be decompressed with &#39;descompacta&#39;." alt="" coords="5,80,117,107"/>
+<area shape="rect" id="node3" href="$compfile_8c.html" title=" " alt="" coords="141,80,245,107"/>
+<area shape="rect" id="node4" href="$descompacta_8c.html" title="Program to decompress files compressed with &#39;compacta&#39;." alt="" coords="269,80,403,107"/>
+<area shape="rect" id="node5" href="$pathman_8c.html" title=" " alt="" coords="427,80,533,107"/>
+<area shape="rect" id="node6" href="$reglfile_8c.html" title=" " alt="" coords="557,80,651,107"/>
+</map>

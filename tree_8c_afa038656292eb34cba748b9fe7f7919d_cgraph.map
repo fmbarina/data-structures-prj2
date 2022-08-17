@@ -1,0 +1,7 @@
+<map id="tree_deserialize" name="tree_deserialize">
+<area shape="rect" id="node1" title="Deserialize the given sequence of bits into a tree." alt="" coords="5,56,119,83"/>
+<area shape="rect" id="node2" href="$bits_8h.html#a4cfa06f3fe9324b810a8a19806b825bb" title="Get a bit in a tBits." alt="" coords="168,5,257,32"/>
+<area shape="rect" id="node4" href="$bits_8h.html#a59ab9afa29849c2b4e83346e3c082a61" title="Get current length of a tBits." alt="" coords="167,56,259,83"/>
+<area shape="rect" id="node5" href="$tree_8c.html#a2fa6564d96a2d1910af7b64aa6f42eac" title="Create tree with passed parameters." alt="" coords="179,107,247,133"/>
+<area shape="rect" id="node3" href="$assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="307,5,369,32"/>
+</map>

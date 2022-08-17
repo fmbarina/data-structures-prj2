@@ -1,0 +1,7 @@
+<map id="bytes_get_len" name="bytes_get_len">
+<area shape="rect" id="node1" title="Get current length of a tBytes." alt="" coords="269,31,372,57"/>
+<area shape="rect" id="node2" href="$encoding_8h.html#ad8a2ff0233638f245e618c05db1e2a31" title="Encode bytes to compressed bits, using an encoding tree." alt="" coords="131,5,195,32"/>
+<area shape="rect" id="node4" href="$reglfile_8h.html#a5d7b2248ad98ec2e71abf4de8279866c" title="Write bytes to a tReglfile from given tBytes." alt="" coords="104,56,221,83"/>
+<area shape="rect" id="node3" href="$compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" id="node5" href="$descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,56,56,83"/>
+</map>

@@ -1,0 +1,657 @@
+<!-- HTML header for doxygen 1.9.1-->
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="generator" content="Doxygen 1.9.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EDCompacta: Referência do Arquivo src/bytes.c</title>
+    <link href="tabs.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+    <!-- ... other metadata & script includes ... -->
+    <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+    <script type="text/javascript">
+        DoxygenAwesomeDarkModeToggle.init()
+    </script>
+</head>
+<body>
+    <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+            <table cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr style="height: 56px;">
+                        <td id="projectalign" style="padding-left: 0.5em;">
+                            <div id="projectname">EDCompacta
+                            </div>
+                            <div id="projectbrief">e Descompacta usando Codificação Huffman</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- end header part --><!-- Gerado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Busca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('bytes_8c.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Estruturas de Dados</a> &#124;
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência do Arquivo bytes.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="bytes_8h_source.html">bytes.h</a>&quot;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="assertr_8h_source.html">assertr.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Gráfico de dependência de inclusões para bytes.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="bytes_8c__incl.png" border="0" usemap="#asrc_2bytes_8c" alt=""/></div>
+<map name="asrc_2bytes_8c" id="asrc_2bytes_8c">
+<area shape="rect" title=" " alt="" coords="125,5,212,32"/>
+<area shape="rect" href="bytes_8h.html" title="Manage a collection of bytes." alt="" coords="5,80,71,107"/>
+<area shape="rect" title=" " alt="" coords="95,80,157,107"/>
+<area shape="rect" title=" " alt="" coords="181,80,245,107"/>
+<area shape="rect" href="assertr_8h.html" title="Custom assert function with error message." alt="" coords="269,80,343,107"/>
+</map>
+</div>
+</div>
+<p><a href="bytes_8c_source.html">Vá para o código-fonte desse arquivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Estruturas de Dados</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbytes__st.html">bytes_st</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:aec151d5d94a6928e3d16a9f589fb7538"><td class="memItemLeft" align="right" valign="top"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8c.html#aec151d5d94a6928e3d16a9f589fb7538">bytes_init</a> (unsigned int max_length)</td></tr>
+<tr class="memdesc:aec151d5d94a6928e3d16a9f589fb7538"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create tBytes.  <a href="bytes_8c.html#aec151d5d94a6928e3d16a9f589fb7538">Mais...</a><br /></td></tr>
+<tr class="separator:aec151d5d94a6928e3d16a9f589fb7538"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2b98d1f907939bf3c7452fef0fb0165"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8c.html#ad2b98d1f907939bf3c7452fef0fb0165">bytes_free</a> (<a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt)</td></tr>
+<tr class="memdesc:ad2b98d1f907939bf3c7452fef0fb0165"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free a tBytes and all the memory it has allocated.  <a href="bytes_8c.html#ad2b98d1f907939bf3c7452fef0fb0165">Mais...</a><br /></td></tr>
+<tr class="separator:ad2b98d1f907939bf3c7452fef0fb0165"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7530d554ffe55e1147d9383cb5be841"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8c.html#ae7530d554ffe55e1147d9383cb5be841">bytes_append</a> (<a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt, unsigned char byte)</td></tr>
+<tr class="memdesc:ae7530d554ffe55e1147d9383cb5be841"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append a bytes to a tBytes.  <a href="bytes_8c.html#ae7530d554ffe55e1147d9383cb5be841">Mais...</a><br /></td></tr>
+<tr class="separator:ae7530d554ffe55e1147d9383cb5be841"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a0dec9ecf604760263c09d61211ae19"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8c.html#a6a0dec9ecf604760263c09d61211ae19">bytes_read</a> (<a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt)</td></tr>
+<tr class="memdesc:a6a0dec9ecf604760263c09d61211ae19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads bytes, byte by byte, from a tBytes. A cursor inside <br  />
+ advances one byte every function call. Attempting to read past the amount of bytes in tBytes will result in an error.  <a href="bytes_8c.html#a6a0dec9ecf604760263c09d61211ae19">Mais...</a><br /></td></tr>
+<tr class="separator:a6a0dec9ecf604760263c09d61211ae19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a102fc6f2506326201cd71bb4804fe28f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8c.html#a102fc6f2506326201cd71bb4804fe28f">bytes_set_byte</a> (<a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt, unsigned int idx, unsigned char byte)</td></tr>
+<tr class="memdesc:a102fc6f2506326201cd71bb4804fe28f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a byte in a tBytes.  <a href="bytes_8c.html#a102fc6f2506326201cd71bb4804fe28f">Mais...</a><br /></td></tr>
+<tr class="separator:a102fc6f2506326201cd71bb4804fe28f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad71cedf4b310bbe04f258398cedd728f"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8c.html#ad71cedf4b310bbe04f258398cedd728f">bytes_get_byte</a> (<a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt, unsigned int idx)</td></tr>
+<tr class="memdesc:ad71cedf4b310bbe04f258398cedd728f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a byte in a tBytes.  <a href="bytes_8c.html#ad71cedf4b310bbe04f258398cedd728f">Mais...</a><br /></td></tr>
+<tr class="separator:ad71cedf4b310bbe04f258398cedd728f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa460ceb68b4f8bd91467a947ee7174f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8c.html#aa460ceb68b4f8bd91467a947ee7174f9">bytes_set_len</a> (<a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt, unsigned int len)</td></tr>
+<tr class="memdesc:aa460ceb68b4f8bd91467a947ee7174f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set length of a tBytes manually.  <a href="bytes_8c.html#aa460ceb68b4f8bd91467a947ee7174f9">Mais...</a><br /></td></tr>
+<tr class="separator:aa460ceb68b4f8bd91467a947ee7174f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5802dee5b68024eb5b63764efcdade9"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8c.html#ac5802dee5b68024eb5b63764efcdade9">bytes_get_len</a> (<a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt)</td></tr>
+<tr class="memdesc:ac5802dee5b68024eb5b63764efcdade9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current length of a tBytes.  <a href="bytes_8c.html#ac5802dee5b68024eb5b63764efcdade9">Mais...</a><br /></td></tr>
+<tr class="separator:ac5802dee5b68024eb5b63764efcdade9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a269da3ff64d53cc95683ed93cf693af5"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8c.html#a269da3ff64d53cc95683ed93cf693af5">bytes_max</a> (<a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt)</td></tr>
+<tr class="memdesc:a269da3ff64d53cc95683ed93cf693af5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get maximum length of a tBytes.  <a href="bytes_8c.html#a269da3ff64d53cc95683ed93cf693af5">Mais...</a><br /></td></tr>
+<tr class="separator:a269da3ff64d53cc95683ed93cf693af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91fa70f22cbe219ff47a6d41846dddba"><td class="memItemLeft" align="right" valign="top">unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8c.html#a91fa70f22cbe219ff47a6d41846dddba">bytes_contents</a> (<a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt)</td></tr>
+<tr class="memdesc:a91fa70f22cbe219ff47a6d41846dddba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a tBytes bytes vector.  <a href="bytes_8c.html#a91fa70f22cbe219ff47a6d41846dddba">Mais...</a><br /></td></tr>
+<tr class="separator:a91fa70f22cbe219ff47a6d41846dddba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0d0de02266bcd633d0140f4b55cdb24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bytes_8c.html#ad0d0de02266bcd633d0140f4b55cdb24">bytes_print</a> (<a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *bt)</td></tr>
+<tr class="memdesc:ad0d0de02266bcd633d0140f4b55cdb24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print current bytes in a tBytes.  <a href="bytes_8c.html#ad0d0de02266bcd633d0140f4b55cdb24">Mais...</a><br /></td></tr>
+<tr class="separator:ad0d0de02266bcd633d0140f4b55cdb24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Funções</h2>
+<a id="ae7530d554ffe55e1147d9383cb5be841"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7530d554ffe55e1147d9383cb5be841">&#9670;&nbsp;</a></span>bytes_append()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void bytes_append </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramname"><em>bt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned char&#160;</td>
+          <td class="paramname"><em>byte</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Append a bytes to a tBytes. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bt</td><td>tBytes. </td></tr>
+    <tr><td class="paramname">byte</td><td>Byte value to append. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="bytes_8c_source.html#l00032">32</a> do arquivo <a class="el" href="bytes_8c_source.html">bytes.c</a>.</p>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bytes_8c_ae7530d554ffe55e1147d9383cb5be841_cgraph.png" border="0" usemap="#abytes_8c_ae7530d554ffe55e1147d9383cb5be841_cgraph" alt=""/></div>
+<map name="abytes_8c_ae7530d554ffe55e1147d9383cb5be841_cgraph" id="abytes_8c_ae7530d554ffe55e1147d9383cb5be841_cgraph">
+<area shape="rect" title="Append a bytes to a tBytes." alt="" coords="5,5,108,32"/>
+<area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="156,5,219,32"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bytes_8c_ae7530d554ffe55e1147d9383cb5be841_icgraph.png" border="0" usemap="#abytes_8c_ae7530d554ffe55e1147d9383cb5be841_icgraph" alt=""/></div>
+<map name="abytes_8c_ae7530d554ffe55e1147d9383cb5be841_icgraph" id="abytes_8c_ae7530d554ffe55e1147d9383cb5be841_icgraph">
+<area shape="rect" title="Append a bytes to a tBytes." alt="" coords="216,5,319,32"/>
+<area shape="rect" href="encoding_8h.html#ac0f5f307bd3c1000f51b62d389bd13aa" title="Decode bits to uncompressed Bytes, using an encoding tree." alt="" coords="104,5,168,32"/>
+<area shape="rect" href="descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a91fa70f22cbe219ff47a6d41846dddba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91fa70f22cbe219ff47a6d41846dddba">&#9670;&nbsp;</a></span>bytes_contents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char* bytes_contents </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramname"><em>bt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a tBytes bytes vector. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bt</td><td>tBytes. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>unsigned char* Bytes vector. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="bytes_8c_source.html#l00075">75</a> do arquivo <a class="el" href="bytes_8c_source.html">bytes.c</a>.</p>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bytes_8c_a91fa70f22cbe219ff47a6d41846dddba_icgraph.png" border="0" usemap="#abytes_8c_a91fa70f22cbe219ff47a6d41846dddba_icgraph" alt=""/></div>
+<map name="abytes_8c_a91fa70f22cbe219ff47a6d41846dddba_icgraph" id="abytes_8c_a91fa70f22cbe219ff47a6d41846dddba_icgraph">
+<area shape="rect" title="Get a tBytes bytes vector." alt="" coords="269,31,380,57"/>
+<area shape="rect" href="reglfile_8h.html#ab96df5988987fd750aa3fae706c04f3e" title="Read bytes from a tReglfile to given tBytes." alt="" coords="105,5,220,32"/>
+<area shape="rect" href="reglfile_8h.html#a5d7b2248ad98ec2e71abf4de8279866c" title="Write bytes to a tReglfile from given tBytes." alt="" coords="104,56,221,83"/>
+<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" href="descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,56,56,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad2b98d1f907939bf3c7452fef0fb0165"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2b98d1f907939bf3c7452fef0fb0165">&#9670;&nbsp;</a></span>bytes_free()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void bytes_free </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramname"><em>bt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Free a tBytes and all the memory it has allocated. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bt</td><td>tBytes. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="bytes_8c_source.html#l00024">24</a> do arquivo <a class="el" href="bytes_8c_source.html">bytes.c</a>.</p>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bytes_8c_ad2b98d1f907939bf3c7452fef0fb0165_cgraph.png" border="0" usemap="#abytes_8c_ad2b98d1f907939bf3c7452fef0fb0165_cgraph" alt=""/></div>
+<map name="abytes_8c_ad2b98d1f907939bf3c7452fef0fb0165_cgraph" id="abytes_8c_ad2b98d1f907939bf3c7452fef0fb0165_cgraph">
+<area shape="rect" title="Free a tBytes and all the memory it has allocated." alt="" coords="5,5,88,32"/>
+<area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="136,5,199,32"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bytes_8c_ad2b98d1f907939bf3c7452fef0fb0165_icgraph.png" border="0" usemap="#abytes_8c_ad2b98d1f907939bf3c7452fef0fb0165_icgraph" alt=""/></div>
+<map name="abytes_8c_ad2b98d1f907939bf3c7452fef0fb0165_icgraph" id="abytes_8c_ad2b98d1f907939bf3c7452fef0fb0165_icgraph">
+<area shape="rect" title="Free a tBytes and all the memory it has allocated." alt="" coords="104,5,187,32"/>
+<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad71cedf4b310bbe04f258398cedd728f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad71cedf4b310bbe04f258398cedd728f">&#9670;&nbsp;</a></span>bytes_get_byte()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char bytes_get_byte </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramname"><em>bt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>idx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a byte in a tBytes. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bt</td><td>tBytes. </td></tr>
+    <tr><td class="paramname">idx</td><td>Index of byte to set. Must be under tBytes length. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>unsigned char Byte value. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="bytes_8c_source.html#l00053">53</a> do arquivo <a class="el" href="bytes_8c_source.html">bytes.c</a>.</p>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bytes_8c_ad71cedf4b310bbe04f258398cedd728f_cgraph.png" border="0" usemap="#abytes_8c_ad71cedf4b310bbe04f258398cedd728f_cgraph" alt=""/></div>
+<map name="abytes_8c_ad71cedf4b310bbe04f258398cedd728f_cgraph" id="abytes_8c_ad71cedf4b310bbe04f258398cedd728f_cgraph">
+<area shape="rect" title="Get a byte in a tBytes." alt="" coords="5,5,116,32"/>
+<area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="164,5,227,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac5802dee5b68024eb5b63764efcdade9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5802dee5b68024eb5b63764efcdade9">&#9670;&nbsp;</a></span>bytes_get_len()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int bytes_get_len </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramname"><em>bt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get current length of a tBytes. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bt</td><td>tBytes. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>unsigned int Current length. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="bytes_8c_source.html#l00065">65</a> do arquivo <a class="el" href="bytes_8c_source.html">bytes.c</a>.</p>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bytes_8c_ac5802dee5b68024eb5b63764efcdade9_icgraph.png" border="0" usemap="#abytes_8c_ac5802dee5b68024eb5b63764efcdade9_icgraph" alt=""/></div>
+<map name="abytes_8c_ac5802dee5b68024eb5b63764efcdade9_icgraph" id="abytes_8c_ac5802dee5b68024eb5b63764efcdade9_icgraph">
+<area shape="rect" title="Get current length of a tBytes." alt="" coords="269,31,372,57"/>
+<area shape="rect" href="encoding_8h.html#ad8a2ff0233638f245e618c05db1e2a31" title="Encode bytes to compressed bits, using an encoding tree." alt="" coords="131,5,195,32"/>
+<area shape="rect" href="reglfile_8h.html#a5d7b2248ad98ec2e71abf4de8279866c" title="Write bytes to a tReglfile from given tBytes." alt="" coords="104,56,221,83"/>
+<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" href="descompacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,56,56,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aec151d5d94a6928e3d16a9f589fb7538"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec151d5d94a6928e3d16a9f589fb7538">&#9670;&nbsp;</a></span>bytes_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a>* bytes_init </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>max_length</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create tBytes. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">max_length</td><td>Max number of bytes in tBytes. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>tBytes* tBytes. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="bytes_8c_source.html#l00014">14</a> do arquivo <a class="el" href="bytes_8c_source.html">bytes.c</a>.</p>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bytes_8c_aec151d5d94a6928e3d16a9f589fb7538_icgraph.png" border="0" usemap="#abytes_8c_aec151d5d94a6928e3d16a9f589fb7538_icgraph" alt=""/></div>
+<map name="abytes_8c_aec151d5d94a6928e3d16a9f589fb7538_icgraph" id="abytes_8c_aec151d5d94a6928e3d16a9f589fb7538_icgraph">
+<area shape="rect" title="Create tBytes." alt="" coords="104,5,183,32"/>
+<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a269da3ff64d53cc95683ed93cf693af5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a269da3ff64d53cc95683ed93cf693af5">&#9670;&nbsp;</a></span>bytes_max()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int bytes_max </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramname"><em>bt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get maximum length of a tBytes. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bt</td><td>tBytes. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>unsigned int Maximum length. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="bytes_8c_source.html#l00070">70</a> do arquivo <a class="el" href="bytes_8c_source.html">bytes.c</a>.</p>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bytes_8c_a269da3ff64d53cc95683ed93cf693af5_icgraph.png" border="0" usemap="#abytes_8c_a269da3ff64d53cc95683ed93cf693af5_icgraph" alt=""/></div>
+<map name="abytes_8c_a269da3ff64d53cc95683ed93cf693af5_icgraph" id="abytes_8c_a269da3ff64d53cc95683ed93cf693af5_icgraph">
+<area shape="rect" title="Get maximum length of a tBytes." alt="" coords="267,5,353,32"/>
+<area shape="rect" href="reglfile_8h.html#ab96df5988987fd750aa3fae706c04f3e" title="Read bytes from a tReglfile to given tBytes." alt="" coords="104,5,219,32"/>
+<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad0d0de02266bcd633d0140f4b55cdb24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0d0de02266bcd633d0140f4b55cdb24">&#9670;&nbsp;</a></span>bytes_print()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void bytes_print </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramname"><em>bt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print current bytes in a tBytes. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bt</td><td>tBytes. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="bytes_8c_source.html#l00080">80</a> do arquivo <a class="el" href="bytes_8c_source.html">bytes.c</a>.</p>
+
+</div>
+</div>
+<a id="a6a0dec9ecf604760263c09d61211ae19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a0dec9ecf604760263c09d61211ae19">&#9670;&nbsp;</a></span>bytes_read()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char bytes_read </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramname"><em>bt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reads bytes, byte by byte, from a tBytes. A cursor inside <br  />
+ advances one byte every function call. Attempting to read past the amount of bytes in tBytes will result in an error. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bt</td><td>tBytes. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>unsigned char Byte read. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="bytes_8c_source.html#l00039">39</a> do arquivo <a class="el" href="bytes_8c_source.html">bytes.c</a>.</p>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bytes_8c_a6a0dec9ecf604760263c09d61211ae19_cgraph.png" border="0" usemap="#abytes_8c_a6a0dec9ecf604760263c09d61211ae19_cgraph" alt=""/></div>
+<map name="abytes_8c_a6a0dec9ecf604760263c09d61211ae19_cgraph" id="abytes_8c_a6a0dec9ecf604760263c09d61211ae19_cgraph">
+<area shape="rect" title="Reads bytes, byte by byte, from a tBytes. A cursor inside &#160;&#160;advances one byte every function call...." alt="" coords="5,5,92,32"/>
+<area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="140,5,203,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a102fc6f2506326201cd71bb4804fe28f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a102fc6f2506326201cd71bb4804fe28f">&#9670;&nbsp;</a></span>bytes_set_byte()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void bytes_set_byte </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramname"><em>bt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned char&#160;</td>
+          <td class="paramname"><em>byte</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set a byte in a tBytes. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bt</td><td>tBytes. </td></tr>
+    <tr><td class="paramname">idx</td><td>Index of byte to set. Must be under tBytes length. </td></tr>
+    <tr><td class="paramname">byte</td><td>Byte value to set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="bytes_8c_source.html#l00046">46</a> do arquivo <a class="el" href="bytes_8c_source.html">bytes.c</a>.</p>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bytes_8c_a102fc6f2506326201cd71bb4804fe28f_cgraph.png" border="0" usemap="#abytes_8c_a102fc6f2506326201cd71bb4804fe28f_cgraph" alt=""/></div>
+<map name="abytes_8c_a102fc6f2506326201cd71bb4804fe28f_cgraph" id="abytes_8c_a102fc6f2506326201cd71bb4804fe28f_cgraph">
+<area shape="rect" title="Set a byte in a tBytes." alt="" coords="5,5,116,32"/>
+<area shape="rect" href="assertr_8h.html#a329be2d71db175fa0620ceb4e3c6356b" title="Assert that condition is true. If false, print error message and quit the program." alt="" coords="164,5,227,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa460ceb68b4f8bd91467a947ee7174f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa460ceb68b4f8bd91467a947ee7174f9">&#9670;&nbsp;</a></span>bytes_set_len()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void bytes_set_len </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="bytes_8h.html#a2dd38295b6f64f70fb90f718848bf117">tBytes</a> *&#160;</td>
+          <td class="paramname"><em>bt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set length of a tBytes manually. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bt</td><td>tBytes. </td></tr>
+    <tr><td class="paramname">len</td><td>Value of length to set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="bytes_8c_source.html#l00060">60</a> do arquivo <a class="el" href="bytes_8c_source.html">bytes.c</a>.</p>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bytes_8c_aa460ceb68b4f8bd91467a947ee7174f9_icgraph.png" border="0" usemap="#abytes_8c_aa460ceb68b4f8bd91467a947ee7174f9_icgraph" alt=""/></div>
+<map name="abytes_8c_aa460ceb68b4f8bd91467a947ee7174f9_icgraph" id="abytes_8c_aa460ceb68b4f8bd91467a947ee7174f9_icgraph">
+<area shape="rect" title="Set length of a tBytes manually." alt="" coords="267,5,369,32"/>
+<area shape="rect" href="reglfile_8h.html#ab96df5988987fd750aa3fae706c04f3e" title="Read bytes from a tReglfile to given tBytes." alt="" coords="104,5,219,32"/>
+<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="bytes_8c.html">bytes.c</a></li>
+    <li class="footer">Gerado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

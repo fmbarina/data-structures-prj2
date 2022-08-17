@@ -1,0 +1,10 @@
+<map id="src/reglfile.c" name="src/reglfile.c">
+<area shape="rect" id="node1" title=" " alt="" coords="222,5,315,32"/>
+<area shape="rect" id="node2" href="$reglfile_8h.html" title="Manage the data and operations relating to a regular file." alt="" coords="5,80,76,107"/>
+<area shape="rect" id="node3" href="$bytes_8h.html" title="Manage a collection of bytes." alt="" coords="44,155,109,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="151,80,213,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="237,80,301,107"/>
+<area shape="rect" id="node6" title=" " alt="" coords="325,80,391,107"/>
+<area shape="rect" id="node7" href="$assertr_8h.html" title="Custom assert function with error message." alt="" coords="415,80,488,107"/>
+<area shape="rect" id="node8" href="$pathman_8h.html" title="Path manipulation functions. You should use cwalk instead." alt="" coords="513,80,595,107"/>
+</map>

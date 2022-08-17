@@ -1,0 +1,4 @@
+<map id="getnamepth" name="getnamepth">
+<area shape="rect" id="node1" title="Get file basename from the file at the end of path. A file name is defined as the characters before t..." alt="" coords="5,5,96,32"/>
+<area shape="rect" id="node2" href="$pathman_8c.html#aab33aaa11b68ad439ef66cd1f30f59ee" title="Trim path by removing the file extension at the end. An extension is defined as the characters after ..." alt="" coords="144,5,211,32"/>
+</map>

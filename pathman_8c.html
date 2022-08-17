@@ -1,0 +1,428 @@
+<!-- HTML header for doxygen 1.9.1-->
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="generator" content="Doxygen 1.9.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EDCompacta: Referência do Arquivo src/pathman.c</title>
+    <link href="tabs.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+    <!-- ... other metadata & script includes ... -->
+    <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+    <script type="text/javascript">
+        DoxygenAwesomeDarkModeToggle.init()
+    </script>
+</head>
+<body>
+    <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+            <table cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr style="height: 56px;">
+                        <td id="projectalign" style="padding-left: 0.5em;">
+                            <div id="projectname">EDCompacta
+                            </div>
+                            <div id="projectbrief">e Descompacta usando Codificação Huffman</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- end header part --><!-- Gerado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Busca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('pathman_8c.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Definições e Macros</a> &#124;
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência do Arquivo pathman.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="pathman_8h_source.html">pathman.h</a>&quot;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Gráfico de dependência de inclusões para pathman.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="pathman_8c__incl.png" border="0" usemap="#asrc_2pathman_8c" alt=""/></div>
+<map name="asrc_2pathman_8c" id="asrc_2pathman_8c">
+<area shape="rect" title=" " alt="" coords="91,5,197,32"/>
+<area shape="rect" href="pathman_8h.html" title="Path manipulation functions. You should use cwalk instead." alt="" coords="5,80,88,107"/>
+<area shape="rect" title=" " alt="" coords="112,80,176,107"/>
+<area shape="rect" title=" " alt="" coords="201,80,266,107"/>
+</map>
+</div>
+</div>
+<p><a href="pathman_8c_source.html">Vá para o código-fonte desse arquivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Definições e Macros</h2></td></tr>
+<tr class="memitem:a203cc84dd428600f4d696be027ba3962"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pathman_8c.html#a203cc84dd428600f4d696be027ba3962">EXT_DELIM</a>&#160;&#160;&#160;&quot;.\0&quot; /* Extension separator string */</td></tr>
+<tr class="separator:a203cc84dd428600f4d696be027ba3962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:a18886c8669c2a9541f75720f21bdb84c"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pathman_8c.html#a18886c8669c2a9541f75720f21bdb84c">expth</a> (char *path, char *add)</td></tr>
+<tr class="memdesc:a18886c8669c2a9541f75720f21bdb84c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extend path by adding a string to its end.  <a href="pathman_8c.html#a18886c8669c2a9541f75720f21bdb84c">Mais...</a><br /></td></tr>
+<tr class="separator:a18886c8669c2a9541f75720f21bdb84c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a759e228c839cbdff1102432a69ad7e9e"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pathman_8c.html#a759e228c839cbdff1102432a69ad7e9e">trpth</a> (char *path)</td></tr>
+<tr class="memdesc:a759e228c839cbdff1102432a69ad7e9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trim path by removing characters from the end up to and including the first directory separator found. If the last character of path is the directory separator, ignore it and find the previous one.  <a href="pathman_8c.html#a759e228c839cbdff1102432a69ad7e9e">Mais...</a><br /></td></tr>
+<tr class="separator:a759e228c839cbdff1102432a69ad7e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ac57bc6fde707215bb75ce25309489b"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pathman_8c.html#a8ac57bc6fde707215bb75ce25309489b">adpth</a> (char *path, char *add)</td></tr>
+<tr class="memdesc:a8ac57bc6fde707215bb75ce25309489b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add more to path by adding a string at the end with a directory separator in between. If path ends with a directory separator, skip adding the directory separator.  <a href="pathman_8c.html#a8ac57bc6fde707215bb75ce25309489b">Mais...</a><br /></td></tr>
+<tr class="separator:a8ac57bc6fde707215bb75ce25309489b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab33aaa11b68ad439ef66cd1f30f59ee"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pathman_8c.html#aab33aaa11b68ad439ef66cd1f30f59ee">trextpth</a> (char *path)</td></tr>
+<tr class="memdesc:aab33aaa11b68ad439ef66cd1f30f59ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trim path by removing the file extension at the end. An extension is defined as the characters after the last dot in the given path. The dot is also removed. If no dot is found, nothing is done.  <a href="pathman_8c.html#aab33aaa11b68ad439ef66cd1f30f59ee">Mais...</a><br /></td></tr>
+<tr class="separator:aab33aaa11b68ad439ef66cd1f30f59ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37c63c71830350b7c38d82e6cb717f8b"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pathman_8c.html#a37c63c71830350b7c38d82e6cb717f8b">getextpth</a> (char *path)</td></tr>
+<tr class="memdesc:a37c63c71830350b7c38d82e6cb717f8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get extension from the file at the end of path. An extension is defined as the characters after the last dot in the given path. The dot is not included. If no dot is found, an empty path will be returned.  <a href="pathman_8c.html#a37c63c71830350b7c38d82e6cb717f8b">Mais...</a><br /></td></tr>
+<tr class="separator:a37c63c71830350b7c38d82e6cb717f8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89457d4fafe6d90c14d17e62ff63e80a"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pathman_8c.html#a89457d4fafe6d90c14d17e62ff63e80a">getnamepth</a> (char *path)</td></tr>
+<tr class="memdesc:a89457d4fafe6d90c14d17e62ff63e80a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get file basename from the file at the end of path. A file name is defined as the characters before the last dot and after the last directory separator in the given path.  <a href="pathman_8c.html#a89457d4fafe6d90c14d17e62ff63e80a">Mais...</a><br /></td></tr>
+<tr class="separator:a89457d4fafe6d90c14d17e62ff63e80a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Definições e macros</h2>
+<a id="a203cc84dd428600f4d696be027ba3962"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a203cc84dd428600f4d696be027ba3962">&#9670;&nbsp;</a></span>EXT_DELIM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EXT_DELIM&#160;&#160;&#160;&quot;.\0&quot; /* Extension separator string */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="pathman_8c_source.html#l00012">12</a> do arquivo <a class="el" href="pathman_8c_source.html">pathman.c</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Funções</h2>
+<a id="a8ac57bc6fde707215bb75ce25309489b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ac57bc6fde707215bb75ce25309489b">&#9670;&nbsp;</a></span>adpth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* adpth </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>add</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add more to path by adding a string at the end with a directory separator in between. If path ends with a directory separator, skip adding the directory separator. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>Pre-allocated path string. </td></tr>
+    <tr><td class="paramname">add</td><td>String to be added at the end of path. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>char* Path string with extended directory separated path. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="pathman_8c_source.html#l00072">72</a> do arquivo <a class="el" href="pathman_8c_source.html">pathman.c</a>.</p>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="pathman_8c_a8ac57bc6fde707215bb75ce25309489b_cgraph.png" border="0" usemap="#apathman_8c_a8ac57bc6fde707215bb75ce25309489b_cgraph" alt=""/></div>
+<map name="apathman_8c_a8ac57bc6fde707215bb75ce25309489b_cgraph" id="apathman_8c_a8ac57bc6fde707215bb75ce25309489b_cgraph">
+<area shape="rect" title="Add more to path by adding a string at the end with a directory separator in between...." alt="" coords="5,5,60,32"/>
+<area shape="rect" href="pathman_8c.html#a18886c8669c2a9541f75720f21bdb84c" title="Extend path by adding a string to its end." alt="" coords="108,5,163,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a18886c8669c2a9541f75720f21bdb84c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18886c8669c2a9541f75720f21bdb84c">&#9670;&nbsp;</a></span>expth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* expth </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>add</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Extend path by adding a string to its end. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>Pre-allocated path string. </td></tr>
+    <tr><td class="paramname">add</td><td>String to be added at the end of path. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>char* Path string with extended path. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="pathman_8c_source.html#l00043">43</a> do arquivo <a class="el" href="pathman_8c_source.html">pathman.c</a>.</p>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="pathman_8c_a18886c8669c2a9541f75720f21bdb84c_icgraph.png" border="0" usemap="#apathman_8c_a18886c8669c2a9541f75720f21bdb84c_icgraph" alt=""/></div>
+<map name="apathman_8c_a18886c8669c2a9541f75720f21bdb84c_icgraph" id="apathman_8c_a18886c8669c2a9541f75720f21bdb84c_icgraph">
+<area shape="rect" title="Extend path by adding a string to its end." alt="" coords="108,31,163,57"/>
+<area shape="rect" href="pathman_8h.html#a8ac57bc6fde707215bb75ce25309489b" title="Add more to path by adding a string at the end with a directory separator in between...." alt="" coords="5,5,60,32"/>
+<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="7,56,58,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a37c63c71830350b7c38d82e6cb717f8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37c63c71830350b7c38d82e6cb717f8b">&#9670;&nbsp;</a></span>getextpth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* getextpth </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get extension from the file at the end of path. An extension is defined as the characters after the last dot in the given path. The dot is not included. If no dot is found, an empty path will be returned. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>Pre-allocated path string. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>char* Extension string from path. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="pathman_8c_source.html#l00098">98</a> do arquivo <a class="el" href="pathman_8c_source.html">pathman.c</a>.</p>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="pathman_8c_a37c63c71830350b7c38d82e6cb717f8b_icgraph.png" border="0" usemap="#apathman_8c_a37c63c71830350b7c38d82e6cb717f8b_icgraph" alt=""/></div>
+<map name="apathman_8c_a37c63c71830350b7c38d82e6cb717f8b_icgraph" id="apathman_8c_a37c63c71830350b7c38d82e6cb717f8b_icgraph">
+<area shape="rect" title="Get extension from the file at the end of path. An extension is defined as the characters after the l..." alt="" coords="301,5,377,32"/>
+<area shape="rect" href="reglfile_8h.html#aa6ec0a84edf80bd31ecd3e3f4348489a" title="Attempt to extract and set the tReglfile name and extension from its path. tReglfile name needs to be..." alt="" coords="104,5,253,32"/>
+<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a89457d4fafe6d90c14d17e62ff63e80a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89457d4fafe6d90c14d17e62ff63e80a">&#9670;&nbsp;</a></span>getnamepth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* getnamepth </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get file basename from the file at the end of path. A file name is defined as the characters before the last dot and after the last directory separator in the given path. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>Pre-allocated path string. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>char* File name string from path. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="pathman_8c_source.html#l00115">115</a> do arquivo <a class="el" href="pathman_8c_source.html">pathman.c</a>.</p>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="pathman_8c_a89457d4fafe6d90c14d17e62ff63e80a_cgraph.png" border="0" usemap="#apathman_8c_a89457d4fafe6d90c14d17e62ff63e80a_cgraph" alt=""/></div>
+<map name="apathman_8c_a89457d4fafe6d90c14d17e62ff63e80a_cgraph" id="apathman_8c_a89457d4fafe6d90c14d17e62ff63e80a_cgraph">
+<area shape="rect" title="Get file basename from the file at the end of path. A file name is defined as the characters before t..." alt="" coords="5,5,96,32"/>
+<area shape="rect" href="pathman_8c.html#aab33aaa11b68ad439ef66cd1f30f59ee" title="Trim path by removing the file extension at the end. An extension is defined as the characters after ..." alt="" coords="144,5,211,32"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="pathman_8c_a89457d4fafe6d90c14d17e62ff63e80a_icgraph.png" border="0" usemap="#apathman_8c_a89457d4fafe6d90c14d17e62ff63e80a_icgraph" alt=""/></div>
+<map name="apathman_8c_a89457d4fafe6d90c14d17e62ff63e80a_icgraph" id="apathman_8c_a89457d4fafe6d90c14d17e62ff63e80a_icgraph">
+<area shape="rect" title="Get file basename from the file at the end of path. A file name is defined as the characters before t..." alt="" coords="301,5,392,32"/>
+<area shape="rect" href="reglfile_8h.html#aa6ec0a84edf80bd31ecd3e3f4348489a" title="Attempt to extract and set the tReglfile name and extension from its path. tReglfile name needs to be..." alt="" coords="104,5,253,32"/>
+<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aab33aaa11b68ad439ef66cd1f30f59ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab33aaa11b68ad439ef66cd1f30f59ee">&#9670;&nbsp;</a></span>trextpth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* trextpth </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Trim path by removing the file extension at the end. An extension is defined as the characters after the last dot in the given path. The dot is also removed. If no dot is found, nothing is done. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>Pre-allocated path string. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>char* Path string with extension removed. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="pathman_8c_source.html#l00080">80</a> do arquivo <a class="el" href="pathman_8c_source.html">pathman.c</a>.</p>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="pathman_8c_aab33aaa11b68ad439ef66cd1f30f59ee_icgraph.png" border="0" usemap="#apathman_8c_aab33aaa11b68ad439ef66cd1f30f59ee_icgraph" alt=""/></div>
+<map name="apathman_8c_aab33aaa11b68ad439ef66cd1f30f59ee_icgraph" id="apathman_8c_aab33aaa11b68ad439ef66cd1f30f59ee_icgraph">
+<area shape="rect" title="Trim path by removing the file extension at the end. An extension is defined as the characters after ..." alt="" coords="440,31,507,57"/>
+<area shape="rect" href="pathman_8h.html#a89457d4fafe6d90c14d17e62ff63e80a" title="Get file basename from the file at the end of path. A file name is defined as the characters before t..." alt="" coords="301,5,392,32"/>
+<area shape="rect" href="compacta_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,31,56,57"/>
+<area shape="rect" href="reglfile_8h.html#aa6ec0a84edf80bd31ecd3e3f4348489a" title="Attempt to extract and set the tReglfile name and extension from its path. tReglfile name needs to be..." alt="" coords="104,5,253,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a759e228c839cbdff1102432a69ad7e9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a759e228c839cbdff1102432a69ad7e9e">&#9670;&nbsp;</a></span>trpth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* trpth </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Trim path by removing characters from the end up to and including the first directory separator found. If the last character of path is the directory separator, ignore it and find the previous one. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>Pre-allocated path string. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>char* Path string with trimmed path. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="pathman_8c_source.html#l00054">54</a> do arquivo <a class="el" href="pathman_8c_source.html">pathman.c</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="pathman_8c.html">pathman.c</a></li>
+    <li class="footer">Gerado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>
