@@ -2,7 +2,7 @@
 
 [github](https://github.com/fmbarina/data-structures-prj2) | [docs](https://fmbarina.github.io/data-structures-prj2)
 
-O projeto possui dois programas: compacta e descompacta. Por meio do algoritmo de codificação Huffman, esses devem, respectivamente, compactar e descompactar arquivos diversos como texto, imagens, audio, etc. Os componentes (TADs e bibliotecas) utilizados em sua na concepção estão [documentados online](https://fmbarina.github.io/data-structures-prj2), graças ao uso do [Doxygen](https://www.doxygen.nl) e [doxygen-awesome-css](https://jothepro.github.io/doxygen-awesome-css/).
+O projeto possui dois programas: compacta e descompacta. Por meio do algoritmo de codificação Huffman, esses devem, respectivamente, compactar e descompactar arquivos diversos como texto, imagens, audio, etc. Os componentes (TADs e bibliotecas) utilizados em sua na concepção estão na linda [documentados online](https://fmbarina.github.io/data-structures-prj2), graças ao uso do [Doxygen](https://www.doxygen.nl) e [doxygen-awesome-css](https://jothepro.github.io/doxygen-awesome-css/).
 
 # Como usar
 
