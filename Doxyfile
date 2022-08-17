@@ -8,7 +8,7 @@ PROJECT_NAME           = EDCompacta
 PROJECT_NUMBER         =
 PROJECT_BRIEF          = "e Descompacta usando Codificação Huffman"
 PROJECT_LOGO           =
-OUTPUT_DIRECTORY       = /home/pinguino/Documents/data-structures-prj2/docs
+OUTPUT_DIRECTORY       = docs
 CREATE_SUBDIRS         = NO
 ALLOW_UNICODE_NAMES    = NO
 OUTPUT_LANGUAGE        = Brazilian
@@ -65,7 +65,7 @@ NUM_PROC_THREADS       = 1
 #---------------------------------------------------------------------------
 # Build related configuration options
 #---------------------------------------------------------------------------
-EXTRACT_ALL            = YES
+EXTRACT_ALL            = NO
 EXTRACT_PRIVATE        = NO
 EXTRACT_PRIV_VIRTUAL   = NO
 EXTRACT_PACKAGE        = NO
@@ -206,15 +206,15 @@ IGNORE_PREFIX          =
 GENERATE_HTML          = YES
 HTML_OUTPUT            = html
 HTML_FILE_EXTENSION    = .html
-HTML_HEADER            = /home/pinguino/Documents/data-structures-prj2/docs/misc/header.html
+HTML_HEADER            = docs/misc/header.html
 HTML_FOOTER            =
 HTML_STYLESHEET        =
-HTML_EXTRA_STYLESHEET  = /home/pinguino/Documents/data-structures-prj2/docs/misc/doxygen-awesome.css \
-                         /home/pinguino/Documents/data-structures-prj2/docs/misc/doxygen-awesome-sidebar-only.css \
-                         /home/pinguino/Documents/data-structures-prj2/docs/misc/doxygen-awesome-sidebar-only-darkmode-toggle.css
-HTML_EXTRA_FILES       = /home/pinguino/Documents/data-structures-prj2/docs/misc/doxygen-awesome-darkmode-toggle.js \
-                         /home/pinguino/Documents/data-structures-prj2/docs/misc/doxygen-awesome-fragment-copy-button.js \
-                         /home/pinguino/Documents/data-structures-prj2/docs/misc/doxygen-awesome-paragraph-link.js
+HTML_EXTRA_STYLESHEET  = docs/misc/doxygen-awesome.css \
+                         docs/misc/doxygen-awesome-sidebar-only.css \
+                         docs/misc/doxygen-awesome-sidebar-only-darkmode-toggle.css
+HTML_EXTRA_FILES       = docs/misc/doxygen-awesome-darkmode-toggle.js \
+                         docs/misc/doxygen-awesome-fragment-copy-button.js \
+                         docs/misc/doxygen-awesome-paragraph-link.js
 HTML_COLORSTYLE_HUE    = 220
 HTML_COLORSTYLE_SAT    = 100
 HTML_COLORSTYLE_GAMMA  = 80
